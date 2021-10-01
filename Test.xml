@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>
+<!-- title of the resource. Brauche ich hier die Orthographie zu taggen (lange S, Ligaturen)?-->
+Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, Heroico Latino carmine facti, et à mendis quibusdam priorum translationum repurgati. Accessit et Batrachomyomachia Homeri, ab eodem sedunceum Graecum Hexametro Latinitate donata. Desiderio Gavio Sanonio electronice redditae. 
+   </title>
+   <author>Lemnius, Simon (1511-1549)
+   </author>
+   
+  </titleStmt>
+  <editionStmt>
+   <p>
+<!-- information about the edition of the
+				resource  -->
+   </p>
+  </editionStmt>
+  <extent>
+<!-- description of the size of the resource -->
+  </extent>
+  <publicationStmt>
+   <p>
+<!-- information about the distribution
+				   of the resource -->
+   </p>
+  </publicationStmt>
+  <seriesStmt>
+   <p>
+<!-- information about any series to which
+			      the resource belongs  -->
+   </p>
+  </seriesStmt>
+  <notesStmt>
+   <note>
+<!-- notes on other aspects of the resource -->
+   </note>
+  </notesStmt>
+  <sourceDesc>
+   <p>
+<!-- information about the source from which
+			       the resource was derived  -->
+   </p>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<!--...-->
+</text>
+</TEI>
