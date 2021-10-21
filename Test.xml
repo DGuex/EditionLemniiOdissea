@@ -1,50 +1,385 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="transcr" >
 <teiHeader>
  <fileDesc>
   <titleStmt>
    <title>
 <!-- title of the resource. Brauche ich hier die Orthographie zu taggen (lange S, Ligaturen)?-->
-Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, Heroico Latino carmine facti, et à mendis quibusdam priorum translationum repurgati. Accessit et Batrachomyomachia Homeri, ab eodem sedunceum Graecum Hexametro Latinitate donata. Desiderio Gavio Sanonio electronice redditae. 
+Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, Heroico Latino carmine facti, et à mendis quibusdam priorum translationum repurgati. <sic>Accesssit</sic> et Batrachomyomachia Homeri, ab eodem secundum Graecum Hexametro Latinitate donata.
    </title>
    <author>Lemnius, Simon (1511-1549)
    </author>
-   
+   <respStmt>
+	<resp> Anhand der beiden Textzeugen hergestellt und in XML TEI codiert durch</resp> <persName xml:id="DG">Didier Guex</persName>
+   </respStmt>
   </titleStmt>
+  
   <editionStmt>
    <p>
 <!-- information about the edition of the
 				resource  -->
    </p>
   </editionStmt>
+  
   <extent>
 <!-- description of the size of the resource -->
   </extent>
+  
   <publicationStmt>
    <p>
 <!-- information about the distribution
 				   of the resource -->
+	<authority>
+		<persName><forename>Didier</forename><surname>Guex</surname></persName>
+		<address>
+			<addrLine>Greyerzstrasse 81</addrLine>
+			<addrLine>3013 Bern</addrLine>
+		</address>
+		<email>didier.guex@students.unibe.ch</email>
+	</authority>
    </p>
   </publicationStmt>
+  
   <seriesStmt>
    <p>
 <!-- information about any series to which
 			      the resource belongs  -->
    </p>
   </seriesStmt>
+  
   <notesStmt>
    <note>
-<!-- notes on other aspects of the resource -->
+	<p> Hergestellt im Rahmen einer Doktorarbeit an der Universität Bern 2021</p>
    </note>
   </notesStmt>
+  
   <sourceDesc>
-   <p>
-<!-- information about the source from which
-			       the resource was derived  -->
-   </p>
+<!-- ToDo: Kodikologische Beschreibung-->
+	<msDesc>
+		<msIdentifier>
+			<country>Deutschland</country>
+			<settlement>München</settlement>
+			<repository>Bayerische Staatsbibliothek</repository>
+			<idno type="URN">urn:nbn:de:bvb:12-bsb00014365-3 ></idno>
+			<idno type="VD16">H4707</idno>
+			<p>Signatur der BSB: A.gr.a. 1307</p>
+		</msIdentifier>
+		<head><title>Odysseae Homeri Libri XXIIII.</title>
+		<title><lb>nuper</lb> à Simone Lemnio Emporico Rheto Curiensi, Heroico Latino carmine facti, et à mendis quibusdam priorum translationum repurgati. <sic>Accesssit</sic> et Batrachomyomachia Homeri, ab eodem secundum Graecum Hexametro Latinitate donata.</title>
+		</head>
+	</msDesc>
+	
+	<listWit>
+		<witness xml:id="B">Der Druck vom September 1549, Basel, Ioh. Oporin. Digitalisat bei BSB.</witness>
+		<witness xml:id="P">Der spätere Druck von 1581, Paris, Martin Lejeune. Bibliotheca majori Coll. Rom. Societ. Jesu. Digitalisat bei Google Books</witness>
+	</listWit>
   </sourceDesc>
+ 
  </fileDesc>
+ <endodingDesc>
+	<editorialDecl> 
+	<normalization method="silent">
+	<p>Wir lösen alle Abkürzungen, Nasalstriche und Ligaturen auf, behalten aber ansonsten die originale Orthographie bei. Wir behalten uns vor, die Interpunktion sanft anzupassen.</p>
+	<p>Dem Basler Druck ist eine höhere Autorität zuzuschreiben; auf seinen hinteren Seiten vermerkt der Drucker eine durch den Dichter autorisierte Änderung einiger Zeilen des 13. Gesanges, die in der Pariser Ausgabe nicht vollzogen ist. </p>
+	</normalization>
+	<hyphenation eol="none">
+	<p>Durch Zeilenumbrüche getrennte Wörter sind zusammengeschrieben worden.</p>
+	</hyphenation>
+	</editorialDecl>
+	<variantEncoding method="parallel-segmentation"
+ location="internal"/>
+ 
+ </endodingDesc>
 </teiHeader>
-<text>
-<!--...-->
+
+<text xml:lang="la">
+<!--This is where the fun begins...-->
+	<front> <!--"Vorspann", Widmungen, Frontispiz-->
+		<group>
+			<head>In Odysseam praefatio.</head>
+			<div type="dedication">
+				<head> Ad Christianissimum, et invictissimum Henricum II. Francorum Regem, Dominum et Mecoenatem suum clementissimum.</head>
+				<l><hi>M</hi>axima belligera terrarum gloria fama,</l>
+				<l>Orbis uictorum magni fortissime Regum</l>
+				<l>O Henrice decus regni, Martisque potentis</l>
+				<l>Qui regis Herculeas terras, et sceptra gubernas</l>
+				<l>Gallica, quae cingunt Rhenusque et gurgite Nereus,</l>
+				<l>Poeninisque iuges Alpes, et culmina Graia:</l>
+				<l>Quacunque et Phrudis, qua pingui Mosa fluenta</l>
+				<l>Errat, et Oceanus disiungit ab orbe Britannos,</l>
+				<l>Teque rigat nitidis pulcherrima Francia lymphis</l>
+				<l>Sequana, quaque Araris donat sua nomina fluctu,</l>
+				<l>Fructifero campis Rhodano, clarusque Garumna,</l>
+				<l>Argentaeque liquor, Varique undosa sub altis</l>
+				<l>Flumina nata iugis, Ilerisque et Siccarus amnis.</l>
+				<l>Si quid concedit Maiestas regia Musis,</l>
+				<l>Suscipe Smyrnaeos mihi uersus, optime Regum:</l>
+				<l>Aures et uacuas praebe, dum carmine laudes</l>
+				<l>Ipse tuas narro, magni genitoris et acta.</l>
+				<l>Vos Aganippaeas Musae Permessidos undas</l>
+				<l>Mittite, et Aonios aspergite monte liquores</l>
+				<l>Castalio, doctos cantus Helione mouete.</l>
+				<l>Extulit auspiciis sua Francia lilia magnis,</l> <!--vorsicht, ij-->
+				<l>Inque triumphantis morem mouet aurea currus,</l>
+				<l>Lutetiaeque aula deduxit adusque iocosi</l>
+				<l>Hostia Rex Araris pompas, equitumque triumphos</l>
+				<l>Atque acies peditum traxit: mirata Gebennae</l>
+				<l>Gens plausit Domino, Rhodanusque exiuit ab undis,</l>
+				<l>Naiadumque choros ripas euexit in altas,</l>
+				<l>Ominibusque bonis populi gratantur in oris.</l>
+				<l>Iamque annis iterum sese pia Gallia laetis</l>
+				<l>Induit, exultatque nouis iam Sequana sceptris,</l>
+				<l>Ac solito maior currit regalibus undis,</l>
+				<l>Aulaque se tollit regno iactantior alto,</l>
+				<l>Assurguntque nouo pariter sua lilia Regi.</l>
+				<l>Parrisii auspicio regali sceptra sequuntur</l>
+				<l>Armorum proceres ueniunt, regemque salutant</l>
+				<l>Regalesque habitus sumunt: legumque potentes <app><rdg wit="#P">potenres</rdg></app></l>
+				<l>Exornant aulam, testantes gaudia passim.</l>
+				<l>Nun Pallas signis postis cum Marte parumper</l>
+				<l>Desinit, et legio Regis uexilla sequuata</l>
+				<l>Discolor hic ridet dulci sub pace iocosa.</l>
+				<l>Miles agit festos circum palatia Regis</l>
+				<l>Sorte dies ampla. <reg orig="m">M</reg>ediis iam splendida castris</l>
+				<l>Pax lucet testis <app><rdg wit="#B">lucet. testis</rdg></app> Rhodanusque, et Sequana diues. </l>
+				<l>Viderunt illi regales undique turmas,</l>
+				<l>Quoque sit ingressus <app><rdg wit="#P">ingtessus</rdg></app> magnam rex inclytus urbem </l>
+				<l>Splendore, et posito laetata est Francia bello.</l>
+				<l>Pax, et amoena fides, pompa sunt castra sequutae.</l>
+				<l>Hinc etiam Pallas nitido circundata limbo,</l>
+				<l>Ornauit posito clypeoque atque aegide saevae</l>
+				<l>Gorgone, sed qualis Cirrheas uisere Musas</l>
+				<l>Virgo solet, Regem. <reg orig="t">T</reg>oto fuit agmine clara.</l>
+				<l>Ipsaque Parrisio Regis uallata senatu</l>
+				<l>Tum Bellona stolam gessit, scutumque remouit,</l>
+				<l>Et galeam capiti dempsit, tergoque reuecta</l>
+				<l>Mitis equi, gaudens ostentat lilia Regum.</l>
+				<l>Nec te laurigera pudeat Mars ire cohorte,</l>
+				<l>Et gestare manu frondes pacalis oliuae,</l>
+				<l>Sequanicaque toga dudum mutare micantem</l>
+				<l>Loricam, Regemque <app><rdg wit="#P">Loricam Regemque</rdg></app> sequi, qua Sequana currit. </l>
+				<l>Dum tibi stat currus, dum stat tibi ferrea cuspis</l>
+				<l>Ad frondes posita, et ludunt per aperta iugales</l>
+				<l>Prata. <reg orig="e">E</reg>st digna coli, nec nuper cognita bellis</l>
+				<l>Pregenies Regum clarae Valesia gentis:</l>
+				<l>Haec domus insignis decorat diademata Francis.</l>
+				<l>Sequana promeruit regis cunabula tanti.</l>
+				<l>Quae fouet oceanus circum, qua Phoebus arenas</l>
+				<l>Occasu illustrat. <reg orig="d">D</reg>ecuit de principe nasci</l>
+				<l>Francorum magno Regem, qui sumat habenas</l>
+				<l>Terrarum, quascunque <app><rdg wit="#B #P">quàsc&#x0169;que</rdg></app> rigat bene fonte Garumna, <app><rdg wit="#P">Gar&#x0169;na</rdg></app></l>
+				<l>Montiuagisque undis, donec se miscet amaro</l>
+				<l>Oceano, et <app><rdg wit="#P">Oceano et</rdg></app>Ligeris dulcis quascunque pererrat,</l>
+				<l>Nobilis et Rhodanus, Ilerisque, Titusque, iugisque <app><rdg wit="#P">Titusque iugisque</rdg></app></l>
+				<l>Montosis Varus currens, Argentaque diues:</l>
+				<l>Quas uidet et Phrudis, Dorisque Britannica glebas</l>
+				<l>Hasque pater rexit quondam, fortissimus heros.</l>
+				<l>Non minor ille quidem priscis sub Marte Pipinis,</l>
+				<l>Aequandus bello tibi quondam Carole Magne:</l>
+				<l>Quique dabas Gallis pulcherrima lilia regni</l>
+				<l>O Clodophaee, decus primum, cui Gallia tota</l>
+				<l>Paruit, et <app><rdg wit="#P">Paruit et</rdg></app> uariis celebris Martelle triumphis.</l>
+				<l>Mars alter pugnis fuerat Franciscus, et ingens</l>
+				<l>Fulmen Bellonae, docuit quem Pallas in armis.</l>
+				<l>Ille Caledoniis aluit sua castra sub aruis,</l>
+				<l>Oceanique uiros sibi iunxit munere Scotos.</l>
+				<l>Sudores toties sub casside pertulit acris,</l>
+				<l>Titanisque aestus fortis tolerauit in armis,</l>
+				<l>Dum bellatur agris, mediisque in millibus ardet,</l>
+				<l>Terribilis pugnis, debellatorque Britannae</l>
+				<l>Gentis, et in Latio toties fera bella togato,</l>
+				<l>Atque ultra Tyberim, et Circeia littora castra,</l>
+				<l>Laestrygonasque feros quoties Caieta gerentem</l>
+				<l>Finibus ipsa tuis Clodopheio praelia marte</l>
+				<l>Vidisti? quoties timuit sibi Larius undis,</l> <!--Das vidisti? hier muss vielleicht in Gedankenstriche gelegt werden. Ich verstehe die Syntax nicht.-->
+				<l>Et quassata suo toties circa oppida bello.</l>
+				<l>Quaque fluit Phrudis, maduerunt hoste refuso</l>
+				<l>Non semel arua. <reg orig="e">E</reg>quidem Pictonum senserat arma</l>
+				<l>Terra diu, et circa resonans glacialis in undis</l>
+				<l>Oceanus, caluit sibi uicta Britannia tabo,</l>
+				<l>Immensusque Padus, Doriasque cruore relabens, <app><rdg wit="#P">relabens.</rdg></app></l>
+				<l>Inque Padum referens strages et mille cateruas. <app><rdg wit="#P">cateruas</rdg></app></l>
+				<l>Fleuerunt cumulos caedis tum Naiades undis,</l>
+				<l>Heliadesque iterum ueluti Pha<reg orig="e">ë</reg>tonta cadentem</l>
+				<l>Luxerunt lachrymis <app><rdg wit="#P">lacrymis</rdg></app>moestae. <reg orig="t">T</reg>estatur in armis</l>
+				<l>Istonius uictus, retro Ticine recurrens</l>
+				<l>Ad fontes oppresse tuos, tum Celtica signa</l>
+				<l>Hic timuisti ergo. <reg orig="f">F</reg>ugit cataphractus in urbem,</l>
+				<l>Deiectisque uiris cessere ad moenia nota</l>
+				<l>Aeripedes. <reg orig="t">T</reg>umuit forti tum Gallia marte,</l>
+				<l>Heluetii et Rheti uictricia signa tulere,</l>
+				<l>Indefessi armis populi, qui Lilia semper</l>
+				<l>Defendunt Regis, proauitaque regna tuentes,</l>
+				<l>Iuncti cum Francis, decus immortale per arma</l>
+				<l>Victores retulere suo certamine Regi.</l>
+				<l>Franciscus laudes armis transgressus auitas,</l>
+				<l>Aequauit priscos reges in bella ruendo.</l>
+				<l>Obstitit an forti quicquam? <reg orig="p">P</reg>er castra cucurrit,</l>
+				<l>Perque Italos campos equites peditesque reuexit.</l>
+				<l>Haud Europa quidem ignorat, quam saepe cruore</l>
+				<l>Cisalpina ruit roseo calefacta per arma</l>
+				<l>Gallia, et ut Latium, nec non Germania fortis</l>
+				<l>Induerint clypeos, et turmis arma pararint,</l>
+				<l>Cum ruerent bello Senones, camposque per omnes</l>
+				<l>Horrida Francisci per terras bella sonarent.</l>
+				<l>Scit bene flauenti cum Sacone caerulus Albis,</l>
+				<l>Sarmaticisque uadis scit Vistula Martis Eoi:</l>
+				<l>Expertusque Aquilo Francos gelidissimus acres.</l>
+				<l>Quid Serpentigeris ducibus pugnata per arua</l>
+				<l>Praelia? <reg orig="q">Q</reg>uid memorem pugnas, Martisque labores</l>
+				<l>Nun ad Ticini ripas, nunc Phrudis in agris,</l>
+				<l>Nunc ad Pyrennen circumtulit arma niuosam.</l>
+				<l>Subdidit hic regno cum marte Britannica sceptra,</l>
+				<l>Atque Araris fontes, et subdita rura Lemanni</l>
+				<l>Cursibus, Allobrogum coniunxit feruida gentis</l>
+				<l>Arua suis populis, regnumque euexit ad astra.</l>
+				<l>Tanta fuit Regis (non ipsa Europa negabis)</l> <!--bis hierhin eigentlich korrigiert (20.10.2021)-->
+				<l>Francisci bello uis, atque interrita uirtus.</l>
+				<l>Caesareas Aquilas cum nemo auderet in armis</l>
+				<l>Tentare, aut <app><rdg wit="#P"> Tentare aut</rdg></app> bello sese defendere contra,</l>
+				<l>En quoties tibi sustinuit? <reg orig="q">Q</reg>uin solus in acres</l>
+				<l>Prodiit hic populos, et totum terruit orbem.</l>
+				<l>Nil Europa quidem Scythicas <app><rdg wit="#P">Scythias</rdg></app> orientis anheli</l>
+				<l>Pugnas audisti, nil quid Babylone mouerent</l>
+				<l>Parthorum reges, nil quid furiosus Hydaspes,</l>
+				<l>Externusque Indus. Sed quanto Francia rege</l>
+				<l>Alta tumeret equis sub Marte frementibus altis,</l>
+				<l>Certe pauisti, cunctasque pauore repleri</l>
+				<l>Terras ipsa tuas Francorum Marte tonante.</l>
+				<l>Ergo refer reges, et Achaica regna recense</l>
+				<l>Si tantos unquam sonitus, Martisque tumultus</l>
+				<l>Audisti, dicas. <reg orig="e">E</reg>quidem <app><rdg wit="#P">dicas equidem</rdg></app> quoque Caesar Iberus</l>
+				<l>Saepius obstupuit uirtutem, et <app><rdg wit="#P">virtutem et</rdg></app>pectora bello,</l>
+				<l>Indomitasque acies Regis, et Martis honores.</l>
+				<l>Cumque nihil magnum bellis horresceret Albim,</l>
+				<l>Bructerosque armis, et duros Marte Cheruscos:</l>
+				<l>Sed tamen ut mouit Bellonam Francia curru,</l>
+				<l>Excussitque comas illi, Geticumque maniplis</l>
+				<l>Gradiuum duxit, qui terret uoce Gelonos,</l>
+				<l>Auspiciis Francisce tuis: Tum Caesar in armis</l>
+				<l>Sollicitus fuit, et Pyrenne ad celsa Gebennae</l>
+				<l>Culmina prospexit excita stupore niuosa:</l>
+				<l>Saxonicusque Albis, miratus constitit undis</l>
+				<l>Vistulaque extimuit, Geticusque <app><rdg wit="#P">extimuit Geticusque</rdg></app> exterritus Ister</l>
+				<l>Tardius iuit aquis, Aquilaeque immania regni</l>
+				<l>Totius sceptra et uires mouere potentes</l>
+				<l>Imperii, ueluti totus concurreret orbis.</l>
+				<l>Vsque adeo uiguit sub tanto Francia Rege,</l>
+				<l>Qui cunctas toties terras tremefecerat orbis.</l>
+				<l>Digna legi uirtus, cum mixto turbine gentes,</l>
+				<l>Danubiusque equites Latio transfunderet alto,</l>
+
+			</div>
+			<div type="dedication">
+				<!-- an j.j de castion-->
+			</div>
+			<div type="dedication">
+			<!-- an montmorency -->
+			</div>
+			<div type="preface">
+			<!-- von salet.-->
+			</div>
+			<div type="preface">
+			<!-- von salis. -->
+			</div>
+		</group>
+	</front>
+		<group>
+			<text>
+				<body>
+			<!-- odyssee -->
+					<div n="I" type="book">
+					<!--Gesänge und Argumenta x24-->
+						<head>Odysseae Homeri liber primus, Simon Lemnio Emporico Rheto Cano Interprete.</head>
+						
+					</div>
+					<div n="II" type="book">
+					<!--Gesänge und Argumenta x24-->
+						<argument>
+						<head> ARGVMENTVM LIBRI II</head>
+						<lg>
+							<l>Conuocat ARgiuos aula, generosus alumnus</l>
+							<l>Penelopes, patrióque procis discedere tecto</l>
+							
+						</lg>
+						</argument>
+					</div>
+					<div n="III" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="IIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="V" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="VI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="VII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="VIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="IX" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="X" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XIIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XV" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XVI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XVII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XVIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XIX" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XX" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXIIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+
+				</body>
+			</text>
+			<text>
+				<body>
+			<!-- batrachomyomachia-->
+				</body>
+			</text>
+		</group>
+	<back> <!-- corrigenda, kolophon-->
+	</back>
 </text>
 </TEI>
