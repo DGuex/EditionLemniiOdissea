@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="transcr" >
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>
+<!-- title of the resource. Brauche ich hier die Orthographie zu taggen (lange S, Ligaturen)?-->
+Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, Heroico Latino carmine facti, et à mendis quibusdam priorum translationum repurgati. <sic>Accesssit</sic> et Batrachomyomachia Homeri, ab eodem secundum Graecum Hexametro Latinitate donata.
+   </title>
+   <author>Lemnius, Simon (1511-1549)
+   </author>
+   <respStmt>
+	<resp> Anhand der beiden Textzeugen hergestellt und in XML TEI codiert durch</resp> <persName xml:id="DG">Didier Guex</persName>
+   </respStmt>
+  </titleStmt>
+  
+  <editionStmt>
+   <p>
+<!-- information about the edition of the
+				resource  -->
+   </p>
+  </editionStmt>
+  
+  <extent>
+<!-- description of the size of the resource -->
+  </extent>
+  
+  <publicationStmt>
+   <p>
+<!-- information about the distribution
+				   of the resource -->
+	<authority>
+		<persName><forename>Didier</forename><surname>Guex</surname></persName>
+		<address>
+			<addrLine>Greyerzstrasse 81</addrLine>
+			<addrLine>3013 Bern</addrLine>
+		</address>
+		<email>didier.guex@students.unibe.ch</email>
+	</authority>
+   </p>
+  </publicationStmt>
+  
+  <seriesStmt>
+   <p>
+<!-- information about any series to which
+			      the resource belongs  -->
+   </p>
+  </seriesStmt>
+  
+  <notesStmt>
+   <note>
+	<p> Hergestellt im Rahmen einer Doktorarbeit an der Universität Bern 2021</p>
+   </note>
+  </notesStmt>
+  
+  <sourceDesc>
+<!-- ToDo: Kodikologische Beschreibung-->
+	<msDesc>
+		<msIdentifier>
+			<country>Deutschland</country>
+			<settlement>München</settlement>
+			<repository>Bayerische Staatsbibliothek</repository>
+			<idno type="URN">urn:nbn:de:bvb:12-bsb00014365-3 ></idno>
+			<idno type="VD16">H4707</idno>
+			<p>Signatur der BSB: A.gr.a. 1307</p>
+		</msIdentifier>
+		<head><title>Odysseae Homeri Libri XXIIII.</title>
+		<title><lb>nuper</lb> à Simone Lemnio Emporico Rheto Curiensi, Heroico Latino carmine facti, et à mendis quibusdam priorum translationum repurgati. <sic>Accesssit</sic> et Batrachomyomachia Homeri, ab eodem secundum Graecum Hexametro Latinitate donata.</title>
+		</head>
+	</msDesc>
+	
+	<listWit>
+		<witness xml:id="B">Der Druck vom September 1549, Basel, Ioh. Oporin. Digitalisat bei BSB.</witness>
+		<witness xml:id="P">Der spätere Druck von 1581, Paris, Martin Lejeune. Bibliotheca majori Coll. Rom. Societ. Jesu. Digitalisat bei Google Books</witness>
+	</listWit>
+  </sourceDesc>
+ 
+ </fileDesc>
+ <endodingDesc>
+	<editorialDecl> 
+	<normalization method="silent">
+	<p>Wir lösen alle Abkürzungen, Nasalstriche und Ligaturen auf, behalten aber ansonsten die originale Orthographie bei. Wir behalten uns vor, die Interpunktion sanft anzupassen.</p>
+	<p>Dem Basler Druck ist eine höhere Autorität zuzuschreiben; auf seinen hinteren Seiten vermerkt der Drucker eine durch den Dichter autorisierte Änderung einiger Zeilen des 13. Gesanges, die in der Pariser Ausgabe nicht vollzogen ist. </p>
+	</normalization>
+	<hyphenation eol="none">
+	<p>Durch Zeilenumbrüche getrennte Wörter sind zusammengeschrieben worden.</p>
+	</hyphenation>
+	</editorialDecl>
+	<variantEncoding method="parallel-segmentation"
+ location="internal"/>
+ </endodingDesc>
+</teiHeader>
+
+<text xml:lang="la">
+<!--This is where the fun begins...-->
+	<front> <!--"Vorspann", Widmungen, Frontispiz-->
+		<group>
+			<head>In Odysseam praefatio.</head>
+			<div type="dedication" met="dactHex">
+				<salute> Ad Christianissimum, et invictissimum Henricum II. Francorum Regem, Dominum et Mecoenatem suum clementissimum.</salute>
+				<l><hi>M</hi>axima belligera terrarum gloria fama,</l>
+				<l>Orbis uictorum magni fortissime Regum</l>
+				<l>O Henrice decus regni, Martisque potentis</l>
+				<l>Qui regis Herculeas terras, et sceptra gubernas</l>
+				<l>Gallica, quae cingunt Rhenusque et gurgite Nereus,</l>
+				<l>Poeninisque iuges Alpes, et culmina Graia:</l>
+				<l>Quacunque et Phrudis, qua pingui Mosa fluenta</l>
+				<l>Errat, et Oceanus disiungit ab orbe Britannos,</l>
+				<l>Teque rigat nitidis pulcherrima Francia lymphis</l>
+				<l>Sequana, quaque Araris donat sua nomina fluctu,</l>
+				<l>Fructifero campis Rhodano, clarusque Garumna,</l>
+				<l>Argentaeque liquor, Varique undosa sub altis</l>
+				<l>Flumina nata iugis, Ilerisque et Siccarus amnis.</l>
+				<l>Si quid concedit Maiestas regia Musis,</l>
+				<l>Suscipe Smyrnaeos mihi uersus, optime Regum:</l>
+				<l>Aures et uacuas praebe, dum carmine laudes</l>
+				<l>Ipse tuas narro, magni genitoris et acta.</l>
+				<l>Vos Aganippaeas Musae Permessidos undas</l>
+				<l>Mittite, et Aonios aspergite monte liquores</l>
+				<l>Castalio, doctos cantus Helione mouete.</l>
+				<l>Extulit auspiciis sua Francia lilia magnis,</l> <!--vorsicht, ij-->
+				<l>Inque triumphantis morem mouet aurea currus,</l>
+				<l>Lutetiaeque aula deduxit adusque iocosi</l>
+				<l>Hostia Rex Araris pompas, equitumque triumphos</l>
+				<l>Atque acies peditum traxit: mirata Gebennae</l>
+				<l>Gens plausit Domino, Rhodanusque exiuit ab undis,</l>
+				<l>Naiadumque choros ripas euexit in altas,</l>
+				<l>Ominibusque bonis populi gratantur in oris.</l>
+				<l>Iamque annis iterum sese pia Gallia laetis</l>
+				<l>Induit, exultatque nouis iam Sequana sceptris,</l>
+				<l>Ac solito maior currit regalibus undis,</l>
+				<l>Aulaque se tollit regno iactantior alto,</l>
+				<l>Assurguntque nouo pariter sua lilia Regi.</l>
+				<l>Parrisii auspicio regali sceptra sequuntur</l>
+				<l>Armorum proceres ueniunt, regemque salutant</l>
+				<l>Regalesque habitus sumunt: legumque potentes <app><rdg wit="#P">potenres</rdg></app></l>
+				<l>Exornant aulam, testantes gaudia passim.</l>
+				<l>Nun Pallas signis postis cum Marte parumper</l>
+				<l>Desinit, et legio Regis uexilla sequuata</l>
+				<l>Discolor hic ridet dulci sub pace iocosa.</l>
+				<l>Miles agit festos circum palatia Regis</l>
+				<l>Sorte dies ampla. <reg orig="m">M</reg>ediis iam splendida castris</l>
+				<l>Pax lucet testis <app><rdg wit="#B">lucet. testis</rdg></app> Rhodanusque, et Sequana diues. </l>
+				<l>Viderunt illi regales undique turmas,</l>
+				<l>Quoque sit ingressus <app><rdg wit="#P">ingtessus</rdg></app> magnam rex inclytus urbem </l>
+				<l>Splendore, et posito laetata est Francia bello.</l>
+				<l>Pax, et amoena fides, pompa sunt castra sequutae.</l>
+				<l>Hinc etiam Pallas nitido circundata limbo,</l>
+				<l>Ornauit posito clypeoque atque aegide saevae</l>
+				<l>Gorgone, sed qualis Cirrheas uisere Musas</l>
+				<l>Virgo solet, Regem. <reg orig="t">T</reg>oto fuit agmine clara.</l>
+				<l>Ipsaque Parrisio Regis uallata senatu</l>
+				<l>Tum Bellona stolam gessit, scutumque remouit,</l>
+				<l>Et galeam capiti dempsit, tergoque reuecta</l>
+				<l>Mitis equi, gaudens ostentat lilia Regum.</l>
+				<l>Nec te laurigera pudeat Mars ire cohorte,</l>
+				<l>Et gestare manu frondes pacalis oliuae,</l>
+				<l>Sequanicaque toga dudum mutare micantem</l>
+				<l>Loricam, Regemque <app><rdg wit="#P">Loricam Regemque</rdg></app> sequi, qua Sequana currit. </l>
+				<l>Dum tibi stat currus, dum stat tibi ferrea cuspis</l>
+				<l>Ad frondes posita, et ludunt per aperta iugales</l>
+				<l>Prata. <reg orig="e">E</reg>st digna coli, nec nuper cognita bellis</l>
+				<l>Pregenies Regum clarae Valesia gentis:</l>
+				<l>Haec domus insignis decorat diademata Francis.</l>
+				<l>Sequana promeruit regis cunabula tanti.</l>
+				<l>Quae fouet oceanus circum, qua Phoebus arenas</l>
+				<l>Occasu illustrat. <reg orig="d">D</reg>ecuit de principe nasci</l>
+				<l>Francorum magno Regem, qui sumat habenas</l>
+				<l>Terrarum, quascunque <app><rdg wit="#B #P">quàsc&#x0169;que</rdg></app> rigat bene fonte Garumna, <app><rdg wit="#P">Gar&#x0169;na</rdg></app></l>
+				<l>Montiuagisque undis, donec se miscet amaro</l>
+				<l>Oceano, et <app><rdg wit="#P">Oceano et</rdg></app>Ligeris dulcis quascunque pererrat,</l>
+				<l>Nobilis et Rhodanus, Ilerisque, Titusque, iugisque <app><rdg wit="#P">Titusque iugisque</rdg></app></l>
+				<l>Montosis Varus currens, Argentaque diues:</l>
+				<l>Quas uidet et Phrudis, Dorisque Britannica glebas</l>
+				<l>Hasque pater rexit quondam, fortissimus heros.</l>
+				<l>Non minor ille quidem priscis sub Marte Pipinis,</l>
+				<l>Aequandus bello tibi quondam Carole Magne:</l>
+				<l>Quique dabas Gallis pulcherrima lilia regni</l>
+				<l>O Clodophaee, decus primum, cui Gallia tota</l>
+				<l>Paruit, et <app><rdg wit="#P">Paruit et</rdg></app> uariis celebris Martelle triumphis.</l>
+				<l>Mars alter pugnis fuerat Franciscus, et ingens</l>
+				<l>Fulmen Bellonae, docuit quem Pallas in armis.</l>
+				<l>Ille Caledoniis aluit sua castra sub aruis,</l>
+				<l>Oceanique uiros sibi iunxit munere Scotos.</l>
+				<l>Sudores toties sub casside pertulit acris,</l>
+				<l>Titanisque aestus fortis tolerauit in armis,</l>
+				<l>Dum bellatur agris, mediisque in millibus ardet,</l>
+				<l>Terribilis pugnis, debellatorque Britannae</l>
+				<l>Gentis, et in Latio toties fera bella togato,</l>
+				<l>Atque ultra Tyberim, et Circeia littora castra,</l>
+				<l>Laestrygonasque feros quoties Caieta gerentem</l>
+				<l>Finibus ipsa tuis Clodopheio praelia marte</l>
+				<l>Vidisti? quoties timuit sibi Larius undis,</l> <!--Das vidisti? hier muss vielleicht in Gedankenstriche gelegt werden. Ich verstehe die Syntax nicht.-->
+				<l>Et quassata suo toties circa oppida bello.</l>
+				<l>Quaque fluit Phrudis, maduerunt hoste refuso</l>
+				<l>Non semel arua. <reg orig="e">E</reg>quidem Pictonum senserat arma</l>
+				<l>Terra diu, et circa resonans glacialis in undis</l>
+				<l>Oceanus, caluit sibi uicta Britannia tabo,</l>
+				<l>Immensusque Padus, Doriasque cruore relabens, <app><rdg wit="#P">relabens.</rdg></app></l>
+				<l>Inque Padum referens strages et mille cateruas. <app><rdg wit="#P">cateruas</rdg></app></l>
+				<l>Fleuerunt cumulos caedis tum Naiades undis,</l>
+				<l>Heliadesque iterum ueluti Ph<reg orig="ae">aë</reg>tonta cadentem</l>
+				<l>Luxerunt lachrymis <app><rdg wit="#P">lacrymis</rdg></app>moestae. <reg orig="t">T</reg>estatur in armis</l>
+				<l>Istonius uictus, retro Ticine recurrens</l>
+				<l>Ad fontes oppresse tuos, tum Celtica signa</l>
+				<l>Hic timuisti ergo. <reg orig="f">F</reg>ugit cataphractus in urbem,</l>
+				<l>Deiectisque uiris cessere ad moenia nota</l>
+				<l>Aeripedes. <reg orig="t">T</reg>umuit forti tum Gallia marte,</l>
+				<l>Heluetii et Rheti uictricia signa tulere,</l>
+				<l>Indefessi armis populi, qui Lilia semper</l>
+				<l>Defendunt Regis, proauitaque regna tuentes,</l>
+				<l>Iuncti cum Francis, decus immortale per arma</l>
+				<l>Victores retulere suo certamine Regi.</l>
+				<l>Franciscus laudes armis transgressus auitas,</l>
+				<l>Aequauit priscos reges in bella ruendo.</l>
+				<l>Obstitit an forti quicquam? <reg orig="p">P</reg>er castra cucurrit,</l>
+				<l>Perque Italos campos equites peditesque reuexit.</l>
+				<l>Haud Europa quidem ignorat, quam saepe cruore</l>
+				<l>Cisalpina ruit roseo calefacta per arma</l>
+				<l>Gallia, et ut Latium, nec non Germania fortis</l>
+				<l>Induerint clypeos, et turmis arma pararint,</l>
+				<l>Cum ruerent bello Senones, camposque per omnes</l>
+				<l>Horrida Francisci per terras bella sonarent.</l>
+				<l>Scit bene flauenti cum Sacone caerulus Albis,</l>
+				<l>Sarmaticisque uadis scit Vistula Martis Eoi:</l>
+				<l>Expertusque Aquilo Francos gelidissimus acres.</l>
+				<l>Quid Serpentigeris ducibus pugnata per arua</l>
+				<l>Praelia? <reg orig="q">Q</reg>uid memorem pugnas, Martisque labores</l>
+				<l>Nun ad Ticini ripas, nunc Phrudis in agris,</l>
+				<l>Nunc ad Pyrennen circumtulit arma niuosam.</l>
+				<l>Subdidit hic regno cum marte Britannica sceptra,</l>
+				<l>Atque Araris fontes, et subdita rura Lemanni</l>
+				<l>Cursibus, Allobrogum coniunxit feruida gentis</l>
+				<l>Arua suis populis, regnumque euexit ad astra.</l>
+				<l>Tanta fuit Regis (non ipsa Europa negabis)</l> <!--bis hierhin eigentlich korrigiert (20.10.2021)-->
+				<l>Francisci bello uis, atque interrita uirtus.</l>
+				<l>Caesareas Aquilas cum nemo auderet in armis</l>
+				<l>Tentare, aut <app><rdg wit="#P"> Tentare aut</rdg></app> bello sese defendere contra,</l>
+				<l>En quoties tibi sustinuit? <reg orig="q">Q</reg>uin solus in acres</l>
+				<l>Prodiit hic populos, et totum terruit orbem.</l>
+				<l>Nil Europa quidem Scythicas <app><rdg wit="#P">Scythias</rdg></app> orientis anheli</l>
+				<l>Pugnas audisti, nil quid Babylone mouerent</l>
+				<l>Parthorum reges, nil quid furiosus Hydaspes,</l>
+				<l>Externusque Indus. Sed quanto Francia rege</l>
+				<l>Alta tumeret equis sub Marte frementibus altis,</l>
+				<l>Certe pauisti, cunctasque pauore repleri</l>
+				<l>Terras ipsa tuas Francorum Marte tonante.</l>
+				<l>Ergo refer reges, et Achaica regna recense</l>
+				<l>Si tantos unquam sonitus, Martisque tumultus</l>
+				<l>Audisti, dicas. <reg orig="e">E</reg>quidem <app><rdg wit="#P">dicas equidem</rdg></app> quoque Caesar Iberus</l>
+				<l>Saepius obstupuit uirtutem, et <app><rdg wit="#P">virtutem et</rdg></app>pectora bello,</l>
+				<l>Indomitasque acies Regis, et Martis honores.</l>
+				<l>Cumque nihil magnum bellis horresceret Albim,</l>
+				<l>Bructerosque armis, et duros Marte Cheruscos:</l>
+				<l>Sed tamen ut mouit Bellonam Francia curru,</l>
+				<l>Excussitque comas illi, Geticumque maniplis</l>
+				<l>Gradiuum duxit, qui terret uoce Gelonos,</l>
+				<l>Auspiciis Francisce tuis: Tum Caesar in armis</l>
+				<l>Sollicitus fuit, et Pyrenne ad celsa Gebennae</l>
+				<l>Culmina prospexit excita stupore niuosa:</l>
+				<l>Saxonicusque Albis, miratus constitit undis</l>
+				<l>Vistulaque extimuit, Geticusque <app><rdg wit="#P">extimuit Geticusque</rdg></app> exterritus Ister</l>
+				<l>Tardius iuit aquis, Aquilaeque immania regni</l>
+				<l>Totius sceptra et uires mouere potentes</l>
+				<l>Imperii, ueluti totus concurreret orbis.</l>
+				<l>Vsque adeo uiguit sub tanto Francia Rege,</l>
+				<l>Qui cunctas toties terras tremefecerat orbis.</l>
+				<l>Digna legi uirtus, cum mixto turbine gentes,</l>
+				<l>Danubiusque equites Latio transfunderet alto,</l>
+				<l>Atque Istri totae fremerent cum praelia ripae,</l>
+				<l>Anguiferosque uiris operirent agmina campos,</l>
+				<l>Erupit castris, atque altis Alpibus ingens</l>
+				<l>Effudit Senones, sparsitque per intima regna</l>
+				<l>Ausoniis oris Martem <app><rdg wit="#B">martem</rdg></app>, quam longus oberrat</l>
+				<l>Mons Apenninus, Calabrisque extenditur undis,</l>
+				<l>Et nun Insubres, nunc Boios agmine terret:</l>
+				<l>Nun Calabros intrat, et bello fulminat Arpos,</l>
+				<l>Atque Capys muros subit, obsidione <app><rdg wit="#P">subit obsidione</rdg></app> recinctam</l>
+				<l>Euboicam inuadit sedem, tumulumque sepultae</l>
+				<l>Sirenis Latio. <reg orig="m">M</reg>agnis consederat aruis</l>
+				<l>Massiliae Teuton, totusque  incurrerat orbis</l>
+				<l>Occidui solis, tunc omnes milite campos</l>
+				<l>Phocaicos texit passim. <reg orig="s">S</reg>ed feruidus armis</l>
+				<l>Defendit uictor Franciscus, et ardua Gallis</l>
+				<l>Gloria successit, tantus fuit ille frementes</l>
+				<l>Inter opes Martis <app><rdg wit="#P">martis</rdg></app>, ferrumque et praelia saeua.</l>
+				<l>Est facile ergo duces comitesque per arma seuera</l>
+				<l>Vincere. <reg orig="u">V</reg>erum Aquilis, et magni Caesaris armis,</l> <!--Beide haben Caesaris mit e caudata-->
+				<l>In longo bello, seu marte resistere prompto,</l>
+				<l>Ardua res equidem. Quoties Franciscus acerbis</l>
+				<l>Bellorum pugnis aquilas, et Caesaris altas</l> <!--hier beide Caesar mit ae-Ligatur-->
+				<l>Contra acies iuit, Clodophaeiaque regna decusque</l>
+				<l>Defendit clypeis, et Francia lilia texit?</l>
+				<l>Dic mihi, quis contra <app><rdg wit="#P">cõrrà</rdg></app> fortes modo sumpserit, arma</l>
+				<l>Tot pugnis Aquilas, gentesque in bella seueras:</l>
+				<l>Qui non tradiderit terrae sua regna, decusque.</l>
+				<l>Vnus Franciscus semper sua sceptra, suasque</l>
+				<l>Obtinuit terras, bellumque et fortia facta</l>
+				<l>Gessit acris semper contra tot praelia regum,</l>
+				<l>Quos iactant aquilae, quos duro marte Britanna</l> <!--marte gross? Beide haben klein.-->
+				<l>Terra, potens undis. <reg orig="q">Q</reg>uanquam regnator eous</l>
+				<l>Graiugenas, Asiaeque urbes, et Phasidos oras,</l>
+				<l>Et Syrios, Arabasque leues, et <app><rdg wit="#P">leues et</rdg></app>ad usque Syenen</l>
+				<l>Seruitio populos premit, et Nilotica regna,</l>
+				<l>Et Libyae gentes, et qui te Bragada potant</l>
+				<l>Eufrateque <app><rdg wit="#P">Eufracteque</rdg></app> ferox saxoso murmure syluis,</l><!--wo gehört "ferox" hin?-->
+				<l>Maluaque pulcher aquis, Hebrique Istrique liquores</l>
+				<l>Ore bibunt gelidos: tamen ille ut praelia ferro</l>
+				<l>Iam miscenda Aquilis uidit, dat terga fugaci</l>
+				<l>Raptus equo celeris. Sed Gallia semper in armis</l>
+				<l>Contra acies Aquilasque simul Mauortia gressus</l>
+				<l>Rege tulit fortes Francisco, gloria fulsit</l>
+				<l>Francorum castris, et candida fama sequuta est.</l>
+				<l>Fortis erat bello, et uelut ipse acerrimus Aiax,</l>
+				<l>Si pedes in pugnas ibat bellator Achilles</l>
+				<l>Magnus equis, siue Oenides sternebat in armis</l>
+				<l>Aggressos hostes Diomedes alter et <app><rdg wit="#P">alter, et</rdg></app> alter</l>
+				<l>Castor equo residens pugnabat feruidus ense.</l>
+				<l>Omnibus afflictis quoties hic solus acerbas</l>
+				<l>Sustinuit uires, uel iam labentibus ictu</l>
+				<l>Militibus solus concurrere milibus ausus,</l>
+				<l>Dum defendit equo pugnas. <reg orig="t">T</reg>ot funera contra</l>
+				<l>Restitit hic toties fortis per praelia Martis.</l>
+				<l>Obstupuere illum toties et Rhetus, et acris</l>
+				<l>Heluetius, Rhodanique acies, et Larius omnis,</l>
+				<l>Miratique suis steterunt tum Teutones armis.</l>
+				<l>O quoties flammis seruauit et arua colonis,</l>
+				<l>Extinxitque ignes, rapuitque e fomite terras,</l>
+				<l>Et uirtute sua leti de faucibus urbes</l>
+				<l>Eripuit fortis, praesensque <app><rdg wit="#P">presensque</rdg></app> superuenit armis.</l>
+				<l>Quid cum saepe irent uariis incendia terris,</l>
+				<l>Non secus ac quondam lapsu Ph<reg orig="ae">aë</reg>tontis in undas</l>
+				<l>Eridani radiis, cum se Clymeneia clades</l>
+				<l>Obtulit, et <app><rdg wit="#P">Obtulit et</rdg></app> flammis ferme flagrauerat orbis.</l>
+				<l>At cum iam Titan rursus moderamen equorum</l>
+				<l>Cepisset, rediit mundi concentus, et <app><rdg wit="#P">concentus et</rdg></app> ipse</l>
+				<l>Agnouit dominum currus Ph<reg orig="ae">aë</reg>tontis abacti.</l>
+				<l>Sic pater ille tuus tulit auxiliumque, bonamque <app><rdg wit="#P">auxiliumque bonamque</rdg></app></l>
+				<l>(Inclyte <app><rdg wit="#P">Inclite</rdg></app>Francorum fama rex, gloria gentis</l>
+				<l>O Henrice tuae, et columen tam nobile Gallis)</l>
+				<l>Per terras formam, pulso Ph<reg orig="ae">aë</reg>tonte, quadrigas</l>
+				<l>Tum moderatus equis melior, duxitque triumphos.</l>
+				<l>Munificus fuerat, testatur Rhenus et Albis,</l>
+				<l>Testis Danubius, cuius quoque saepe cohortes</l>
+				<l>Gallica sub Martem indomitum sunt signa sequutae.</l>
+				<l>Cumque his Heluetii, Rhetique per ardua fortes</l>
+				<l>Bella, uiros illos soli sibi iunxit amore</l>
+				<l>Virtutis. <reg orig="q">Q</reg>uibus ille ingens praeclara peregit</l>
+				<l>Facta, et per campos toties fera praelia gessit.</l>
+				<l>Hic animo excellens memori, linguasque disertus</l>
+				<l>Calluit hic plures, qualis Perseia proles</l>
+				<l>Cyrus, et immanis Mithridates marte feroci:</l>
+				<l>Scipiadasque sonis imitatus. <reg orig="m">M</reg>axima uirtus</l>
+				<l>Splenduit ingenio forti: nec caetera segnis,</l>
+				<l>Quaecunque ad laudem stimulant. <reg orig="p">P</reg>ietatis abundans,</l>
+				<l>Poenae parcus erat: testis Doriasque, Padusque,<app><rdg wit="#P">Doriasque Padusque,</rdg></app></l>
+				<l>Hic ubi Taurinis statuit tentoria campis.</l>
+				<l>Cum posset ferro delere hic mille cateruas,</l>
+				<l>Seruari uoluit. <reg orig="p">P</reg>aci non intulit iram,</l>
+				<l>Post acies odium posuit, uelut ultor in arma</l>
+				<l>Fortis erat, cum causa uocat: sic parcere mitis,</l>
+				<l>Subiectis. Si quae forsan per praelia clades</l>
+				<l>Obuia se tulerat, patiens uincebat Vlyssem.</l>
+				<l>Quod si Pellaeus iuuenis deuictus in armis</l>
+				<l>Vel semel ille foret, forsan non ulla relicta</l>
+				<l>Spes illi foret, aut prostratus pectore toto</l>
+				<l>Desperasset iners, aut forte inglorius armis</l>
+				<l>Vixisset posthac, decorisque oblitus et artis.</l>
+				<l>Pellaeus foelix, et foelix Sylla. <reg orig="f">F</reg>uere</l>
+				<l>Foelices tantum. Franciscus uictor amaram</l>
+				<l>Per pugnas toties superauit pectore sortem.</l>
+				<l>Si sors infoelix acie sese obtulit, ille</l>
+				<l>Non minus hanc constans, quam si sibi laeta fuisset,</l>
+				<l>Pertulit, et <app><rdg wit="#P">Pertulit et</rdg></app> fortis fortunae mente procellas.</l>
+				<l>Vicit Alexandrum longe hac uirtute Pelasgum.</l>
+				<l>Sortem utramque tulit semper moderatus habenas.</l>
+				<l>Sic fuit ille choro uirtutum laudis abundans,</l>
+				<l>Inque suos Rhetos, quorum ingens fama per arma,</l>
+				<l>Heluetiosque, uiros bene libertatis amantes,</l>
+				<l>Atque pares Marti, largus, donisque beatus.</l>
+				<l>Hinc amor, hinc regni decus, et crescentia sceptra.</l>
+				<l>Hinc laus, hinc ualidae deuoto milite uires,</l>
+				<l>Et mansura <app><rdg wit="#P">mensura</rdg></app> fides acie, populisque sequutis.</l>
+				<l>Hinc ualidum regni robur. <reg orig="s">S</reg>ic maxima uirtus</l>
+				<l>Heroum soli uiguit. <reg orig="h">H</reg>oc inclytus <app><rdg wit="#P">inclitus</rdg></app> ortu</l>
+				<l>Nasceris, ac Regis de maiestate creatus</l>
+				<l>In regnum crescens, Clodopheio <app><rdg wit="#P">Clodopheo</rdg></app> adolescis in ostro.</l>
+				<l>Auriferis te eduxit aquis undosa Pipini</l>
+				<l>Ora, nec ignorat quam sis tu sorte beatus</l>
+				<l>Sequana Celtarum, qui te iam laude futurum</l>
+				<l>Aequalem priscis magno uirtutis amore:</l>
+				<l>Teque Araris, Rhodanusque potens te gaudet alumno,</l>
+				<l>Et gelidus Phrudis, Ligerisque, et culta Garumna</l>
+				<l>Prata rigans, regumque lares, Argentaque <app><rdg wit="#P">lares. Argentaque</rdg></app>  diues.</l>
+				<l>Sequanaque exultat sub te iam Rege beatus.</l>
+				<l>Es sublime genus regum, regnoque potentem</l>
+				<l>Nobilitas ueterum poterat te sola tueri:</l>
+				<l>Plus multo tamen ipse tua uirtute nitescis.</l>
+				<l>Nec tamen illa latet, ueterum uestigia pressit,</l>
+				<l>Et teneris sese dudum bene suscitat annis.</l>
+				<l>Namque sub auspiciis genitoris bella sequutus,</l>
+				<l>Virtutum specimen dederas, in castra receptus</l>
+				<l>Iam toties patris, ceu <app><rdg wit="#P">Seu</rdg></app> Scipio fortis in arma,</l>
+				<l>Ceu pius Ascanius coram genitore ruebas</l>
+				<l>Qua cessant terrae, qua nondum diuidit oras</l>
+				<l>Phrudis aquis: equidem uirtus tam nobilis ista</l>
+				<l>Ad tantum regnum poterat bene iure requiri.</l>
+				<l>Non tibi frenandi dociles seruire per oras,</l>
+				<l>Qui bene thura legunt Arabes, non Seres in altis</l>
+				<l>Lanifici syluis qui pectunt uellera fronde,</l>
+				<l>Non leuis Armeniae tractu tu sceptra gubernas,<app><rdg wit="#P">sceprra gubernas</rdg></app></l>
+				<l>Massagetumue solo, quo rexit foemina regnum.</l>
+				<l>Sed tibi Teutonico gens est quae ducitur ortu,</l>
+				<l>Pergameaque domo celebri uirtute regenda.</l>
+				<l>Hinc semper uiuit Francorum gloria regum.</l>
+				<l>Quis nescit Martis prolem per praelia nota</l>
+				<l>Martellum insignem? <reg orig="q">Q</reg>uis te Rollande trophaeis</l>
+				<l>ignorat? <reg orig="u">V</reg>el cui non Magnus Carolus armis</l>
+				<l>Est celebris?<reg orig="u">V</reg>el quis Clodophaeia lilia nescit?</l>
+				<l>Siue triumphato cui non stagnantis in aruis</l>
+				<l>Ticini atque Istri, Doriaeque <app><rdg wit="#P">Istri Doriaeque</rdg></app> ex Alpibus orti</l>
+				<l>Cultore, atque Padi deuicto fonte sub ipsis</l>
+				<l>Montibus <reg orig="ae">aë</reg>riis?<reg orig="t">T</reg>estis Carionia clades,</l>
+				<l>Gestaque per Latias immania praelia <app><rdg wit="#P">prelia</rdg></app> gentes,</l>
+				<l>Oceanique Somesque oras, littusque Britannum,</l>
+				<l>Franciscus <app><rdg wit="#P">Francisus</rdg></app> genitor Boreae memoratus in orbe.</l>
+				<l>Qui patriae plus mitis erat, quam nulla Pipini</l>
+				<l>Gens antiqua ducum. <reg orig="q">Q</reg>uos tu uirtute sequutus</l>
+				<l>Exprimis insignis, peditum prius agmina semper</l>
+				<l>Exerces studiis et saeui Martis in armis,</l>
+				<l>Si quae bella tonant: prior ipse incurris, et instas</l>
+				<l>Frangere Marte acies, ferrumque atque ingeris hastas <app><rdg wit="#P">hasta</rdg></app>,</l>
+				<l>Ensiferosque moues, pugnasque iniisse feroces</l>
+				<l>Regalis mandas, cogisque accedere segnes.</l>
+				<l>Scit bene sub borea Phrudis, scit Marte Tabulla</l>
+				<l>Messeque praegrandis.<reg orig="c">C</reg>um<app><rdg wit="#B">cum</rdg></app> Gallica praelia pubes</l>
+				<l>Affectans campis, Rheteaque dura sequuta</l>
+				<l>Gens studia armorum, Tigurinaque <app><rdg wit="#P">armorum Tigurinaqua</rdg></app>laudibus ingens</l>
+				<l>Bellorum, et florens dudum Basilea camoenis,</l>
+				<l>Heluetiaeque manus aliae, Taurinaque proles,</l>
+				<l>Syluestrisque Vrus, atque horrida cornua belli</l>
+				<l>Taurisci populi, quem Mars praeferre Gelonis</l>
+				<l>Bellonaeque audet, saeuis et Thracibus armis,</l>
+				<l>Et nemorosa phalanx <app><rdg wit="#P">Phalanx</rdg></app> bellaci Marte creata</l>
+				<l>Suitensis fremeret: qua strenuitate per arua</l>
+				<l>Belgica percurreris, timuitque Britannica Tethys,</l>
+				<l>Obstupuere Aquilae, seseque in foedera tecum</l>
+				<l>Iunxerunt, positisque domum cessere sub armis.</l>
+				<l>Terror erat mundi: Germania mota triumphis</l>
+				<l>Tota tuis, postquam deflerunt funera fontes</l>
+				<l>Eridane alta tui, et frontem <app><rdg wit="#P">fontem</rdg></app> Ticine rigasti</l>
+				<l>Fletibus emissis, dum plangis tristia clade</l>
+				<l>Ad Carioneas sedes tot busta caducum</l>
+				<l>Heroum tumulis. Verum ut tua Martis acerbi</l> <!--korrigiert am 26.10.2021-->
+				<l>Agmina Rhetea coniuncta cohorte ruerunt</l>
+				<l>Heluetium in pugnas: te solum pacis oliua</l>
+				<l>Praetenta ex acie, quae certatura sub armis</l>
+				<l>Iam fuerat, studiosa tuae sub Marte rogauit,</l>
+				<l>Atque iniit foedus potius, bellumque remisit,</l>
+				<l>Obstupefacta tuis in praelia dura maniplis,</l>
+				<l>Eductis animo ingenti, et certare parato,</l>
+				<l>Rex etiam boreae, qui <app><rdg wit="#P">boreae qui</rdg></app> regni torquet habenas</l>
+				<l>Albionum gelidas, glaciemque <app><rdg wit="#P">gelidas glaciemque</rdg></app> in gurgite Nereus</l>
+				<l>Voluit Hyperboreus sibi trux Aquilonis ad undas,</l>
+				<l>Anglicus immanis dum coelum territat armis,</l>
+				<l>In Somiosque agros transfundit rure cateruas</l>
+				<l>Saeuus ab occiduo, ferrumque et regna lacessit:</l>
+				<l>Heluetiis postquam iunctis in bella phalange <app><rdg wit="#P">Phalange</rdg></app></l>
+				<l>Rhetorum, Francisque tuis ad littus aquosum</l>
+				<l>Venisti, subito cursu se moenibus altis</l>
+				<l>Inclusere simul trepidi sine marte Britanni.</l>
+				<l>Hinc abiere ferae, nemorosaque sylua recessit,</l>
+				<l>Et uacui campi, fugitque Britannica Tethys,<app><rdg wit="#P">Tethys.</rdg></app></l>
+				<l>Nusquam armis ausus se ferre in praelia dura</l>
+				<l>Anglicus: at latuit. <reg orig="t">T</reg>antus fuit undique terror,</l>
+				<l>Obstupuit Boreas, idque audiit ultima Thule.</l>
+				<l>Artois fletus pugna deserta refudit,</l>
+				<l>Chalaicaeque suo tremuerunt littore gentes,</l>
+				<l>Atque Lycaoniis praeclusa Bononia campis</l>
+				<l>Horruit, et matres pressere ad pectora natos.</l>
+				<l>Est tibi nota quidem Bellonae ars horrida ferro,</l>
+				<l>Vt quoque castra loco tibi sint ponenda salubri,</l>
+				<l>Vtque dapes habeas, frumentaque secta per agros, <app><rdg wit="#P">agros</rdg></app></l>
+				<l>Vtque undas propius stent, nec sint peruia turmae</l>
+				<l>Hostili, ut seruanda uigil custodia uallis,</l>
+				<l>Excubiaeque uirum, cuneusque ubi factus in hostes</l>
+				<l>Densetur potius: quo campo cornua tendi,</l>
+				<l>Torquerique queant, flectique in mille furentum</l>
+				<l>Marte modos: quae sint cliuosis montibus aptae,</l>
+				<l>Quaeque acies planis campis, aruisque sub arctis</l>
+				<l>Siue amplis: quaeque insidiis sint peruia castra.</l>
+				<l>Quaeque dolis uallis, quae sit uia ducta per agros,</l>
+				<l>Et dumeta latens: num sint hostilia densos</l>
+				<l>Agmina sub frutices, nemorisque horenntibus umbris.</l>
+				<l>Nec tibi difficile est, toties qui castra sequutus</l>
+				<l>Es patris, et patriis puer ipse eductus in armis,</l>
+				<l>Vidisti quibus impetibus per bella, per oras,</l>
+				<l>Quaque arte aduersos cuneis disiecerit hostes,</l>
+				<l>Et quo distulerit furiosas marte phalanges</l>
+				<l>Consilio. <reg orig="m">M</reg>agnus Libycis ceu Scipio turmis</l>
+				<l>Obstitit, et patrios sequitur per bella tumultus:</l>
+				<l>Sic etiam in pugnas claro genitore ruebas.</l>
+				<l>Cum latet inclusus, seu fidit moenibus hostis,</l>
+				<l>Seque intra muros retinet, seu turribus altis:</l>
+				<l>Tum tibi tormentis mittuntur fulmina saeua,</l>
+				<l>Destructura domos, tonitrus fumante ruina.</l>
+				<l>Saxa rotant, densis hinc aera sonantia fumis.</l>
+				<l>Non aries frangit portas, sed <app><rdg wit="#P">portas sed</rdg></app> fulgura missa</l>
+				<l>Fulmine perrumpunt igniti pulueris arces,</l>
+				<l>Et diris lapidum saxosa tonitrua flammis.</l>
+				<l>Votaque per spacium belli non ulla remittis</l>
+				<l>Secura, ut si qua forsan te longa moretur</l>
+				<l>Obsidio muris non fidis in hoste recluso,</l>
+				<l>Sed magis ipse caues, ne <app><rdg wit="#P">caues ne</rdg></app> qua inter gaudia noxa</l>
+				<l>Bellorum erumpant hostes. <reg orig="s">S</reg>ed prouidus urges</l>
+				<l>Excubias uigiles, casusque tueris, et instas</l>
+				<l>Exemplo, specimen praebens uirtutis in arma.</l>
+				<l>Saepe etenim requie crudelior hostis ab urbe</l>
+				<l>Excurris, quare laetus uictricibus armis</l>
+				<l>Prospicis, ut nullas fundat uictoria clades,</l>
+				<l>Quae nocet incautis, et qui damnosa sequuntur.</l>
+				<l>Ne tibi luxuries ocio nimis ulla redundet,</l>
+				<l>Ne tibi seditio castris se nutriat usquam,</l>
+				<l>Prudenter curas, inque ipsa pericula primus</l>
+				<l>Irruis, ac nullis pluuiis, nec mane pruinis</l>
+				<l>Cedis, et in solis radiis persistis ut acer</l>
+				<l>Miles, et in primas acies prorumpis, et ingens</l>
+				<l>Exemplo turmis fulges in splendida facta.</l>
+				<l>Si syluae densae prohibent horrentibus umbris,</l>
+				<l>Primus inis fortis. <reg orig="s">S</reg> stagna immensa refusa,</l>
+				<l>Saxosumue sonans flumen sub ualle profunda</l>
+				<l>Intonat, illatus tunc in montana fluenta</l>
+				<l>Praetentat sonipes currens, liquidoque <app><rdg wit="#P">currens liquidoque</rdg></app> natatu</l>
+				<l>Praeuertit uolucres fluuios tuus, usque ruendo</l>
+				<l>In laudes belli celebres. <reg orig="t">T</reg>ibi testis ad arma</l>
+				<l>Exultans Phrudis, muscoso fonte refusus,</l>
+				<l>Saepius hoc uidit. <reg orig="m">M</reg>edias nun agmine turmas,</l>
+				<l>Atque globos equitum incurris, cogisque frementes</l>
+				<l>Aeripedes, nun ad pedites procinctus ouantes</l>
+				<l>Ocyus accedis, multumque hortaris ad altam</l>
+				<l>Virtutem insignis, demulcens pectora dictis.</l>
+				<l>Pro patrio regno sudas defensor in armis.</l>
+				<l>Pro quo cuncta pati gaudes, nullumque recusas</l>
+				<l>Discrimen tentare. <reg orig="d">D</reg>ocet bene Phrudius amnis,</l>
+				<l>Et quascunque rigat terras labente liquore.</l>
+				<l>Nil obstat, non ora maris, non dura uiarum</l>
+				<l>Monte iuga, aut ualles, gelidisque pruina sub ursis.</l>
+				<l>Ipse uolas inuictus equis, uictricia signa</l>
+				<l>Laturus. <reg orig="s">S</reg>pectatur ouans Calydonia pubes,</l>
+				<l>Scotorumque duces armis. <reg orig="t">T</reg>ibi caerulus Albis <app><rdg wit="#P">albis</rdg></app></l>
+				<l>Militat, Heluetiique pii, et Rheteia summis</l>
+				<l>Alpibus exurgens bellis hastata caterua.</l>
+				<l>Terrarum accurrit miles ex omnibus aruis.</l>
+				<l>Cum petis, accedunt flauentes crine Sicambri,</l>
+				<l>Datque suum bello ueniens Alemannia nomen.</l>
+				<l>Bastarnaeque truces meruere stipendia Martis</l>
+				<l>Sub te Rege sibi. <reg orig="q">Q</reg> et trux accola syluae</l>
+				<l>Bructurus Herciniae, et pharetratus Sarmata telis:</l>
+				<l>Quis tu semper ades, primusque incurris in hastas,</l> <!--quîs wie quivis?-->
+				<l>Sic praesente suo miles iam promptior arma</l>
+				<l>Tractat, et ad palmae per se cursurus honores.</l>
+				<l>Cum tamen horteris, specimenque in bella reponas,</l>
+				<l>Acrior instabit, cuneosque infringet, et hostes</l>
+				<l>Depellet fortis. <reg orig="t">T</reg>ales in bella ruebant</l>
+				<l>Scipiadae quondam, Mariusque et Sylla feroces.</l>
+				<l>Nam te teste labor, teque ipso bella gerente</l>
+				<l>Rege magis gratus, longeque illustrior ibit</l>
+				<l>Victor equus campis, referetque trophaea per arma.</l>
+				<l>Sic Pyrrhus quondam, sic et Peneius Achilles,</l>
+				<l>Cum uertere solo Priameia Pergama Troiae.</l>
+				<l>Talis Pellaeus iuuenis, Macedumque Philippus</l>
+				<l>Rector, opum diues. <reg orig="m">M</reg>agna est ea Martis honore</l>
+				<l>Laus regum. <reg orig="s">S</reg>ic et uictor Sperchius Hydaspen,</l>
+				<l>Et Porum domuit terror, Gangetis ad oras</l>
+				<l>Progressus pugnis. <reg orig="r">R</reg>regnent Euphratis in aruis,</l>
+				<l>Isiacisque oris alii, Nigrumque, Tigrimque <app><rdg wit="#P">Nigrumque Tigrumque</rdg></app>,</l>
+				<l>Assyriumque Lycum, et calidas Gangetis arenas,</l>
+				<l>Et teneant quacunque fluit pharetratus Araxes</l>
+				<l>Cursu impacato, et resonat qua Caspius humor,</l>
+				<l>Seu quicquid primis radiis irrorat Eous.</l>
+				<l>Sed plus est multo, quod paret Gallia regi</l>
+				<l>Marte animosa tibi. <reg orig="n">N</reg>on ulla est laetior auro, et</l>
+				<l>Diuitiis regio. <reg orig="s">S</reg>i spectes solis utrunque <app><rdg wit="#P">utrumque</rdg></app></l>
+				<l>Oceanum, atque domos Phoebi: ceu pinguia Bactra</l>
+				<l>Et quascunque <app><rdg wit="#P">quascumque</rdg></app> beat terras eous oberrans</l>
+				<l>Oxius. Hae siquidem sub eodem limite fructus</l>
+				<l>Educunt, nisi quod tepido se Francia sole</l>
+				<l>Occiduis pandit radiis Ph<reg orig="ae">aë</reg>tontis: at illae</l>
+				<l>Se matutinis subdunt splendoribus. Eos</l>
+				<l>Bactra uidet, Francos praepingui uesper ab ortu.</l>
+				<l>Quin opibus praeter quam Gallia diues abundat,</l>
+				<l>Marteque praecellit, doctas colit illa camoenas.</l>
+				<l>Illa uiros claros nutrit: conferre Maroni <app><rdg wit="#P">maroni</rdg></app>,</l>
+				<l>Siue Arpinati poteras, et laude Platoni <app><rdg wit="#P">platoni</rdg></app></l>
+				<l>Ingenii heroas. <reg orig="q">Q</reg>ui norunt sidera coeli,</l>
+				<l>Stellarumque uices, et rerum quaerere causas,</l>
+				<l>Ac scire herbarum uires, artesque potentes.</l>
+				<l>Hinc tot militibus tot regia praemia donas.</l>
+				<l>Ambit te Eridani potor, Tibrisque, Tagique.</l>
+				<l>Accola Danubii currit, Cattique feroces.</l>
+				<l>Deserit Oceani frigentes Cymbrus arenas,</l>
+				<l>Ingentesque artus Albim fugere Cherusci.<app><rdg wit="#P">Cherusci,</rdg></app></l>
+				<l>Accipis ipse uiros, et digno munere donas,</l>
+				<l>Atque alis ad bellum tot gentes diues. <reg orig="&amp;">Et</reg> ipsos</l>
+				<l>Heluetiae populos fortis, cunisque iacentes</l>
+				<l>Illorum pueros donis, atque aere corusco,</l>
+				<l>Atque auro decoras: ceu spem crescentis ad arma</l>
+				<l>Eximiam pubis. <reg orig="s">S</reg>ic tota Europa, cadensque</l>
+				<l>Sol radiis currus tepidis tibi militat aruis,</l>
+				<l>O Henrice decus belli, clarissime regum.</l>
+				<l>Foelix es regno, Clodopheiaque lilia Francis</l>
+				<l>Exornas uirtute tua. <reg orig="t">T</reg>e Rhetia celsa,</l>
+				<l>Heluetiaeque manus semper mirantur honore. <app><rdg wit="#P">honore</rdg></app></l>
+				<l>Vt fortes in bella uiros, sic pace requiris,</l>
+				<l>Electosque colis donis, longumque tueris,</l>
+				<l>Militiaeque bonis decoras. Sub marte Quirinum,</l>
+				<l>Pace Numam praestas, famaque actisque Pipinos.</l>
+				<l>Munificus splendes auri largitor, et aeris.</l>
+				<l>Hinc te miles amat, hinc te tua Francia laude</l>
+				<l>Extollit coelo, et legum tua turba diserta.</l>
+				<l>Egregiique uiri, quos Gallia suspicit ingens,</l>
+				<l>Qui priscas norunt leges, Romanaque castra,</l>
+				<l>Ceu Pandionia florebant urbe Solones,</l>
+				<l>Oebaliaque olim sapientes arce Lycurgi.</l>
+				<l>Quales ingenio Perseia Susa tulere,</l>
+				<l>Quales Roma tibi dictarunt iura togata.</l>
+				<l>Hinc grauitas sceptro, regnumque Astraea per oras</l>
+				<l>Sustinet, ingeniis remanent ubi praemia claris.</l>
+				<l>Est tibi facundi per laudes docta facultas</l>
+				<l>Ingenii, linguaeque decus. <reg orig="t">T</reg>ibi notus Iberus</l>
+				<l>Sermo, sonusque citus Latialis, et ipsa canora</l>
+				<l>Sequanica, at natiua tibi uox ore diserto.</l>
+				<l>Tu loqueris populis uario discrimine linguae,</l>
+				<l>Diuersosque sonos mens una imitata tuetur,</l>
+				<l>Militiae ueteris laudem, Cyrumque sequuta,</l>
+				<l>Haec animi memoris uis insita, famaque docta:</l>
+				<l>Qui sua militibus reddebat nomina solus,</l>
+				<l>Scipioque Oenotriae pariter gentique togatae.</l>
+				<l>Bis denis Ponti rex binis gentibus usque</l>
+				<l>Iura dabat, linguis totidem sancita, disertus.</l>
+				<l>Haec tua nunc laus est, quae quondam maxima regum.</l>
+				<l>Gentibus a uariis regis responsa uerentur</l>
+				<l>Legati. <reg orig="t">T</reg>ranquilla animi <app><rdg wit="#P">animis</rdg></app> praestantis in armis</l>
+				<l>Vis placet ista uiris, grauibus quoque moribus aetas</l>
+				<l>Firma satis, regno maiestas grata, decusque.</l>
+				<l>Corpora quinetiam, quae uel Tritonia Pallas</l>
+				<l>Miretur, tibi sunt, qualis Peleius <app><rdg wit="#P">Pelleus</rdg></app> Achilles,</l>
+				<l>Qualis Gradiuus primis cum cresceret annis,</l>
+				<l>Qualis Dianae quondam procus altus Orion,</l>
+				<l>Quemque olim Ausoniae pulchrae stupuere puellae,</l>
+				<l>Qualis Turnus erat, qualis Troianus in armis</l>
+				<l>Aeneas Phrygiis, siue altior Hector, et ingens</l>
+				<l>Deiphobus castris. O quis tum cultus in armis,</l>
+				<l>Quis decor, incedis cum tu protectus in auro,</l>
+				<l>Et cristis capitis longis ostroque decorus.</l>
+				<l>Artes pugnandi solers quoque corpore tanto</l>
+				<l>Marte tenes, ut sit uirtus sic gratior aeuo:</l>
+				<l>Pugnas inuictus gladio, et sublimior hasta</l>
+				<l>Irruis, atque infers ferrata cuspide uulnus.</l>
+				<l>Qualis et Alcides bellabat marte bimembres</l>
+				<l>Centauros agitans, siue in certamina campis</l>
+				<l>Procurris, seu uectus equo spectaris in urbe</l>
+				<l>A populo celsus, cum densa tricuspis in hostem</l>
+				<l>Ducitur, aut equitem prosternis uictor arena.</l>
+				<l>Siue equitas inter armatos luce corusca</l>
+				<l>Aere sub ardenti, cum tota incurrit in altis</l>
+				<l>Acris equis pubes, simulacraque Martia ludit,</l>
+				<l>Et molles sinuare fugas, subitosque recursus</l>
+				<l>Flexisse insignis. <reg orig="q">Q</reg>uis tum te mittere contum</l>
+				<l>Acrior, aut gladio melior pugnare reflexu</l>
+				<l>Quadrupedantis equi, uibrareque in arma micantes</l>
+				<l>Flammiuomos enses. <reg orig="n">N</reg>on gens exercita cursu</l>
+				<l>Cornipedum uincat seu Thessala, siue uolantes</l>
+				<l>Centauri, aut Parthi celeres. <reg orig="t">T</reg>uus aere sonanti</l>
+				<l>Indutus sonipes, spumosa fauce remandit</l>
+				<l>Aurea frena ferox, seu totus splendet in ostro.</l>
+				<l>Non hunc Nereidum manibus depectus Arion,</l>
+				<l>Siue Therapnaeis nutritus Cyllarus aruis,</l>
+				<l>Non hunc uel Xanthus, non alter Achillis in armis</l>
+				<l>Pelidae quadrupes, et quanquam Pegasus alis</l>
+				<l>Bellerophonteo successit pondere in astra,</l>
+				<l>Cederet ille tamen. <reg orig="c">C</reg>eleris quoque Solis Eous,</l>
+				<l>Et genus a Phoebo ductum per colla comantes</l>
+				<l>Aeneae aeripedes, qui anteibant cursibus auras.</l>
+				<l>Quique ducis caesi defleuit funera bello,</l>
+				<l>Regis et Hetrusci Rhebus, Turnique iugales,</l>
+				<l>Et Diomedis equi, Troiae sub moenibus altis.</l>
+				<l>Bucephalusque ingens, et quo sibi Iulius orbem</l>
+				<l>Vicit, et Aemoniae rumor, Hemique frementes.</l>
+				<l>En Ph<reg orig="ae">aë</reg>tontiades uellent seruire lupatis</l>
+				<l>Rex Henrice tuis. <reg orig="t">T</reg>um quem Pallantias ortu</l>
+				<l>Sub croceo iungit, palmam quoque traderet Aethon.</l>
+				<l>Inuidet ille tuo, quoties despectat Olympo,</l>
+				<l>Inque tuis auro mallet spumare sub ore</l>
+				<l>Mulciberis frenis. <reg orig="h">H</reg>abitus quis diceret illos,</l>
+				<l>Cum uidit Rhodanus pompae miracula uestrae,</l>
+				<l>Et tu per populos Araris formosior ires</l>
+				<l>Phoebo et Mercurio, binisque Laconibus auro</l>
+				<l>Textus Hydaspeo, et conspectior ipse cohortes</l>
+				<l>Atque equites inter uehereris, et arma sequuta.</l>
+				<l>Scit tuus hoc Ligeris, scit Sequana diues, et altus</l>
+				<l>Francorum Rhodanus. <reg orig="s">S</reg>onitum tunc ripa tubarum</l>
+				<l>Omnis reddit aquis, et Francia tota fremebat</l>
+				<l>Nobilitate tua sub sidera iubila laeta</l>
+				<l>Ore ferens placido, Regnis uiue inclyte regum,</l>
+				<l>Et soboles equitum, quos nutrit Sequana campis,</l>
+				<l>Quicquid et in cunctis procerum tibi Gallia terris</l>
+				<l>Floruit. <reg orig="h">H</reg>is pariter circum tu cingeris altus</l>
+				<l>Candide Rex sceptro: legumque admittere doctos</l>
+				<l>Gaudes ipse patres. <reg orig="t">T</reg>ota te celsa senatu</l>
+				<l>Turba ducum stipat. <reg orig="m">M</reg>irata est Francia uultus,</l>
+				<l>Et lapides auro cinctos, et Iaspidis ignes.</l>
+				<l>Qualis et Herculeis occurrit Achaia triumphis,</l>
+				<l>Assyriique olim, cum magna Semiramis Indo</l>
+				<l>Deuicto rediit. <reg orig="s">S</reg>eu qualia Susa trophaeis</l>
+				<l>Se fudere uia occursu cum Lydius amnis</l>
+				<l>Victus Halys, Persas uictricia signa gerentes</l>
+				<l>Euphratae misis, Perseiaque in arua reuersos.</l>
+				<l>Qualis Erythraeis Liber ueniebat arenis</l>
+				<l>Aurato curru, et tigres Gangetis ab oris,</l>
+				<l>Et nemorum saltu, quem Tethys eoa recinxit,</l>
+				<l>Mulcebat raptas, dum molles flectit habenas.</l>
+				<l>Cui sonuit plausu diues per flumina Ganges,</l>
+				<l>Excepitque cohors Tyria Cadmeia ripa.</l>
+				<l>Aurea iam sub te sperantur secula Rege,</l>
+				<l>In nomen uentura tuum, iam Francia sceptro</l>
+				<l>Gestit laeta nouo. <reg orig="c">C</reg>essit tibi laurea patre,</l>
+				<l>Cum quo tu toties meruisti marte triumphos<app><rdg wit="#P">triumpho</rdg></app>,</l>
+				<l>In cuius castris puer es nutritus ab annis.</l>
+				<l>Arma patris semper, tibi dum pubesceret aeuum,</l>
+				<l>Es sectatus, opum diues te Pallas in altam</l>
+				<l>Aegida mouit ouans hasta. <reg orig="t">T</reg>rans alta Britanni</l>
+				<l>Aequora transierant, qua Phrudis uoluit arenas,</l>
+				<l>In classes secuere nemus, cum milite campos</l>
+				<l>Repplessent uario, quos ambiit amne Tabulla,</l>
+				<l>Atque Some irriguus, iuuenilibus altior armis</l>
+				<l>Irruis in turmas, totiesque inferre secundis</l>
+				<l>Ausus es auspiciis, pugnas et praelia saeua.</l>
+				<l>Te uidere Rheti, uiditque interrita bello</l>
+				<l>Heluetiae pubes, miscentem bella Britannis.</l>
+				<l>Talis Achemenius Perseia ad moenia Cyrus,</l>
+				<l>Talis Pellaeus iuuenis, genitorque Philippus</l>
+				<l>Marte Pelethronio, et nigrantibus Hannibal armis:</l>
+				<l>Quem bello Autololes Libyci, et Garamantica pubes</l>
+				<l>Vallibus Aethiopum, calidisque Hyperionis aruis</l>
+				<l>Quae super assidue fertur Ph<reg orig="ae">aë</reg>tontia flamma,</l>
+				<l>Nigritumque cohors, qua se Niger ingerit undis,</l>
+				<l>Voce sequuta fuit uaria. Sic maximus arte</l>
+				<l>Scipio bellandi, Cursorque <app><rdg wit="#P">cursorque</rdg></app> Papyrius altae</l>
+				<l>Ausoniae fulmen. <reg orig="u">V</reg>eteres sic Francia reges</l>
+				<l>Laude tui ingentes fuerant. <reg orig="c">C</reg>ui marte Rholandus <app><rdg wit="#P">Rhodanus</rdg></app></l>
+				<l>Ignotus fuerat, cui Magnus Carolus <app><rdg wit="#P">carolus</rdg></app> actis.</l>
+				<l>Et Clodophaeus amor regni, dominaeque Britannae</l>
+				<l>Insignis raptu per Gallica Carolus arua,</l>
+				<l>Victor ouans talis Latiis Litauicus arenis</l>
+				<l>Vulturni notus, Capuae quem nupta puellis</l>
+				<l>Horruit erepta, et Sirenum nobilis ortus</l>
+				<l>Ausonia iuxta Nereia Neapolis undas.</l>
+				<l>Sic alii reges, quibus ingens fama trophaeis</l>
+				<l>Floret adhuc altis: quos nouerat utraque Tethys.</l>
+				<l>Sic patriis olim iuuenis successibus acer</l>
+				<l>Nomen in astra tuum referebas, nobilis armis.</l>
+				<l>Nunc eris ipse tuis maior, repetesque tuorum</l>
+				<l>Virtutes bello. <reg orig="n">N</reg>ec deerunt Marte triumphi,</l>
+				<l>Atque trophaea ducum. Victoria signa sequetur</l>
+				<l>Liligera, et sonitu plaudet per castra recepto.</l>
+				<l>O mihi si liceat uersu cecinisse triumphos,</l>
+				<l>Et tua facta armis, atque inclyta gesta per oras:</l>
+				<l>Quot pugnas tuleris, quantosque in bella tumultus</l>
+				<l>Duxeris egregie, et laudem cum patre beatam</l>
+				<l>Viribus innixus regni reparaueris altis:</l>
+				<l>Quaeque geras olim bene uictor praelia dextra.</l>
+				<l>Dulcia tuque meis faceres hic ocia Musis,</l>
+				<l>Ingeniumque aleres opibus in candida secla.</l>
+				<l>Tum mihi Callimachus, tum palmam traderet Orpheus,</l>
+				<l>Phoebeiusque Linus, calamo et Latous Apollo:</l>
+				<l>Parnasusque omnis sub pectora tanta refusus,</l>
+				<l>Paegaseas undas Cyrrhaeis duceret aruis:</l>
+				<l>Audiretque procul Medis Babylonia famam,</l>
+				<l>Bactraque Thespiadas laudarent carmine Musas.</l>
+				<l>Miratusque Aquilo, mirataque Nubia regna</l>
+				<l>Erigerent aures, Nilusque Boristhene uersus</l>
+				<l>Pierios legeret, famamque sub astra referret,</l>
+				<l>Venturique tuas laudes in bella nepotes.</l>
+				<l>Interea auspiciis uestris qui prodit Homerus,</l>
+				<l>In Latium per me Graio ex Helicone reductus,</l>
+				<l>Sit precor ut donum Musarum<app><rdg wit="#P">musarum</rdg></app>, et Palladis arte</l>
+				<l>Excultum: placido legat hunc tua regia uultu</l>
+				<l>Maiestas, doctis quas do tibi prona camoenis,</l>
+				<l>quasque tibi Heroico praemisi carmine laudes.</l>
+				<l>Sic tibi regna tua semper foelicia gente</l>
+				<l>Laetentur, sub te sic aurea floreat aetas.</l>
+				<signed><p>TVAE REGIAE MAIESTATI</p>
+				<p>deditissimus, Simon Lemnius,<lb/>
+				Emporicus, Rhetus Canus,<lb/> 
+				Poeta laureatus.</p>
+				</signed>
+			</div>
+			<div type="dedication" met="elDist"> <!--An Jean-Jacque de Castion-->
+				<salute> Ad generosum Dominum Ioannem Iacobum a Castion, ac regiae Maiestatis Francorum apud Rhetos foederatos summum Legatum, ac Dominum ab Haldenstein in Rhetia, Dominum suum cum primis colendum</salute>
+				<lg><l><hi>V</hi>ix genus et famam poterit mihi ferre Thalia,</l>
+				<l>Quam tibi tot caeris dat domus alta piis</l></lg>
+				<lg><l>Si tibi doctrinae praeconia digna diesertae,</l>
+				<l>Ingeniique simul flumina tanta tui:</l></lg>
+				<lg><l>Si Latiam linguam, si laudem denique Musae,</l>
+				<l>Quasque tibi donat Attica Pallas opes:</l></lg>
+				<lg><l>Si tibi diuitias, gentis seu stemmata uestrae,</l>
+				<l>Quae tenet antiquo Castionea lare:</l></lg>
+				<lg><l>Si proauos prisca tibi uellet origine uersu</l>
+				<l>Dicere, seu ueteres promere uellet auos.</l></lg>
+				<lg><l>Vnde tibi fortis insignia tanta leonis,</l>
+				<l>Arxque tui generis, quam gerit ille pede.</l></lg>
+				<lg><l>In fatis fuerat fortis tibi forsan imago,</l>
+				<l>Et ceu uirtutis arx bene nota tuae.</l></lg>
+				<lg><l>Nam puto quod dederit fatum hoc insigne leonis,</l>
+				<l>Arcem turrigeram qui tenet arte pedis.</l></lg>
+				<lg><l>Dum uideo duris quae sit constantia rebus,</l>
+				<l>Et uirtus crebris quanta sit ista malis.</l></lg>
+				<lg><l>Aspice quae rerum tristis fortuna tuarum,</l>
+				<l>Et quibus impetibus saeuiat illa tibi.</l></lg>
+				<lg><l>Incursus adeo fatis tibi fecit iniquis:</l>
+				<l>In te nempe suas undique mouit opes.</l></lg>
+				<lg><l>Dumque putat tantas se posse obtundere uires</l>
+				<l>Pectoris, est factis opstupefacta tuis.</l></lg>
+				<lg><l>Istam uirtutem nunquam fortuna gubernat:</l>
+				<l>Dum premit ille tuas, ipsa fatigat opes.</l></lg>
+				<lg><l>Illa quidem ueluti furiosa procella tumescit,</l>
+				<l>Impauidus tantis ipse resistis aquis.</l></lg>
+				<lg><l>Teque tuosque una constans uirtute tueris:</l>
+				<l>Quoque magis dura est, fortior ipse premis.</l></lg>
+				<lg><l>Et ueluti fato uestrum hoc insigne leonis,</l>
+				<l>Mens inuicta malis sustinet esse suis.</l></lg>
+				<lg><l>Acris enim ueluti uiolentia mota leonis,</l>
+				<l>In uenatrices irruit alta manus,</l></lg>
+				<lg><l>Et reprimit turbam, seque in uenabula mittit:</l>
+				<l>Quoque magis laesus, fortius <app><rdg wit="#P">laesus fortius</rdg></app> ille manet.</l></lg>
+				<lg><l>Non aliter sortis cursus uirtute gubernas,</l>
+				<l>Et contra tumidas ipse resistis aquas.</l></lg>
+				<lg><l>Ceu fatale leo quiddam, sine fine repugnas</l>
+				<l>Impetibus durae sortis, et aequa petis.</l></lg>
+				<lg><l>Nec desunt unquam quae non uirtute repellas:</l>
+				<l>Vsque adeo rebus se tenet illa malis.</l></lg>
+				<lg><l>Quae tamen hoc animo pateris uelut aequior ipse,</l>
+				<l>Hac cum nec Regem sorte carere uides.</l></lg>
+				<lg><l>Cuius et exemplum foelix imitaris, et astas</l>
+				<l>Victor in aduersis mente, decusque tenes.</l></lg>
+				<lg><l>Non illa spisso credas uenit aethere maius.</l>
+				<l>Quid uirtute tua celsius ipse putes?</l></lg>
+				<lg><l>Hanc sequere, et casus atque aspera fata reflecte:</l>
+				<l>Nec te prosternet sors inimica solo.</l></lg>
+				<lg><l>Aspice quam fortis Maiestas regia fertur:</l>
+				<l>Tu quoque fac pariter, uictor erisque mali.</l></lg>
+				<lg><l>Vtque mari rupes, sorti sic usque repugna:</l>
+				<l>Sed quid currenti praebeo calcar equo?</l></lg>
+				<lg><l>Cumque animi uirtus desit non ulla, probesque</l>
+				<l>Quae calamis fudit docta Thalia suis:</l></lg>
+				<lg><l>Sperant Aonides, nec spe uincuntur in illa,</l>
+				<l>Castaliae, quod es, ut sis bene fautor aquae.</l></lg>
+				<lg><l>Commendes igitur celso mea carmina Regi,</l>
+				<l>Quod facis, Aonias et tuearis opes.</l></lg>
+				<lg><l>Sic tibi perpetuo clare genus extet auitum,</l>
+				<l>Sic ueniat sors hic mitior ista tibi.</l></lg>
+				<signed><p>TVAE EXCELLENTIAE</p>
+				<p>humilis poeta, Simon <lb/>
+				Lemnius Emporicus <lb/>
+				Rhetus Canus.</p>
+				</signed>
+			</div>
+			<div type="dedication" met="elDist"> <!-- an montmorency -->
+			<salute>Ad illustrem et generosum Dominum, Dominum Annam de Montmoranci, Equitem auratum, ordinis S. Michaëlis, Comestabulem, et Baronem primarium Franciae, ac generalem Gubernatorem et regium locum tenentem per Narbonensem et Aquitaniam, Dominum suum cum primis colendum.
+			</salute>
+			<lg><l><hi>A</hi>Rmigerae Regis Francorum summe <app><rdg wit="#P">summa</rdg></app> cateruae,</l>
+			<l>Armorum rector, militiaeque decus.</l></lg>
+			<lg><l>Quacunque et Rhodanus, Phrudisque, Argentaque cursus,</l>
+			<l>Foetiferasque ingens Sequana uoluit aquas.</l></lg>
+			<lg><l>A quibus irrigua est cultissima Francia lymphis,</l>
+			<l>Iactitat ingenium quae sibi tanta tuum.</l></lg>
+			<lg><l>Sustinet immensum regni sapientia pondus,</l>
+			<l>Insita quae regnat pectore clara tuo.</l></lg>
+			<lg><l>Iustitiaeque uias defendis legibus aequis,</l>
+			<l>Cui defers studium necte dieque tuum.</l></lg>
+			<lg><l>Romanique fori leges exquiris, et illis</l>
+			<l>Splendescis patria gloria prima tua.</l></lg>
+			<lg><l>Qualis et Augusto, qui fregit moenia bello</l>
+			<l>Fortis Idumaeo diruta marte solo:</l></lg>
+			<lg><l>Qualis Traiano fuerat quoque Plinius alter,</l>
+			<l>Qualis Mecoenas, spes columenque ducis:</l></lg>
+			<lg><l>Talis es et Regi, qui Gallica sceptra gubernat:</l>
+			<l>Huic ades ingenii maximus arte tui.</l></lg>
+			<lg><l>Te nutriit Pallas, decorauit regia Iuno,</l>
+			<l>Donauitque artes doctus Apollo suas.</l></lg>
+			<lg><l>Te leges orbis docuit sapientia iuris,</l>
+			<l>In quibus haud similem Francia tota dabit.</l></lg>
+			<lg><l>Te Stoa, te ueterum coluere Lycaea sophorum:</l>
+			<l>Ornauitque nitens corda Sophia tua.</l></lg>
+			<lg><l>Hinc nosti causas rerum, mundique meatus,</l>
+			<l>Tuque globum Phoebi, et sidera cuncta legis.</l></lg>
+			<lg><l>Vt liquidus tumidum pontus sit ductus in orbem,</l>
+			<l>Vtque pias terras gurgite cingat aqua.</l></lg>
+			<lg><l>Surgat et e medio tellus librata liquore,</l>
+			<l>Quo simul in uacuo <reg orig="ae">aë</reg>re pendet onus.</l></lg>
+			<lg><l>Vt tenui uolitet terram circumque supraque</l>
+			<l>Spiritus illabens, flammaque clara poli.</l></lg>
+			<lg><l>Vtque super passim radiis fluat igneus aether,</l>
+			<l>Vt ses subter clauserit omne polus.</l></lg>
+			<lg><l>Quidque niues faciat, pluuiasque, et<app><rdg wit="#P">pluuiasque et</rdg></app> grandine nymbos:</l>
+			<l><reg orig="Ae">Aë</reg>riaque ruant fulmina missa plaga.</l></lg>
+			<lg><l>Et trepido pellat non uisa tonitrua motu,</l>
+			<l>Omnia quae monstrat docta Sophia tibi.</l></lg>
+			<lg><l>Antiquas laudes in te uidisse licebit,</l>
+			<l>Et tua per celsum gloria uadit iter.</l></lg>
+			<lg><l>Te quoque nobilitas ornat, proauique uetusti:</l>
+			<l>Quorum tu ceras, nomina clara, geris.</l></lg>
+			<lg><l>Ingenio priscos generis tu uincis honores:</l>
+			<l>Et quos, maiores laudat imago tuos.</l></lg>
+			<lg><l>Ingens Palladium cinxit sapientia pectus,</l>
+			<l>Naturae et Musae <app><rdg wit="#P">musae</rdg></app> nobile surgit ope.</l></lg>
+			<lg><l>Si in uetitum immanis ruat inconstantia uulgi,</l>
+			<l>Sedare hoc nemo doctius ore potest.</l></lg>
+			<lg><l>Si furit ira ducum, si iudicis ora tumescunt,</l>
+			<l>Mitescunt uerbis illa remissa tuis.</l></lg>
+			<lg><l>Si placandae ferae est aruo inclementia turmae,</l>
+			<l>Solus ab ingenio uictor adesse potes.</l></lg>
+			<lg><l>Non Pylos eloquio generauit Nestora tantum,</l>
+			<l>Vt fuerit Graiis fama diserta suis:</l></lg>
+			<lg><l>Non Ithacae quamuis magnum decus urbis Vlyssem,</l>
+			<l>Tantum saxoso protulis ora solo,</l></lg>
+			<lg><l>Vicerit ut totum crudelia monstra per orbem,</l>
+			<l>Aequoreasque una mouerit ille Deas.</l></lg>
+			<lg><l>Sit labor errandi terris undisque Pelasgi</l>
+			<l>Dulichii: est iuris ars tua maior ope.</l></lg>
+			<lg><l>Est tua dicendi coram facundia maior,</l>
+			<l>Et consultandi uis quoque maior erit.</l></lg>
+			<lg><l>Cedat Pelides, Hectorque, et cedat Vlysses,</l>
+			<l>Astu pugnarum, Martis et arte feri.</l></lg>
+			<lg><l>Nam te nemo alius belli tenet aptius artes:</l>
+			<l>Armigeris hinc te Rex dedit ipse ducem,</l></lg>
+			<lg><l>Militiaeque unum, cui Francia pareat omnis,</l>
+			<l>Rectorem, cum Mars concitat arma uirûm.</l></lg>
+			<lg><l>Quo figenda loco nosti sint castra per arua,</l>
+			<l>Ne qua se immittat hostis in illa uia.</l></lg>
+			<lg><l>Qua deceat tutam uallo deducere fossam,</l>
+			<l>Aggeribusque altis pellere Martis opes.</l></lg> <!-- korrigiert am 2022-01-24 -->
+			<lg><l>Qualiter insidias hosti truxisse, necemque</l>
+			<l>Ferre citam prosit, armaque tuta dare.</l></lg>
+			<lg><l>Quem cliuum pugnae, quem campum claudere uallis</l>
+			<l>Sit melius, uel quo lympha reperta fluat.</l></lg>
+			<lg><l>Quo fontes ducat castris bene terra liquorum,</l>
+			<l>Vnde sibi egressus miles aquetur ouans.</l></lg>
+			<lg><l>Vtque tuis facilis sit per tua castra receptus,</l>
+			<l>Hostibus utque aditus arduus extet ibi.</l></lg>
+			<lg><l>Quoque sit ingenuus semper certamine miles</l>
+			<l>Exercendus, ut hic aptior arma ferat.</l></lg>
+			<lg><l>Quis uibret melius praelongam cuspidis hastam,</l>
+			<l>Quis citius plumbum torqueat aere graui.</l></lg>
+			<lg><l>Fortior aut gladio perfregerit obuia longo,</l>
+			<l>Siue magis saeuus bella bipenne gerat</l></lg>
+			<lg><l>Seu quis equos cuneis celeres, et Marte frementes</l>
+			<l>Atrox immittat, siue per arma ruat.</l></lg>
+			<lg><l>Qui dextra possit melius laeuaque tueri,</l>
+			<l>Qui nunc aduerso ictus ab hoste uenit.</l></lg>
+			<lg><l>Cui manibus seu forte humeris uenit impetus hastae</l>
+			<l>Grandior, atque hosti pila per ora iacit.</l></lg>
+			<lg><l>Aut tonitru signata cito loca tangere fumi,</l>
+			<l>Et totis missum spargere fulmen agris.</l></lg>
+			<lg><l>An densa utilius pugnam committere sylua,</l>
+			<l>An'ne arua hinc Martem ferre in aperta grauem.</l></lg>
+			<lg><l>At cum rauca suo strepuerunt cornua cantu,</l>
+			<l>Tympanaque ad bellum classica mille sonant:</l></lg>
+			<lg><l>Audacisque instant certamina saeua tumultus,</l>
+			<l>Aduersaeque acies currere in arma parant.</l></lg>
+			<lg><l>In promptu tibi erit faciem sub praelia pugnae</l>
+			<l>Erigere, et cuneos subdere marte tuos.</l></lg>
+			<lg><l>Seu forsan quadratum acies se sistat in agmen,</l>
+			<l>Vsus deposcat, hoc quoque pronus habes.</l></lg>
+			<lg><l>Seu rectus pugnet aequatis frontibus ordo.</l>
+			<l>An cuneo miles irruat ipse latus.</l></lg>
+			<lg><l>An'ne orbis fiat, si circumfuderit hostis</l>
+			<l> Agmina, seu retro mittat in arma manus.</l></lg>
+			<lg><l>Seu duplicem sit opus, seu iunctum ponere martem,</l>
+			<l>Seu turmas pediti mittere subsidio.</l></lg>
+			<lg><l>Vt dextrum laeuus capiat, dextroque sinistrum</l>
+			<l>Miles iam cornu, cum vocat atra dies.</l></lg>
+			<lg><l>Vt plaudat Regi certis uictoria pennis,</l>
+			<l>Et tua contineant nobile castra decus.</l></lg>
+			<lg><l>Si forte in syluas hostilis turma comantes</l>
+			<l>Flectat iter, illas sitque terenda uia.</l></lg>
+			<lg><l>Vt lateant densae tibi parte ab utraque cateruae,</l>
+			<l>Ingressosque hostes undique caede ruant.</l></lg>
+			<lg><l>Atque improuisos caedant, cuneosque refringant,</l>
+			<l>Armorum, et belli immemoresque sui.</l></lg>
+			<lg><l>Seu cum pars fluuios transmisit, et altera ripa</l>
+			<l>Constiterit, mittas agmina in arma tua.</l></lg>
+			<lg><l>Seu cum castra loco figat, seu mouerit illa,</l>
+			<l>Irruere, et subitis sternere in arua globis.</l></lg>
+			<lg><l>Seu cum miscentur latis iam praelia campis,</l>
+			<l>Vt de colle ruat alter in arma globus.</l></lg>
+			<lg><l>Si tamen exiguus, tum plurima signa ferantur:</l>
+			<l>Et longe clamor uincat ut ipse manum.</l></lg>
+			<lg><l>Aut ne forte tuis struat haec immanior hostis,</l>
+			<l>Peruigili es doctus mente cauere prius.</l></lg>
+			<lg><l>Haec bellis experta tenes. syluosa Pyrenne<app><rdg wit="#P">pyrenne</rdg></app> </l>
+			<l>Testis, et Oceani Cantaber altus aqua.</l></lg>
+			<lg><l>Testis et insano dubius sub marte Britannus<app><rdg wit="#P">Britanus</rdg></app>,</l>
+			<l>Et gelidis Boreae Phrudis amoenus aquis.</l></lg>
+			<lg><l>Marte Padus testis celebri, Doriasque niuosus.</l>
+			<l>Illinc Rex niueis uictor ouauit equis.</l></lg>
+			<lg><l>Tales praefectos castrorum praetulit armis,</l>
+			<l>Pellea Nilum qui bene pressit ope.</l></lg>
+			<lg><l>Quaeque uago regnum Tomyris sibi fixit Araxe,</l>
+			<l>Quique Babylonias Cyrus iniuit aquas.</l></lg>
+			<lg><l>Quaeque armis fertur cinxisse Semiramis Indos,</l>
+			<l>Alcidesque ingens, Gangeque Liber ouans.</l></lg>
+			<lg><l>Tales Atrides ad Troiae moenia celsa,</l>
+			<l>Tales et uictrix undique Roma dedit.</l></lg>
+			<lg><l>Iesseusque Arabum domitor, et pinguis Idumes</l>
+			<l>Victor Iudaicae gloria sancta plagae.</l></lg>
+			<lg><l>Tales et magnus<app><rdg wit="#P">Magnus</rdg></app> per praelia Carolus olim,</l>
+			<l>Qui tenuit forti Francica sceptra manu.</l></lg>
+			<lg><l>Qualis et Atridis<app><rdg wit="#P">atridis</rdg></app> seu Nestor melleus ore</l>
+			<l>Consilium dulci Martis in arma dabat.</l></lg>
+			<lg><l>Qualis Neritius Graiis suadebat Vlysses,</l>
+			<l>Pergama Teucrorum cum capienda forent.</l></lg>
+			<lg><l>Talis tu Regi, ingenio praeclarus et armis,</l>
+			<l>Consulis, et ueteres uncis in arte duces.</l></lg>
+			<lg><l>Teque unum studiis miratur Francia belli,</l>
+			<l>Teque acies campis suspicit atque timet.</l></lg>
+			<lg><l>Praeter uirtutes istas mirare poetas,</l>
+			<l>Musarumque choro pars studiosa faues.</l></lg>
+			<lg><l>Laude duces priscos imitaris, et ardua uersu</l>
+			<l>Carmina uicturo candidus ore probas.</l></lg>
+			<lg><l>Sic Messala<app><rdg wit="#P">Messata</rdg></app> suum nutritum Helicone Tibullum,</l>
+			<l>Mecoenas coluit te quoque docte Maro.</l></lg>
+			<lg><l>Scipioque Aoniis Enni te prisce camoenis<app><rdg wit="#P">Camoenis</rdg></app>,</l>
+			<l>Inter bella ferox, inter et arma tulit.</l></lg>
+			<lg><l>Sic quoque me nostris defendas maxima Musis,</l>
+			<l>Inque thronum portes nobile Regis opus.</l></lg>
+			<lg><l>Maeoniasque ornes facundas laude camoenas,</l>
+			<l>Quae per me Latios iam didicere sonos.</l></lg>
+			<lg><l>Crede mihi, iactat nil Graecia maius Homero,</l>
+			<l>Quem peperere olim secula cana tibi.</l></lg>
+			<lg><l>Carmine descripsit terram, mare, sidera manes:</l>
+			<l>Aequauit Musas carminis ille sono.</l></lg>
+			<lg><l>Par Phoebo uersu, doctrina Pallada uicit,</l>
+			<l>Et Troiam cantu uexit in astra suo.</l></lg>
+			<lg><l>Si nunc fata darent, ut Gallica facta per orbem</l>
+			<l>Hic caneret, maius hoc foret Iliade.</l></lg>
+			<lg><l>Foelix Heroum famam sic uincis Achille,</l>
+			<l>Carmine cui uirtus iuit in astra tua.</l></lg>
+			<lg><l>Hoc tibi creuerunt laudes, cui contigit ore</l>
+			<l>Gentibus ostendi uatis ad arma decus.</l></lg>
+			<lg><l>Foelis uirtutum specimen florescis Vlysses,</l>
+			<l> Maeonidae euexit quem pia Musa sonis.</l></lg>
+			<lg><l>Grandis Odysseae carmen sapientia fecit:</l>
+			<l>Contulit huix uires tota Sophia suas.</l></lg>
+			<lg><l>Smyrnaei campos miratur Graecia uatis,</l>
+			<l>Hoc etiam obstupuit decolor Indus opus.</l></lg>
+			<lg><l>Cantaber, et gelidi borea nouere Geloni,</l>
+			<l>Quique bibit Nili fontibus amnis aquas.</l></lg>
+			<lg><l>Exemplis melius magno docet ille Platone,</l>
+			<l>Atque Stagyritae clarius arte senis.</l></lg>
+			<lg><l>Quem quoque Grauigenum stupuere Lycaea sophorum,</l>
+			<l>Et celebris lumen censuit esse Stoa.</l></lg>
+			<lg><l>Hoc tamen inuentus per tot iam secula nemo,</l>
+			<l>Vertere qui Latio carmine uellet opus.</l></lg>
+			<lg><l>Vnus at Alpinis uates sub montibus ortus,</l>
+			<l>Lemnius, Ausoniis transtulit ipse modis:</l></lg>
+			<lg><l>Hic ubi Rhetorum clarescit Curia fama,</l>
+			<l>Indomitumque caput Rhenus in arma gerit.</l></lg>
+			<lg><l>Hic miranda canit, totumque Helicona refudit:</l>
+			<l>Maeonidae claret Phocidos unda sonis.</l></lg>
+			<lg><l>Qualiter aequoreis undis errarit Vlysses,</l>
+			<l>Quae tulerit terra passus et illa mari.</l></lg>
+			<lg><l>Soluerit a Phrygio Graiam cum littore classem,</l>
+			<l>Fuderit Aemonios fortiter ille globos.</l></lg>
+			<lg><l>Et Ciconas bello fortis deiecerit acri,</l>
+			<l>Quanta sit hic uirtus longa per arma ducis.</l></lg>
+			<lg><l>Nec satis est una fortem se ostendere pugna,</l>
+			<l>Assiduis mens est nobilitata malis.</l></lg>
+			<lg><l>Post Troiae clades, post tot labentia lustra,</l>
+			<l>Infractus semper iuit in arma manu.</l></lg>
+			<lg><l>Hic quoque Lotophagos, Libyaeque intrauit arenas,</l>
+			<l>Atque astu uicit Punica mala suo.</l></lg>
+			<lg><l>Eripuit socios, iussitque in transtra referri,</l>
+			<l>Et patriae memores fecerat esse suae.</l></lg>
+			<lg><l>Vincit crede mihi uirtutem nulla uoluptas,</l>
+			<l>Nullaque luctificis tristia damna malis.</l></lg>
+			<lg><l>Vidit Cyclopas his, Aetnaeosque gigantes,</l>
+			<l>Et Polypheme tibi lumina dempsit atrox.</l></lg>
+			<lg><l>Namque Maronaeo Cyclops deuictus Iaccho</l>
+			<l>Incidit in cladem, et dira pericla mero.</l></lg>
+			<lg><l>Vsqua adeo authori semper damnosa, feroxque</l>
+			<l>Ebrietas: uirtus es tenuisse modum.</l></lg>
+			<lg><l>Hippotadae uentos inclusos utribus atris</l>
+			<l>Sumpsit, et Aeolia littore fugit ope.</l></lg>
+			<lg><l>Dumque aurum esse putant, dempsere ligamina Graii:</l>
+			<l>Vnde uenit, retro classis abacta fuit.</l></lg>
+			<lg><l>Sic uitium semper uirtutem oppugnat et instat,</l>
+			<l>Et uitiat pectus dira cupido rei.</l></lg>
+			<lg><l>Mox Laestrygonia pugnauit littore gente,</l>
+			<l>Classeque submersa puppe refugit aquis.</l></lg>
+			<lg><l>Est fortis uere, qui uictus marte, reuincit</l>
+			<l>Indomitos aestus pectore uimque suo.</l></lg>
+			<lg><l>Non tamen ille animum rebus demisit acerbis,</l>
+			<l>Antiphatae bello quod modo uictus erat.</l></lg>
+			<lg><l>Bellica quid possit uirtus, bene monstrat Vlysses,</l>
+			<l>Clauditur ille specu dum Polypheme tuo.</l></lg>
+			<lg><l>Magnus Alexander toties uictricibus armis,</l>
+			<l>Aduersa nunquam sorte receptus erat.</l></lg>
+			<lg><l>At si deuictus forsan semel ille fuisset,</l>
+			<l>Oppressus tristi forte dolori foret.</l></lg>
+			<lg><l>Non minor est uirtus, aduersis fidere rebus,</l>
+			<l>Quam bene successus exhibuisse modum.</l></lg>
+			<lg><l>Artaciam fugiens, Circeïa littora uenit:</l>
+			<l>Hic uidit socios turbiter esse sues.</l></lg>
+			<lg><l>Moly tamen uincit solers Titania monstra,</l>
+			<l>Inque suas formas ille redire iubet.</l></lg>
+			<lg><l>Mutarat siquidem sociorum corpora Circe:</l>
+			<l>Vni non potuit illa nocere tamen.</l></lg>
+			<lg><l>Vincit Moly quidem duros sapientia casus,</l>
+			<l>Cui belli uirtus iungitur una comes.</l></lg>
+			<lg><l>His Troas uicit, Ciconasque, trucesque, Cyclopas:</l>
+			<l>His Laestrygonios effugit ille uiros.</l></lg>
+			<lg><l>His Circen superat fortis, superatque Charybdin:</l>
+			<l>Scyllaeosque canes, monstraque saeua maris.</l></lg>
+			<lg><l>His et Sirenum cantus, dirasque sorores,</l>
+			<l>Quae mersere alias in freta saepe rates.</l></lg>
+			<lg><l>Compede se dura iussit uinclisque ligare</l>
+			<l>Sirenumque unus audiit ille sonos.</l></lg>
+			<lg><l>Non prorsus uitanda, sed est arcenda uoluptas:</l>
+			<l>Quam nisi tu frenes, tristia damna dabit.</l></lg>
+			<lg><l>Ast molli socii duras in gurgite cera</l>
+			<l>Obstruxere aures, fida per alta cohors.</l></lg>
+			<lg><l>Praetereunda quidem sic est furiosa libido,</l>
+			<l>Cum percepta semel denegat illa modum.</l></lg>
+			<lg><l>Sic uirtute etiam Stygias innare paludes</l>
+			<l>Impauidus potuit, Cimmeriumque chaos.</l></lg>
+			<lg><l>Non illum uicit Scylla, et Zanclea Charybdis,</l>
+			<l>Non mare, non uenti, et nulla procella freti.</l></lg>
+			<lg><l>Non amor hunc<app><rdg wit="#P">huc</rdg></app> Circes, non hunc formosa Calypso:</l>
+			<l>Non aliae uariis res nocuere plagis.</l></lg>
+			<lg><l>Non et Trinacriae campi, uiolataque Solis</l>
+			<l>Littora, sed praedis abstinet ille boum.</l></lg>
+			<lg><l>Finis et erroris fuerat Phaeacia tellus,</l>
+			<l>Hic ubi uirtutis praemia digna tulit.</l></lg>
+			<lg><l>Aequoreis rapuit seruata modestia Nymphis,</l>
+			<l>Inque Ithacas sedes illa reuexis aquis.</l></lg>
+			<lg><l>Hunc Astraea omni tutum et prudentia casu</l>
+			<l>Praestitit, et toto contulit orbe decus.</l></lg>
+			<lg><l>Bellica defensum uirtus per mille pericla</l>
+			<l>Laude dedit magna, sustinuitque uirum.</l></lg>
+			<lg><l>Inuia uirtuti nulla est uia: uiuite fortes,</l>
+			<l>Viuite uirtutum qui coluere chorum.</l></lg>
+			<lg><l>Non haec succumbit: non si plus mille carinae,</l>
+			<l>Non si acies contra mille per arma ruant.</l></lg>
+			<lg><l>Non metuit terra, non ponto, tristia damna:</l>
+			<l>Non ullo uicta est illa dolore mali.</l></lg>
+			<lg><l>Nempe decem gessit circa Priameïa castra</l>
+			<l>Bella hyemes Ithacus, sed bene tutus erat.</l></lg>
+			<lg><l>Quanquam tot casus, et tot discrimina rerum</l>
+			<l>Pertulit, intrepidus sed tamen ille fuit.</l></lg>
+			<lg><l>Nec finis fuerat: uariis erroribus actus,</l>
+			<l>Aestus crudeles sensit et ille maris.</l></lg>
+			<lg><l>Iamque decem rursus patientia longa per annos</l>
+			<l>Extitit, exemplo nempe futura diu.</l></lg>
+			<lg><l>Ingressusque lares patrios hic saeua procorum</l>
+			<l>Inuenit, heu clades, sede pericla sua.</l></lg>
+			<lg><l>Sed uirtute tamen uictricibus extitit armis</l>
+			<l>Incolumis semper, uictor ubique sibi.</l></lg>
+			<lg><l>Haec adeo miranda canit Phoebeius Homerus:</l>
+			<l>Quem Latiis Regi uersibus ipse dedi.</l></lg>
+			<lg><l>Hoc opus<app><rdg wit="#P">corpus</rdg></app> immensum uirtutis, et ardua Musis</l>
+			<l>Scripta, peto Regis quo potes ore proba.</l></lg>
+			<lg><l>Sic Pyliae limen precor egrediare senectae,</l>
+			<l>Plenaque sint Regis tecta fauore tibi.</l></lg>
+			<signed><p>Tuae excellentiae humilis Poeta,<lb/>
+			Simon Lemnius Emporicus Rhe<lb/>
+			tus Canus, ob ingenium in nobi<lb/>
+			lissimam Bochiorum equitum Bo<lb/>
+			noniensium in Italia familiam<lb/>
+			ascitus, Bononiaeque laureatus.</p>
+			</signed>
+		
+			
+			</div>
+			<div type="preface"><!-- von salet.-->
+			
+			</div>
+			<div type="preface"><!-- von salis. -->
+			
+			</div>
+			<div type="preface"><!-- von salis. -->
+			
+			</div>
+		</group>
+	</front>
+		<group>
+			<text>
+				<body>
+			<!-- odyssee -->
+					<div n="I" type="book">
+					<!--Gesänge und Argumenta x24-->
+						<head>Odysseae Homeri liber primus, Simon Lemnio Emporico Rheto Cano Interprete.</head>
+						
+					</div>
+					<div n="II" type="book">
+					<!--Gesänge und Argumenta x24-->
+						<argument>
+						<head> ARGVMENTVM LIBRI II</head>
+						<lg>
+							<l>Conuocat ARgiuos aula, generosus alumnus</l>
+							<l>Penelopes, patrióque procis discedere tecto</l>
+							
+						</lg>
+						</argument>
+					</div>
+					<div n="III" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="IIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="V" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="VI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="VII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="VIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="IX" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="X" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XIIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XV" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XVI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XVII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XVIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XIX" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XX" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXI" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+					<div n="XXIIII" type="book">
+					<!--Gesänge und Argumenta x24-->
+					</div>
+
+				</body>
+			</text>
+			<text>
+				<body>
+			<!-- batrachomyomachia-->
+				</body>
+			</text>
+		</group>
+	<back> <!-- corrigenda, kolophon-->
+	</back>
+</text>
+</TEI>
