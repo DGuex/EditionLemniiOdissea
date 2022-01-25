@@ -1184,13 +1184,40 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 			
 			</div>
 			<div type="preface"><!-- von salet.-->
-			
+			<salute>VVolfgangus Saletus Rhetus Curiensis ad Lectorem.</salute>
+			<l>Ereptum terris quem quondam credidit orbis,</l>
+			<l>Prodiit in lucem sospes, tenebrisque recessit,</l>
+			<l>Qui latuit, claretque iterum pia fama sororum</l>
+			<l>Lemnius Aonidum, defensus numine coeli:</l>
+			<l>Vt decus aeternum Rhetaeis alpibus olim</l>
+			<l>Cresceret, atque solo patrio foret ardua fama,</l>
+			<l>Et patriae dulci superesset gloria musis.</l>
 			</div>
-			<div type="preface"><!-- von salis. -->
 			
+			<div type="preface"><!-- von salis. -->
+			<salute>Ad lectorem, Samson Oliuerius a Salicibus, Rhetus.</salute>
+			<lg><l>Pegasides postquam coluerunt culmina nostra,</l>
+			<l>Germani talem uix habuere uirum.</l></lg>
+			<lg><l>Crede mihi, hunc celebrat Germanica terra poëtam,</l>
+			<l>Est etiam tota clarus in Hesperia.</l></lg>
+			<lg><l>Ecce sua fama obstupuit nunc Graecia tellus,</l>
+			<l>Obstupuit fama Gallia nunc celebri.</l></lg>
+			<lg><l>Hoc, ego dispeream, fuerit si clarior alter,</l>
+			<l>Vix alius certe clarior esse potest.</l></lg>
+			<lg><l>Graecia se quondam magno iactarat Homero:</l>
+			<l>Quo se nunc iactet Rhetica tellus, habet.</l></lg>
+			<lg><l>Transtulit hic magnum, ut Lector tu cernis, Homerum.</l>
+			<l>Scilicet in Latium, qui modo Graecus erat.</l></lg>
 			</div>
-			<div type="preface"><!-- von salis. -->
 			
+			<div type="preface"><!-- von salis. -->
+			<p>Aliud eiusdem. ad eundem.</p>
+			<lg><l>Aspice nunc alium tu candide Lector, Homerum,</l>
+			<l>Quem modo produxit Rhetica terra sibi.</l></lg>
+			<lg><l>Postquam dux Rhetus nostras uenisset ad oras</l>
+			<l>A quo terra suum nobile nomen habet:</l></lg>
+			<lg><l>Illa uirum similem huic non protulit inclyta tellus,</l>
+			<l>Forsitan et posthac non paritura parem est.</l></lg>			
 			</div>
 		</group>
 	</front>
