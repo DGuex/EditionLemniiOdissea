@@ -96,7 +96,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 	<front> <!--"Vorspann", Widmungen, Frontispiz-->
 		<group>
 			<head>In Odysseam praefatio.</head>
-			<div type="dedication" met="dactHex">
+			<div type="dedication" met="dactHex"> <!-- an den König -->
 				<salute> Ad Christianissimum, et invictissimum Henricum II. Francorum Regem, Dominum et Mecoenatem suum clementissimum.</salute>
 				<l><hi>M</hi>axima belligera terrarum gloria fama,</l>
 				<l>Orbis uictorum magni fortissime Regum</l>
@@ -139,7 +139,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Desinit, et legio Regis uexilla sequuata</l>
 				<l>Discolor hic ridet dulci sub pace iocosa.</l>
 				<l>Miles agit festos circum palatia Regis</l>
-				<l>Sorte dies ampla. <reg orig="m">M</reg>ediis iam splendida castris</l>
+				<l>Sorte dies ampla. mediis iam splendida castris</l>
 				<l>Pax lucet testis <app><rdg wit="#B">lucet. testis</rdg></app> Rhodanusque, et Sequana diues. </l>
 				<l>Viderunt illi regales undique turmas,</l>
 				<l>Quoque sit ingressus <app><rdg wit="#P">ingtessus</rdg></app> magnam rex inclytus urbem </l>
@@ -148,7 +148,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Hinc etiam Pallas nitido circundata limbo,</l>
 				<l>Ornauit posito clypeoque atque aegide saevae</l>
 				<l>Gorgone, sed qualis Cirrheas uisere Musas</l>
-				<l>Virgo solet, Regem. <reg orig="t">T</reg>oto fuit agmine clara.</l>
+				<l>Virgo solet, Regem. toto fuit agmine clara.</l>
 				<l>Ipsaque Parrisio Regis uallata senatu</l>
 				<l>Tum Bellona stolam gessit, scutumque remouit,</l>
 				<l>Et galeam capiti dempsit, tergoque reuecta</l>
@@ -159,12 +159,12 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Loricam, Regemque <app><rdg wit="#P">Loricam Regemque</rdg></app> sequi, qua Sequana currit. </l>
 				<l>Dum tibi stat currus, dum stat tibi ferrea cuspis</l>
 				<l>Ad frondes posita, et ludunt per aperta iugales</l>
-				<l>Prata. <reg orig="e">E</reg>st digna coli, nec nuper cognita bellis</l>
+				<l>Prata. est digna coli, nec nuper cognita bellis</l>
 				<l>Pregenies Regum clarae Valesia gentis:</l>
 				<l>Haec domus insignis decorat diademata Francis.</l>
 				<l>Sequana promeruit regis cunabula tanti.</l>
 				<l>Quae fouet oceanus circum, qua Phoebus arenas</l>
-				<l>Occasu illustrat. <reg orig="d">D</reg>ecuit de principe nasci</l>
+				<l>Occasu illustrat. decuit de principe nasci</l>
 				<l>Francorum magno Regem, qui sumat habenas</l>
 				<l>Terrarum, quascunque <app><rdg wit="#B #P">quàsc&#x0169;que</rdg></app> rigat bene fonte Garumna, <app><rdg wit="#P">Gar&#x0169;na</rdg></app></l>
 				<l>Montiuagisque undis, donec se miscet amaro</l>
@@ -193,19 +193,19 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Vidisti? quoties timuit sibi Larius undis,</l> <!--Das vidisti? hier muss vielleicht in Gedankenstriche gelegt werden. Ich verstehe die Syntax nicht.-->
 				<l>Et quassata suo toties circa oppida bello.</l>
 				<l>Quaque fluit Phrudis, maduerunt hoste refuso</l>
-				<l>Non semel arua. <reg orig="e">E</reg>quidem Pictonum senserat arma</l>
+				<l>Non semel arua. equidem Pictonum senserat arma</l>
 				<l>Terra diu, et circa resonans glacialis in undis</l>
 				<l>Oceanus, caluit sibi uicta Britannia tabo,</l>
 				<l>Immensusque Padus, Doriasque cruore relabens, <app><rdg wit="#P">relabens.</rdg></app></l>
 				<l>Inque Padum referens strages et mille cateruas. <app><rdg wit="#P">cateruas</rdg></app></l>
 				<l>Fleuerunt cumulos caedis tum Naiades undis,</l>
 				<l>Heliadesque iterum ueluti Ph<reg orig="ae">aë</reg>tonta cadentem</l>
-				<l>Luxerunt lachrymis <app><rdg wit="#P">lacrymis</rdg></app>moestae. <reg orig="t">T</reg>estatur in armis</l>
+				<l>Luxerunt lachrymis <app><rdg wit="#P">lacrymis</rdg></app>moestae. testatur in armis</l>
 				<l>Istonius uictus, retro Ticine recurrens</l>
 				<l>Ad fontes oppresse tuos, tum Celtica signa</l>
-				<l>Hic timuisti ergo. <reg orig="f">F</reg>ugit cataphractus in urbem,</l>
+				<l>Hic timuisti ergo. fugit cataphractus in urbem,</l>
 				<l>Deiectisque uiris cessere ad moenia nota</l>
-				<l>Aeripedes. <reg orig="t">T</reg>umuit forti tum Gallia marte,</l>
+				<l>Aeripedes. tumuit forti tum Gallia marte,</l>
 				<l>Heluetii et Rheti uictricia signa tulere,</l>
 				<l>Indefessi armis populi, qui Lilia semper</l>
 				<l>Defendunt Regis, proauitaque regna tuentes,</l>
@@ -213,7 +213,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Victores retulere suo certamine Regi.</l>
 				<l>Franciscus laudes armis transgressus auitas,</l>
 				<l>Aequauit priscos reges in bella ruendo.</l>
-				<l>Obstitit an forti quicquam? <reg orig="p">P</reg>er castra cucurrit,</l>
+				<l>Obstitit an forti quicquam? per castra cucurrit,</l>
 				<l>Perque Italos campos equites peditesque reuexit.</l>
 				<l>Haud Europa quidem ignorat, quam saepe cruore</l>
 				<l>Cisalpina ruit roseo calefacta per arma</l>
@@ -225,7 +225,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Sarmaticisque uadis scit Vistula Martis Eoi:</l>
 				<l>Expertusque Aquilo Francos gelidissimus acres.</l>
 				<l>Quid Serpentigeris ducibus pugnata per arua</l>
-				<l>Praelia? <reg orig="q">Q</reg>uid memorem pugnas, Martisque labores</l>
+				<l>Praelia? quid memorem pugnas, Martisque labores</l>
 				<l>Nun ad Ticini ripas, nunc Phrudis in agris,</l>
 				<l>Nunc ad Pyrennen circumtulit arma niuosam.</l>
 				<l>Subdidit hic regno cum marte Britannica sceptra,</l>
@@ -236,7 +236,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Francisci bello uis, atque interrita uirtus.</l>
 				<l>Caesareas Aquilas cum nemo auderet in armis</l>
 				<l>Tentare, aut <app><rdg wit="#P"> Tentare aut</rdg></app> bello sese defendere contra,</l>
-				<l>En quoties tibi sustinuit? <reg orig="q">Q</reg>uin solus in acres</l>
+				<l>En quoties tibi sustinuit? quin solus in acres</l>
 				<l>Prodiit hic populos, et totum terruit orbem.</l>
 				<l>Nil Europa quidem Scythicas <app><rdg wit="#P">Scythias</rdg></app> orientis anheli</l>
 				<l>Pugnas audisti, nil quid Babylone mouerent</l>
@@ -247,7 +247,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Terras ipsa tuas Francorum Marte tonante.</l>
 				<l>Ergo refer reges, et Achaica regna recense</l>
 				<l>Si tantos unquam sonitus, Martisque tumultus</l>
-				<l>Audisti, dicas. <reg orig="e">E</reg>quidem <app><rdg wit="#P">dicas equidem</rdg></app> quoque Caesar Iberus</l>
+				<l>Audisti, dicas. equidem <app><rdg wit="#P">dicas equidem</rdg></app> quoque Caesar Iberus</l>
 				<l>Saepius obstupuit uirtutem, et <app><rdg wit="#P">virtutem et</rdg></app>pectora bello,</l>
 				<l>Indomitasque acies Regis, et Martis honores.</l>
 				<l>Cumque nihil magnum bellis horresceret Albim,</l>
@@ -277,15 +277,15 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Nun Calabros intrat, et bello fulminat Arpos,</l>
 				<l>Atque Capys muros subit, obsidione <app><rdg wit="#P">subit obsidione</rdg></app> recinctam</l>
 				<l>Euboicam inuadit sedem, tumulumque sepultae</l>
-				<l>Sirenis Latio. <reg orig="m">M</reg>agnis consederat aruis</l>
+				<l>Sirenis Latio. magnis consederat aruis</l>
 				<l>Massiliae Teuton, totusque  incurrerat orbis</l>
 				<l>Occidui solis, tunc omnes milite campos</l>
-				<l>Phocaicos texit passim. <reg orig="s">S</reg>ed feruidus armis</l>
+				<l>Phocaicos texit passim. sed feruidus armis</l>
 				<l>Defendit uictor Franciscus, et ardua Gallis</l>
 				<l>Gloria successit, tantus fuit ille frementes</l>
 				<l>Inter opes Martis <app><rdg wit="#P">martis</rdg></app>, ferrumque et praelia saeua.</l>
 				<l>Est facile ergo duces comitesque per arma seuera</l>
-				<l>Vincere. <reg orig="u">V</reg>erum Aquilis, et magni Caesaris armis,</l> <!--Beide haben Caesaris mit e caudata-->
+				<l>Vincere.verum Aquilis, et magni Caesaris armis,</l> <!--Beide haben Caesaris mit e caudata-->
 				<l>In longo bello, seu marte resistere prompto,</l>
 				<l>Ardua res equidem. Quoties Franciscus acerbis</l>
 				<l>Bellorum pugnis aquilas, et Caesaris altas</l> <!--hier beide Caesar mit ae-Ligatur-->
@@ -298,7 +298,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Obtinuit terras, bellumque et fortia facta</l>
 				<l>Gessit acris semper contra tot praelia regum,</l>
 				<l>Quos iactant aquilae, quos duro marte Britanna</l> <!--marte gross? Beide haben klein.-->
-				<l>Terra, potens undis. <reg orig="q">Q</reg>uanquam regnator eous</l>
+				<l>Terra, potens undis. quanquam regnator eous</l>
 				<l>Graiugenas, Asiaeque urbes, et Phasidos oras,</l>
 				<l>Et Syrios, Arabasque leues, et <app><rdg wit="#P">leues et</rdg></app>ad usque Syenen</l>
 				<l>Seruitio populos premit, et Nilotica regna,</l>
@@ -319,7 +319,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Omnibus afflictis quoties hic solus acerbas</l>
 				<l>Sustinuit uires, uel iam labentibus ictu</l>
 				<l>Militibus solus concurrere milibus ausus,</l>
-				<l>Dum defendit equo pugnas. <reg orig="t">T</reg>ot funera contra</l>
+				<l>Dum defendit equo pugnas. tot funera contra</l>
 				<l>Restitit hic toties fortis per praelia Martis.</l>
 				<l>Obstupuere illum toties et Rhetus, et acris</l>
 				<l>Heluetius, Rhodanique acies, et Larius omnis,</l>
@@ -345,18 +345,18 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Gallica sub Martem indomitum sunt signa sequutae.</l>
 				<l>Cumque his Heluetii, Rhetique per ardua fortes</l>
 				<l>Bella, uiros illos soli sibi iunxit amore</l>
-				<l>Virtutis. <reg orig="q">Q</reg>uibus ille ingens praeclara peregit</l>
+				<l>Virtutis. quibus ille ingens praeclara peregit</l>
 				<l>Facta, et per campos toties fera praelia gessit.</l>
 				<l>Hic animo excellens memori, linguasque disertus</l>
 				<l>Calluit hic plures, qualis Perseia proles</l>
 				<l>Cyrus, et immanis Mithridates marte feroci:</l>
-				<l>Scipiadasque sonis imitatus. <reg orig="m">M</reg>axima uirtus</l>
+				<l>Scipiadasque sonis imitatus. maxima uirtus</l>
 				<l>Splenduit ingenio forti: nec caetera segnis,</l>
-				<l>Quaecunque ad laudem stimulant. <reg orig="p">P</reg>ietatis abundans,</l>
+				<l>Quaecunque ad laudem stimulant. pietatis abundans,</l>
 				<l>Poenae parcus erat: testis Doriasque, Padusque,<app><rdg wit="#P">Doriasque Padusque,</rdg></app></l>
 				<l>Hic ubi Taurinis statuit tentoria campis.</l>
 				<l>Cum posset ferro delere hic mille cateruas,</l>
-				<l>Seruari uoluit. <reg orig="p">P</reg>aci non intulit iram,</l>
+				<l>Seruari uoluit. paci non intulit iram,</l>
 				<l>Post acies odium posuit, uelut ultor in arma</l>
 				<l>Fortis erat, cum causa uocat: sic parcere mitis,</l>
 				<l>Subiectis. Si quae forsan per praelia clades</l>
@@ -366,7 +366,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Spes illi foret, aut prostratus pectore toto</l>
 				<l>Desperasset iners, aut forte inglorius armis</l>
 				<l>Vixisset posthac, decorisque oblitus et artis.</l>
-				<l>Pellaeus foelix, et foelix Sylla. <reg orig="f">F</reg>uere</l>
+				<l>Pellaeus foelix, et foelix Sylla. fuere</l>
 				<l>Foelices tantum. Franciscus uictor amaram</l>
 				<l>Per pugnas toties superauit pectore sortem.</l>
 				<l>Si sors infoelix acie sese obtulit, ille</l>
@@ -381,8 +381,8 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Hinc amor, hinc regni decus, et crescentia sceptra.</l>
 				<l>Hinc laus, hinc ualidae deuoto milite uires,</l>
 				<l>Et mansura <app><rdg wit="#P">mensura</rdg></app> fides acie, populisque sequutis.</l>
-				<l>Hinc ualidum regni robur. <reg orig="s">S</reg>ic maxima uirtus</l>
-				<l>Heroum soli uiguit. <reg orig="h">H</reg>oc inclytus <app><rdg wit="#P">inclitus</rdg></app> ortu</l>
+				<l>Hinc ualidum regni robur. sic maxima uirtus</l>
+				<l>Heroum soli uiguit. hoc inclytus <app><rdg wit="#P">inclitus</rdg></app> ortu</l>
 				<l>Nasceris, ac Regis de maiestate creatus</l>
 				<l>In regnum crescens, Clodopheio <app><rdg wit="#P">Clodopheo</rdg></app> adolescis in ostro.</l>
 				<l>Auriferis te eduxit aquis undosa Pipini</l>
@@ -414,18 +414,18 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Pergameaque domo celebri uirtute regenda.</l>
 				<l>Hinc semper uiuit Francorum gloria regum.</l>
 				<l>Quis nescit Martis prolem per praelia nota</l>
-				<l>Martellum insignem? <reg orig="q">Q</reg>uis te Rollande trophaeis</l>
-				<l>ignorat? <reg orig="u">V</reg>el cui non Magnus Carolus armis</l>
-				<l>Est celebris?<reg orig="u">V</reg>el quis Clodophaeia lilia nescit?</l>
+				<l>Martellum insignem? quis te Rollande trophaeis</l>
+				<l>ignorat? uel cui non Magnus Carolus armis</l>
+				<l>Est celebris? uel quis Clodophaeia lilia nescit?</l>
 				<l>Siue triumphato cui non stagnantis in aruis</l>
 				<l>Ticini atque Istri, Doriaeque <app><rdg wit="#P">Istri Doriaeque</rdg></app> ex Alpibus orti</l>
 				<l>Cultore, atque Padi deuicto fonte sub ipsis</l>
-				<l>Montibus <reg orig="ae">aë</reg>riis?<reg orig="t">T</reg>estis Carionia clades,</l>
+				<l>Montibus <reg orig="ae">aë</reg>riis? testis Carionia clades,</l>
 				<l>Gestaque per Latias immania praelia <app><rdg wit="#P">prelia</rdg></app> gentes,</l>
 				<l>Oceanique Somesque oras, littusque Britannum,</l>
 				<l>Franciscus <app><rdg wit="#P">Francisus</rdg></app> genitor Boreae memoratus in orbe.</l>
 				<l>Qui patriae plus mitis erat, quam nulla Pipini</l>
-				<l>Gens antiqua ducum. <reg orig="q">Q</reg>uos tu uirtute sequutus</l>
+				<l>Gens antiqua ducum. quos tu uirtute sequutus</l>
 				<l>Exprimis insignis, peditum prius agmina semper</l>
 				<l>Exerces studiis et saeui Martis in armis,</l>
 				<l>Si quae bella tonant: prior ipse incurris, et instas</l>
@@ -433,7 +433,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Ensiferosque moues, pugnasque iniisse feroces</l>
 				<l>Regalis mandas, cogisque accedere segnes.</l>
 				<l>Scit bene sub borea Phrudis, scit Marte Tabulla</l>
-				<l>Messeque praegrandis.<reg orig="c">C</reg>um<app><rdg wit="#B">cum</rdg></app> Gallica praelia pubes</l>
+				<l>Messeque praegrandis. cum<app><rdg wit="#B">cum</rdg></app> Gallica praelia pubes</l>
 				<l>Affectans campis, Rheteaque dura sequuta</l>
 				<l>Gens studia armorum, Tigurinaque <app><rdg wit="#P">armorum Tigurinaqua</rdg></app>laudibus ingens</l>
 				<l>Bellorum, et florens dudum Basilea camoenis,</l>
@@ -472,7 +472,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Hinc abiere ferae, nemorosaque sylua recessit,</l>
 				<l>Et uacui campi, fugitque Britannica Tethys,<app><rdg wit="#P">Tethys.</rdg></app></l>
 				<l>Nusquam armis ausus se ferre in praelia dura</l>
-				<l>Anglicus: at latuit. <reg orig="t">T</reg>antus fuit undique terror,</l>
+				<l>Anglicus: at latuit. tantus fuit undique terror,</l>
 				<l>Obstupuit Boreas, idque audiit ultima Thule.</l>
 				<l>Artois fletus pugna deserta refudit,</l>
 				<l>Chalaicaeque suo tremuerunt littore gentes,</l>
@@ -497,7 +497,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Vidisti quibus impetibus per bella, per oras,</l>
 				<l>Quaque arte aduersos cuneis disiecerit hostes,</l>
 				<l>Et quo distulerit furiosas marte phalanges</l>
-				<l>Consilio. <reg orig="m">M</reg>agnus Libycis ceu Scipio turmis</l>
+				<l>Consilio. magnus Libycis ceu Scipio turmis</l>
 				<l>Obstitit, et patrios sequitur per bella tumultus:</l>
 				<l>Sic etiam in pugnas claro genitore ruebas.</l>
 				<l>Cum latet inclusus, seu fidit moenibus hostis,</l>
@@ -512,7 +512,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Secura, ut si qua forsan te longa moretur</l>
 				<l>Obsidio muris non fidis in hoste recluso,</l>
 				<l>Sed magis ipse caues, ne <app><rdg wit="#P">caues ne</rdg></app> qua inter gaudia noxa</l>
-				<l>Bellorum erumpant hostes. <reg orig="s">S</reg>ed prouidus urges</l>
+				<l>Bellorum erumpant hostes. sed prouidus urges</l>
 				<l>Excubias uigiles, casusque tueris, et instas</l>
 				<l>Exemplo, specimen praebens uirtutis in arma.</l>
 				<l>Saepe etenim requie crudelior hostis ab urbe</l>
@@ -527,41 +527,41 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Miles, et in primas acies prorumpis, et ingens</l>
 				<l>Exemplo turmis fulges in splendida facta.</l>
 				<l>Si syluae densae prohibent horrentibus umbris,</l>
-				<l>Primus inis fortis. <reg orig="s">S</reg> stagna immensa refusa,</l>
+				<l>Primus inis fortis. stagna immensa refusa,</l>
 				<l>Saxosumue sonans flumen sub ualle profunda</l>
 				<l>Intonat, illatus tunc in montana fluenta</l>
 				<l>Praetentat sonipes currens, liquidoque <app><rdg wit="#P">currens liquidoque</rdg></app> natatu</l>
 				<l>Praeuertit uolucres fluuios tuus, usque ruendo</l>
-				<l>In laudes belli celebres. <reg orig="t">T</reg>ibi testis ad arma</l>
+				<l>In laudes belli celebres. tibi testis ad arma</l>
 				<l>Exultans Phrudis, muscoso fonte refusus,</l>
-				<l>Saepius hoc uidit. <reg orig="m">M</reg>edias nun agmine turmas,</l>
+				<l>Saepius hoc uidit. medias nun agmine turmas,</l>
 				<l>Atque globos equitum incurris, cogisque frementes</l>
 				<l>Aeripedes, nun ad pedites procinctus ouantes</l>
 				<l>Ocyus accedis, multumque hortaris ad altam</l>
 				<l>Virtutem insignis, demulcens pectora dictis.</l>
 				<l>Pro patrio regno sudas defensor in armis.</l>
 				<l>Pro quo cuncta pati gaudes, nullumque recusas</l>
-				<l>Discrimen tentare. <reg orig="d">D</reg>ocet bene Phrudius amnis,</l>
+				<l>Discrimen tentare. docet bene Phrudius amnis,</l>
 				<l>Et quascunque rigat terras labente liquore.</l>
 				<l>Nil obstat, non ora maris, non dura uiarum</l>
 				<l>Monte iuga, aut ualles, gelidisque pruina sub ursis.</l>
 				<l>Ipse uolas inuictus equis, uictricia signa</l>
-				<l>Laturus. <reg orig="s">S</reg>pectatur ouans Calydonia pubes,</l>
-				<l>Scotorumque duces armis. <reg orig="t">T</reg>ibi caerulus Albis <app><rdg wit="#P">albis</rdg></app></l>
+				<l>Laturus. spectatur ouans Calydonia pubes,</l>
+				<l>Scotorumque duces armis. tibi caerulus Albis <app><rdg wit="#P">albis</rdg></app></l>
 				<l>Militat, Heluetiique pii, et Rheteia summis</l>
 				<l>Alpibus exurgens bellis hastata caterua.</l>
 				<l>Terrarum accurrit miles ex omnibus aruis.</l>
 				<l>Cum petis, accedunt flauentes crine Sicambri,</l>
 				<l>Datque suum bello ueniens Alemannia nomen.</l>
 				<l>Bastarnaeque truces meruere stipendia Martis</l>
-				<l>Sub te Rege sibi. <reg orig="q">Q</reg> et trux accola syluae</l>
+				<l>Sub te Rege sibi. quin et trux accola syluae</l>
 				<l>Bructurus Herciniae, et pharetratus Sarmata telis:</l>
 				<l>Quis tu semper ades, primusque incurris in hastas,</l> <!--quîs wie quivis?-->
 				<l>Sic praesente suo miles iam promptior arma</l>
 				<l>Tractat, et ad palmae per se cursurus honores.</l>
 				<l>Cum tamen horteris, specimenque in bella reponas,</l>
 				<l>Acrior instabit, cuneosque infringet, et hostes</l>
-				<l>Depellet fortis. <reg orig="t">T</reg>ales in bella ruebant</l>
+				<l>Depellet fortis. tales in bella ruebant</l>
 				<l>Scipiadae quondam, Mariusque et Sylla feroces.</l>
 				<l>Nam te teste labor, teque ipso bella gerente</l>
 				<l>Rege magis gratus, longeque illustrior ibit</l>
@@ -569,18 +569,18 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Sic Pyrrhus quondam, sic et Peneius Achilles,</l>
 				<l>Cum uertere solo Priameia Pergama Troiae.</l>
 				<l>Talis Pellaeus iuuenis, Macedumque Philippus</l>
-				<l>Rector, opum diues. <reg orig="m">M</reg>agna est ea Martis honore</l>
-				<l>Laus regum. <reg orig="s">S</reg>ic et uictor Sperchius Hydaspen,</l>
+				<l>Rector, opum diues. magna est ea Martis honore</l>
+				<l>Laus regum. sic et uictor Sperchius Hydaspen,</l>
 				<l>Et Porum domuit terror, Gangetis ad oras</l>
-				<l>Progressus pugnis. <reg orig="r">R</reg>regnent Euphratis in aruis,</l>
+				<l>Progressus pugnis. regnent Euphratis in aruis,</l>
 				<l>Isiacisque oris alii, Nigrumque, Tigrimque <app><rdg wit="#P">Nigrumque Tigrumque</rdg></app>,</l>
 				<l>Assyriumque Lycum, et calidas Gangetis arenas,</l>
 				<l>Et teneant quacunque fluit pharetratus Araxes</l>
 				<l>Cursu impacato, et resonat qua Caspius humor,</l>
 				<l>Seu quicquid primis radiis irrorat Eous.</l>
 				<l>Sed plus est multo, quod paret Gallia regi</l>
-				<l>Marte animosa tibi. <reg orig="n">N</reg>on ulla est laetior auro, et</l>
-				<l>Diuitiis regio. <reg orig="s">S</reg>i spectes solis utrunque <app><rdg wit="#P">utrumque</rdg></app></l>
+				<l>Marte animosa tibi. non ulla est laetior auro, et</l>
+				<l>Diuitiis regio. si spectes solis utrunque <app><rdg wit="#P">utrumque</rdg></app></l>
 				<l>Oceanum, atque domos Phoebi: ceu pinguia Bactra</l>
 				<l>Et quascunque <app><rdg wit="#P">quascumque</rdg></app> beat terras eous oberrans</l>
 				<l>Oxius. Hae siquidem sub eodem limite fructus</l>
@@ -592,7 +592,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Marteque praecellit, doctas colit illa camoenas.</l>
 				<l>Illa uiros claros nutrit: conferre Maroni <app><rdg wit="#P">maroni</rdg></app>,</l>
 				<l>Siue Arpinati poteras, et laude Platoni <app><rdg wit="#P">platoni</rdg></app></l>
-				<l>Ingenii heroas. <reg orig="q">Q</reg>ui norunt sidera coeli,</l>
+				<l>Ingenii heroas. qui norunt sidera coeli,</l>
 				<l>Stellarumque uices, et rerum quaerere causas,</l>
 				<l>Ac scire herbarum uires, artesque potentes.</l>
 				<l>Hinc tot militibus tot regia praemia donas.</l>
@@ -601,15 +601,15 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Deserit Oceani frigentes Cymbrus arenas,</l>
 				<l>Ingentesque artus Albim fugere Cherusci.<app><rdg wit="#P">Cherusci,</rdg></app></l>
 				<l>Accipis ipse uiros, et digno munere donas,</l>
-				<l>Atque alis ad bellum tot gentes diues. <reg orig="&amp;">Et</reg> ipsos</l>
+				<l>Atque alis ad bellum tot gentes diues. et ipsos</l>
 				<l>Heluetiae populos fortis, cunisque iacentes</l>
 				<l>Illorum pueros donis, atque aere corusco,</l>
 				<l>Atque auro decoras: ceu spem crescentis ad arma</l>
-				<l>Eximiam pubis. <reg orig="s">S</reg>ic tota Europa, cadensque</l>
+				<l>Eximiam pubis. sic tota Europa, cadensque</l>
 				<l>Sol radiis currus tepidis tibi militat aruis,</l>
 				<l>O Henrice decus belli, clarissime regum.</l>
 				<l>Foelix es regno, Clodopheiaque lilia Francis</l>
-				<l>Exornas uirtute tua. <reg orig="t">T</reg>e Rhetia celsa,</l>
+				<l>Exornas uirtute tua. te Rhetia celsa,</l>
 				<l>Heluetiaeque manus semper mirantur honore. <app><rdg wit="#P">honore</rdg></app></l>
 				<l>Vt fortes in bella uiros, sic pace requiris,</l>
 				<l>Electosque colis donis, longumque tueris,</l>
@@ -627,7 +627,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Hinc grauitas sceptro, regnumque Astraea per oras</l>
 				<l>Sustinet, ingeniis remanent ubi praemia claris.</l>
 				<l>Est tibi facundi per laudes docta facultas</l>
-				<l>Ingenii, linguaeque decus. <reg orig="t">T</reg>ibi notus Iberus</l>
+				<l>Ingenii, linguaeque decus. tibi notus Iberus</l>
 				<l>Sermo, sonusque citus Latialis, et ipsa canora</l>
 				<l>Sequanica, at natiua tibi uox ore diserto.</l>
 				<l>Tu loqueris populis uario discrimine linguae,</l>
@@ -640,7 +640,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Iura dabat, linguis totidem sancita, disertus.</l>
 				<l>Haec tua nunc laus est, quae quondam maxima regum.</l>
 				<l>Gentibus a uariis regis responsa uerentur</l>
-				<l>Legati. <reg orig="t">T</reg>ranquilla animi <app><rdg wit="#P">animis</rdg></app> praestantis in armis</l>
+				<l>Legati. tranquilla animi <app><rdg wit="#P">animis</rdg></app> praestantis in armis</l>
 				<l>Vis placet ista uiris, grauibus quoque moribus aetas</l>
 				<l>Firma satis, regno maiestas grata, decusque.</l>
 				<l>Corpora quinetiam, quae uel Tritonia Pallas</l>
@@ -666,12 +666,12 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Aere sub ardenti, cum tota incurrit in altis</l>
 				<l>Acris equis pubes, simulacraque Martia ludit,</l>
 				<l>Et molles sinuare fugas, subitosque recursus</l>
-				<l>Flexisse insignis. <reg orig="q">Q</reg>uis tum te mittere contum</l>
+				<l>Flexisse insignis. quis tum te mittere contum</l>
 				<l>Acrior, aut gladio melior pugnare reflexu</l>
 				<l>Quadrupedantis equi, uibrareque in arma micantes</l>
-				<l>Flammiuomos enses. <reg orig="n">N</reg>on gens exercita cursu</l>
+				<l>Flammiuomos enses. non gens exercita cursu</l>
 				<l>Cornipedum uincat seu Thessala, siue uolantes</l>
-				<l>Centauri, aut Parthi celeres. <reg orig="t">T</reg>uus aere sonanti</l>
+				<l>Centauri, aut Parthi celeres. tuus aere sonanti</l>
 				<l>Indutus sonipes, spumosa fauce remandit</l>
 				<l>Aurea frena ferox, seu totus splendet in ostro.</l>
 				<l>Non hunc Nereidum manibus depectus Arion,</l>
@@ -679,7 +679,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Non hunc uel Xanthus, non alter Achillis in armis</l>
 				<l>Pelidae quadrupes, et quanquam Pegasus alis</l>
 				<l>Bellerophonteo successit pondere in astra,</l>
-				<l>Cederet ille tamen. <reg orig="c">C</reg>eleris quoque Solis Eous,</l>
+				<l>Cederet ille tamen. celeris quoque Solis Eous,</l>
 				<l>Et genus a Phoebo ductum per colla comantes</l>
 				<l>Aeneae aeripedes, qui anteibant cursibus auras.</l>
 				<l>Quique ducis caesi defleuit funera bello,</l>
@@ -688,31 +688,31 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Bucephalusque ingens, et quo sibi Iulius orbem</l>
 				<l>Vicit, et Aemoniae rumor, Hemique frementes.</l>
 				<l>En Ph<reg orig="ae">aë</reg>tontiades uellent seruire lupatis</l>
-				<l>Rex Henrice tuis. <reg orig="t">T</reg>um quem Pallantias ortu</l>
+				<l>Rex Henrice tuis. tum quem Pallantias ortu</l>
 				<l>Sub croceo iungit, palmam quoque traderet Aethon.</l>
 				<l>Inuidet ille tuo, quoties despectat Olympo,</l>
 				<l>Inque tuis auro mallet spumare sub ore</l>
-				<l>Mulciberis frenis. <reg orig="h">H</reg>abitus quis diceret illos,</l>
+				<l>Mulciberis frenis. habitus quis diceret illos,</l>
 				<l>Cum uidit Rhodanus pompae miracula uestrae,</l>
 				<l>Et tu per populos Araris formosior ires</l>
 				<l>Phoebo et Mercurio, binisque Laconibus auro</l>
 				<l>Textus Hydaspeo, et conspectior ipse cohortes</l>
 				<l>Atque equites inter uehereris, et arma sequuta.</l>
 				<l>Scit tuus hoc Ligeris, scit Sequana diues, et altus</l>
-				<l>Francorum Rhodanus. <reg orig="s">S</reg>onitum tunc ripa tubarum</l>
+				<l>Francorum Rhodanus. sonitum tunc ripa tubarum</l>
 				<l>Omnis reddit aquis, et Francia tota fremebat</l>
 				<l>Nobilitate tua sub sidera iubila laeta</l>
 				<l>Ore ferens placido, Regnis uiue inclyte regum,</l>
 				<l>Et soboles equitum, quos nutrit Sequana campis,</l>
 				<l>Quicquid et in cunctis procerum tibi Gallia terris</l>
-				<l>Floruit. <reg orig="h">H</reg>is pariter circum tu cingeris altus</l>
+				<l>Floruit. his pariter circum tu cingeris altus</l>
 				<l>Candide Rex sceptro: legumque admittere doctos</l>
-				<l>Gaudes ipse patres. <reg orig="t">T</reg>ota te celsa senatu</l>
-				<l>Turba ducum stipat. <reg orig="m">M</reg>irata est Francia uultus,</l>
+				<l>Gaudes ipse patres. tota te celsa senatu</l>
+				<l>Turba ducum stipat. tirata est Francia uultus,</l>
 				<l>Et lapides auro cinctos, et Iaspidis ignes.</l>
 				<l>Qualis et Herculeis occurrit Achaia triumphis,</l>
 				<l>Assyriique olim, cum magna Semiramis Indo</l>
-				<l>Deuicto rediit. <reg orig="s">S</reg>eu qualia Susa trophaeis</l>
+				<l>Deuicto rediit. seu qualia Susa trophaeis</l>
 				<l>Se fudere uia occursu cum Lydius amnis</l>
 				<l>Victus Halys, Persas uictricia signa gerentes</l>
 				<l>Euphratae misis, Perseiaque in arua reuersos.</l>
@@ -724,12 +724,12 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Excepitque cohors Tyria Cadmeia ripa.</l>
 				<l>Aurea iam sub te sperantur secula Rege,</l>
 				<l>In nomen uentura tuum, iam Francia sceptro</l>
-				<l>Gestit laeta nouo. <reg orig="c">C</reg>essit tibi laurea patre,</l>
+				<l>Gestit laeta nouo. cessit tibi laurea patre,</l>
 				<l>Cum quo tu toties meruisti marte triumphos<app><rdg wit="#P">triumpho</rdg></app>,</l>
 				<l>In cuius castris puer es nutritus ab annis.</l>
 				<l>Arma patris semper, tibi dum pubesceret aeuum,</l>
 				<l>Es sectatus, opum diues te Pallas in altam</l>
-				<l>Aegida mouit ouans hasta. <reg orig="t">T</reg>rans alta Britanni</l>
+				<l>Aegida mouit ouans hasta. trans alta Britanni</l>
 				<l>Aequora transierant, qua Phrudis uoluit arenas,</l>
 				<l>In classes secuere nemus, cum milite campos</l>
 				<l>Repplessent uario, quos ambiit amne Tabulla,</l>
@@ -747,8 +747,8 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Nigritumque cohors, qua se Niger ingerit undis,</l>
 				<l>Voce sequuta fuit uaria. Sic maximus arte</l>
 				<l>Scipio bellandi, Cursorque <app><rdg wit="#P">cursorque</rdg></app> Papyrius altae</l>
-				<l>Ausoniae fulmen. <reg orig="u">V</reg>eteres sic Francia reges</l>
-				<l>Laude tui ingentes fuerant. <reg orig="c">C</reg>ui marte Rholandus <app><rdg wit="#P">Rhodanus</rdg></app></l>
+				<l>Ausoniae fulmen. ueteres sic Francia reges</l>
+				<l>Laude tui ingentes fuerant. cui marte Rholandus <app><rdg wit="#P">Rhodanus</rdg></app></l>
 				<l>Ignotus fuerat, cui Magnus Carolus <app><rdg wit="#P">carolus</rdg></app> actis.</l>
 				<l>Et Clodophaeus amor regni, dominaeque Britannae</l>
 				<l>Insignis raptu per Gallica Carolus arua,</l>
@@ -761,7 +761,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				<l>Sic patriis olim iuuenis successibus acer</l>
 				<l>Nomen in astra tuum referebas, nobilis armis.</l>
 				<l>Nunc eris ipse tuis maior, repetesque tuorum</l>
-				<l>Virtutes bello. <reg orig="n">N</reg>ec deerunt Marte triumphi,</l>
+				<l>Virtutes bello. nec deerunt Marte triumphi,</l>
 				<l>Atque trophaea ducum. Victoria signa sequetur</l>
 				<l>Liligera, et sonitu plaudet per castra recepto.</l>
 				<l>O mihi si liceat uersu cecinisse triumphos,</l>
@@ -795,7 +795,7 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 				Emporicus, Rhetus Canus,<lb/> 
 				Poeta laureatus.</p>
 				</signed>
-			</div>
+				</div>
 			<div type="dedication" met="elDist"> <!--An Jean-Jacque de Castion-->
 				<salute> Ad generosum Dominum Ioannem Iacobum a Castion, ac regiae Maiestatis Francorum apud Rhetos foederatos summum Legatum, ac Dominum ab Haldenstein in Rhetia, Dominum suum cum primis colendum</salute>
 				<lg><l><hi>V</hi>ix genus et famam poterit mihi ferre Thalia,</l>
@@ -1261,6 +1261,8 @@ Odysseae Homeri Libri XXIIII. nuper à Simone Lemnio Emporico Rheto Curiensi, He
 					</div>
 					<div n="IX" type="book">
 					<!--Gesänge und Argumenta x24-->
+						<argument>
+						</argument>
 					</div>
 					<div n="X" type="book">
 					<!--Gesänge und Argumenta x24-->
