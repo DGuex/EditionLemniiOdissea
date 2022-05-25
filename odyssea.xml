@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -112,6 +112,8 @@ Mit positionsangabe (margin/left/right), wo man im Transformationdsokument sagt,
 was damit passieren soll.
 	Edward Tufte CSS-->
 <!-- Code an sich okay, bei der Transformationsdatei kann man noch Zeug ändern, bis es schön aussieht.-->
+	<!-- Wenn alles sauber auf TEI-Publisher ist, kann man den Output so als Datei auf github oder so hosten -->
+	<!-- Auf TEI-Publisher austoben, wie man das in Print setzen kann. -->
 	<text xml:lang='la'>
 		<!--This is where the fun begins...-->
 
@@ -121,7 +123,7 @@ was damit passieren soll.
 				<head>In Odysseam praefatio.</head>
 				<div type='dedication' met='dactHex'>
 					<!-- an den König -->
-					<salute> Ad Christianissimum, et invictissimum Henricum II. Francorum Regem,
+					<salute> Ad Christianissimum, et inuictissimum Henricum II. Francorum Regem,
 						Dominum et Mecoenatem suum clementissimum.</salute>
 					<l><hi>M</hi>axima belligera terrarum gloria fama,</l>
 					<l>Orbis uictorum magni fortissime Regum</l>
@@ -174,7 +176,7 @@ was damit passieren soll.
 					<l>Splendore, et posito laetata est Francia bello.</l>
 					<l>Pax, et amoena fides, pompa sunt castra sequutae.</l>
 					<l>Hinc etiam Pallas nitido circundata limbo,</l>
-					<l>Ornauit posito clypeoque atque aegide saevae</l>
+					<l>Ornauit posito clypeoque atque aegide saeuae</l>
 					<l>Gorgone, sed qualis Cirrheas uisere Musas</l>
 					<l>Virgo solet, Regem. toto fuit agmine clara.</l>
 					<l>Ipsaque Parrisio Regis uallata senatu</l>
@@ -328,7 +330,7 @@ was damit passieren soll.
 					<l>Inter opes Martis <app><rdg wit='#P'>martis</rdg></app>, ferrumque et praelia
 						saeua.</l>
 					<l>Est facile ergo duces comitesque per arma seuera</l>
-					<l>Vincere.verum Aquilis, et magni Caesaris armis,</l>
+					<l>Vincere.uerum Aquilis, et magni Caesaris armis,</l>
 					<!--Beide haben Caesaris mit e caudata-->
 					<l>In longo bello, seu marte resistere prompto,</l>
 					<l>Ardua res equidem. Quoties Franciscus acerbis</l>
@@ -632,9 +634,7 @@ was damit passieren soll.
 					<l>Bastarnaeque truces meruere stipendia Martis</l>
 					<l>Sub te Rege sibi. quin et trux accola syluae</l>
 					<l>Bructurus Herciniae, et pharetratus Sarmata telis:</l>
-					<l>Quis tu semper ades, primusque incurris in hastas,</l>
-					<!--quîs wie quivis?-->
-					<l>Sic praesente suo miles iam promptior arma</l>
+					<l>Quis tu semper ades, primusque incurris in hastas,</l><!--quîs wie quivis?-->
 					<l>Tractat, et ad palmae per se cursurus honores.</l>
 					<l>Cum tamen horteris, specimenque in bella reponas,</l>
 					<l>Acrior instabit, cuneosque infringet, et hostes</l>
@@ -1760,7 +1760,7 @@ was damit passieren soll.
 								<l>Lotophagumque suos captos dulcedine fructus,</l>
 								<l>Vix traxisse uiros naui. Aetnaeosque Cyclopas</l>
 								<l>Accessisse refert, gelido Polyphemon in antro</l>
-								<l>Sex rapuisse sibi socios, ventrique dedisse</l>
+								<l>Sex rapuisse sibi socios, uentrique dedisse</l>
 								<l>Crudeles escas, et membra fluentia tabo</l>
 								<l>Dilaniasse genis. et poenam criminis addit,</l>
 								<l>Immanemque specu somno uinoque sepultum</l>
@@ -1768,21 +1768,1034 @@ was damit passieren soll.
 							</lg>
 						</argument>
 						<head>ODYSSEAE LIB. IX</head>
-							<epigraph><l>Lotophagos, Aphros, Ciconas, Cyclopea saxa</l></epigraph>
-						<l><hi>T</hi>um pater, Alcinoi solio, sic infit Vlysses:<ptr rend='unmarked' target='#mrg9.1'/></l>
-							<note xml:id='mrg9.1' type='ecce' place='margin' ><p>Vlysses apud Alcinoum errores suos narrat, vt Aeneas Virgilii apud Didonem.</p></note>
-							<l>Alcinoe, Argolicum princeps clasissime regum,</l>
-							<l>Maxima cui floret per cunctas gloria gentes</l>
-							<l>Dulce audire pias recinentes carmina Musas,</l>
-							<l>Demodocumque lyra, qu Diis aequandus ab ore,</l>
-							<l>Voceque blandisonos fundit modulamine cantus,</l>
-							<l>Aureaque in cithara ciet hic bene plectra sonora.</l>
-							<l>Hic equidem fretus doctas anteire canendo</l>
-							<l>Aonias poterat, blando par carmine Musis.</l>
-							<l>Nil sane fateor citharaque et cantibus aequis <ptr rend='unmarked' target='#mrg9.2'/></l>
-							<note xml:id='mrg9.2' type='ecce' place='margin'><p>Musicae commendatio.</p></note>
-							<l></l>
-					</div>
+						<epigraph><l>Lotophagos, Aphros, Ciconas, Cyclopea saxa</l></epigraph>
+						<l><hi>T</hi>um pater, Alcinoi solio, sic infit Vlysses:<ptr rend='unmarked' target='#mrg09.01'/><add xml:id='mrg09.01' type='ecce' place='margin'>Vlysses apud Alcinoum errores suos narrat, ut Aeneas Virgilii apud Didonem.</add></l>
+						<l>Alcinoe, Argolicum princeps clasissime regum,</l>
+						<l>Maxima cui floret per cunctas gloria gentes</l>
+						<l>Dulce audire pias recinentes carmina Musas,</l>
+						<l>Demodocumque lyra, qui Diis aequandus ab ore,</l>
+						<l>Voceque blandisonos fundit modulamine cantus,</l>
+						<l>Aureaque in cithara ciet hic bene plectra sonora.</l>
+						<l>Hic equidem fretus doctas anteire canendo</l>
+						<l>Aonias poterat, blando par carmine Musis.</l>
+						<l>Nil sane fateor citharaque et cantibus aequis <ptr rend='unmarked' target='#mrg09.02'/><add xml:id='mrg09.02' type='ecce' place='margin'>Musicae commendatio.</add></l>
+						<l>Gratius ad mensas, populo cum plauditur omni,</l>
+						<l>Laetitiamque<app><rdg wit='#P'>Laeticiamque</rdg></app> capit per sedes turba patentes,</l>
+						<l>Claraque iam totam peraguntur festa per aulam,</l>
+						<l>Atque uiros hilaris retinet cum uoce uoluptas,</l>
+						<l>Ordineque aure bibunt modulantis carmina uatis,</l>
+						<l>Cantorisque sonos conuiuae sede stupescunt,</l>
+						<l>Atque dapes carpunt, celebrique epulantur in arce,</l>
+						<l>Dum famuli replent mensas epulisque meroque,</l>
+						<l>Et cererem cumulant, festasque ex ordine carnes,</l>
+						<l>Vitiferumque dei laticem cratere refusam</l>
+						<l>Fert pincerna sacro commiscens pocula Baccho.</l>
+						<l>Haec mihi res adeo longe gratissima mensis.</l>
+						<l>At quanquam uobis erit haec audire uoluptas,</l>
+						<l>Heu tamen infandos cogis renouare dolores.</l>
+						<l>Sed si tantus amor nostros audire labores,</l>
+						<l>Vt magis hinc moueam tristi suspiria corde,</l>
+						<l>Et breuiter pelago nostros cognoscere casus,</l>
+						<l>Et lacrymosa mari toties discrimina saeuo,</l>
+						<l>Quanquam<app><rdg wit='#P'>Qanquam</rdg></app> animus meminisse horret, luctuque refugit,</l>
+						<l>Incipiam, dum te sic impetus urget amore.</l>
+						<l>Quae prius hic, seu posterius, narranda resumam?</l>
+						<l>Siue quid e multis referam? nam plurima diui</l>
+						<l>Heu patienda mihi non mitia fata dederunt.</l>
+						<l>Disce meos gemitus: sed primum nobile uoce</l>
+						<l>Nomen ego pandam, mox cursus aequore ponti.</l>
+						<l><milestone unit='section'/> Hospes ego uobis adsum, fugique per undas <ptr rend='unmarked' target='#mrg09.03'/><add xml:id='mrg09.03' type='ecce' place='margin'>Narratio.</add></l>
+						<l>Funera, et heu fati luctus, tristesque ruinas:</l>
+						<l>Sed spacio procul hinc habitantur moenia longo.</l>
+						<l>Sum L<choice><orig>ae</orig><reg>aë</reg></choice>rtiades Troiae bene notur Vlysses,</l>
+						<l>Insidiisque<app><rdg wit='#P'>Insidiisqoe</rdg></app> sagax, contendere fraude peritus,</l>
+						<l>Inuictusque dolis, cunctis celebratus in orbe:</l>
+						<l>Hinc mea sidereum iam pulsat gloria coelum.</l>
+						<l>Ipse domos Ithacas habito, L<choice><orig>ae</orig><reg>aë</reg></choice>rtia regna.</l>
+						<l>Finitimosque illa princeps ego clarus in urbe:</l>
+						<l>Aequoreasque Ithacae terras agrosque guberno,</l>
+						<l>Quos auster perflat, et amoena per arua susurrat. <ptr rend='unmarked' target='#mrg09.04'/><add xml:id='mrg09.04' type='ecce' place='margin'>Ithacae situs.</add></l>
+						<l>Huic mons incumbit praeclarus Neritus urbi,</l>
+						<l>Neritus excelsas qui lambit uertice nubes, <ptr rend='unmarked' target='#mrg09.05'/><add xml:id='mrg09.05' type='ecce' place='margin'>Neritus mons.</add></l>
+						<l>Fertilitate mihi florens, intonsaque syluis</l>
+						<l>Pulcher habet cabita, et mixto iuga frondea rure.</l>
+						<l>Hunc lenes perflant aurae, quique arbore densa</l>
+						<l>Consitus, in nebulas umbrosa cacumina iactat,</l>
+						<l>Pinifer, et gelidas praebet mihi dulciter umbras.</l>
+						<l>Hunc circa uariae habitantur in aequore terra,</l>
+						<l>Et sibi uicinae Graio stant nomine circum, <app><rdg wit='#P'>circum</rdg></app></l>
+						<l>Dulichiumque Sameque mari, et nemorosa Zacynthos. <ptr rend='unmarked' target='#mrg09.06'/><add xml:id='mrg09.06' type='ecce' place='margin'>Vlyssis regnum.</add></l>
+						<l>Illa humilis iacet excelso super aequore terra,</l>
+						<l>Occasum spectans, fuscasque accedit ad umbras.</l>
+						<l>Haec secreta mari, qua sese aurora quadrigis,</l>
+						<l>Et matutinis reuehit se Phoebus ab undis,</l>
+						<l>Est tenuis, fortes tamen educat, aspera cultu:</l>
+						<l>At nihil hisce oculis mihi dulcius ipse uidere, <ptr rend='unmarked' target='#mrg09.07'/><add xml:id='mrg09.07' type='ecce' place='margin'>Patriae amor.</add></l>
+						<l>Vt reor, hac potero terra et natalibus oris.</l>
+						<l>Quanquam me ambiuit diuarum fama Calypso,</l>
+						<l>Inqu cauis antris petiit connubia nostra: <ptr rend='unmarked' target='#mrg09.08'/><add xml:id='mrg09.08' type='ecce' place='margin'>Vlyssis amatrices deae.</add></l>
+						<l>Quamuis me Circe coluit, clarissima sede</l>
+						<l>Aeaea nymphe, quae fraude doloque per urbes,</l>
+						<l>Gramineque insignis, uoluit mihi nubere quondam:</l>
+						<l>At nunquam potuit nostros haec flectere sensus:</l>
+						<l>Me natale solum tanta dulcedine duxit,</l>
+						<l>Immemoremque sui nunquam me siuerat esse.</l>
+						<q><l>Nam patria est homini terra nil dulcius usquam,</l>
+						<l>Nec quicquam laribus gratisqu parentibus unquam</l>
+						<l>Charius est: quanquam diues colit arua beata,</l>
+						<l>Atque domos habitat pingues, sedesque nitentes</l>
+						<l>Iam, procul a patria, atque alia tellure diremptus,</l>
+						<l>Qui genuere olim caret ille parentibus, ille</l></q>
+						<l><q>Dicitur infoelix.</q> Reditus, nostroque labores,</l>
+						<l>Erroresque mari tristes, cursusque docebo,</l>
+						<l>Quod dedit a Troiae soluenti littore classem</l>
+						<l>Iuppiter. Vt Phrygio discessi puppibus aruo, <ptr rend='unmarked' target='#mrg09.09'/><add xml:id='mrg09.09' type='ecce' place='margin'>Errores Vlyssis.</add></l>
+						<l>Iliacumque solum liqui, et fumantia saxa,</l>
+						<l>Me rapuit uentus. Ciconumque ad littora uectum</l>
+						<l>Appulit Ismariis domibus, terraeque feroci.</l>
+						<l>Ismaron ingressus, disieci moenia bello,<ptr rend='unmarked' target='#mrg09.10'/><add xml:id='mrg09.10' type='ecce' place='margin'>Expugnatio Ismari Ciconum urbis.</add></l>
+						<l>Occidique uiros, puerosque senesque recuruos,</l>
+						<l>Vxoresque simul raptas ex urbe puellis</l>
+						<l>Traximus armati, res et spolia ampla ferentes,<app><rdg wit='#P'>ferentes</rdg></app></l>
+						<l>Diuitiasque et opes partiti sorte, nec inde</l>
+						<l>Quisquam expers praedae mihi non donatus abiuit.</l>
+						<l>Corripere inde fugam iussi, celerique regressu</l>
+						<l>Tendere iter ferro. sed nos sic fata ferebant.</l>
+						<l>Heu socii dictis stupidi parere recusant:</l>
+						<l>Per naues poti stabant, madidique Lyaeo.</l>
+						<l>Ingens hic bacchusque et dulcia pocula uini</l>
+						<l>Exiccata<app><rdg wit='#P'>Exciccata</rdg></app> illis fuerant, et littore crebrum</l>
+						<l>Mactauere pecus, balantesque ore bidentes,</l>
+						<l>Atque boues camuras: donec uestigia saeui</l>
+						<l>Approperant Cicones, caedemque in littore factam</l>
+						<l>Enarrant aliis, plusquam uicina petentes</l>
+						<l>Arua, uirosque uovant, qui tum regionibus illis</l>
+						<l>Finitimi fuerant plures, belloque feroces.</l>
+						<l>Thraces arant agris, habitantque per arua recurua,</l>
+						<l>Qui pugnare ab equis celeres, hostemque periti<ptr rend='unmarked' target='#mrg09.11'/><add xml:id='mrg09.11' type='ecce' place='margin'>Infoelix praelium cum Ciconibus ab ortu usque in solem occidentem.</add></l>
+						<l>Prostrauisse: idem pedites obiisse relapsi,</l>
+						<l>Et pugnare manu, ualidisque occurrere<app><rdg wit='#P'>occurre</rdg></app> in armis</l>
+						<l>Improuiso adsunt<app><rdg wit='#P'>ad sunt</rdg></app>, quot rure recentia ramis</l>
+						<l>Vere nouo folia, et flores nascuntur agrestes:<app><rdg wit='#P'>agrestes</rdg></app></l>
+						<l>Inuadunt totidem, quot frugifer annus</l>
+						<l>Mille refert herbas, et<app><rdg wit='#P'>herbas et</rdg></app> gramina mille per arua.</l>
+						<l>Aspera fata Iouis, perituros Martis in armis</l>
+						<l>Nos urgent grauiter, uariosque adiisse labores,</l>
+						<l>Et tristes casus cogit sors uersa malorum.</l>
+						<l>Circumstant igitur Cicones, pugnasque serentes</l>
+						<l>Ad celeres naues, uibrant hastilia ferro,</l>
+						<l>Iniiciuntque hastas horrentes Martis utrinque,</l>
+						<l>Seque petunt ferro, piloque minante uicissim.</l>
+						<l>Donec ab aurora luc aucta recurrit ad axem,</l>
+						<l>Ausxilium contra ferimus, duramus in armis:</l>
+						<l>Hic uix hostiles arcemus sanguine turmas.</l>
+						<l>Quanquam pugnabant numeroque atque agmine plures,</l>
+						<l>Attamen occursu plures remoramur atroces.</l>
+						<l>Vt uero Hesperias accessit Phoebus arenas,</l>
+						<l>Transabiitque polum Titan, et uesper Olympo</l>
+						<l>Extulit os sacrum ueniens, tenebrasque reducit,</l>
+						<l>Praecipites dira Cicones incurrere pugna</l>
+						<l>Vndique coeperunt aruis, hastasque reclinant,</l>
+						<l>Victoresque agitant Graios sub caede domantes.</l>
+						<l>Qualibet hic seni socii de puppe perempti</l>
+						<l>Occubuere<app><rdg wit='#P'>occumbuere</rdg></app> solo. Hinc alii super aequora uecti</l>
+						<l>Fugimus has caedes, celeres et fata per undas,</l>
+						<l>Soluimus et laeti celerato littore classem:</l>
+						<l>Laeti, quod licuit fata euasisse superba:</l>
+						<l>Sed quod in Aemonio socios, heu funera, campo<app><rdg wit='#P'>funera campo</rdg></app></l>
+						<l>Perdidimus, tristes. neque enim confidere fatis</l>
+						<l>Hic fuerat tutum. Quanquam nec littore naues</l>
+						<l>Inde prius poterant remis contendere cursus,</l>
+						<l>Quam nos amissos socios ter uoce ciemus,</l>
+						<l>Qui Ciconum campis deserta rapina cruentis</l>
+						<l>Oppetiere armis. mox uentos puppibus acres<ptr rend='unmarked' target='#mrg09.12'/><add xml:id='mrg09.12' type='ecce' place='margin'>Tempestatis descriptio.</add></l>
+						<l>Iuppiter emisit boreae spirantis in aequor,</l>
+						<l>Euertitque salum flatu, uastisque procellis,</l>
+						<l>Imbribus exundans largis, et nubibus atris,</l>
+						<l>Heu ferus obtexit terramque undamque per aequor,</l>
+						<l>Crebra procella rates feriit. nox humida coelo</l>
+						<l>Praecipitat, tristi totum coit <choice><orig>ae</orig><reg>aë</reg></choice>re coelum</l>
+						<l>In caecas nebulas, et inhorruit unda tenebris.</l>
+						<l>Iamquae obliqua natant naues, fluctuque feruntur,</l>
+						<l>Terque quaterque aurae feriunt crepitantibus alis.</l>
+						<l>Vela ratis raptae passim disiecta feroces,</l>
+						<l>In uarias partes et frusta natantia ponto.<ptr rend='unmarked' target='#mrg09.13'/><add xml:id='mrg09.13' type='ecce' place='margin'>Vlyssis classis tempestate disiecta.</add></l>
+						<l>At nos haec trepidi, nam intentant omnia mortem.</l>
+						<l>Condimus in naues, Parcas fatumque trementes.</l>
+						<l>Tum contra ualidis certatim incumbere remis</l>
+						<l>Aggressi, subito deduximus aequore fractas</l>
+						<l>In terram puppes, quassasque aquilone carinas,</l>
+						<l>Hicque duas tum duramus noctesque diesque</l>
+						<l>Continuo tristes, et nudo in littore strati</l>
+						<l>Deflemus casus moesti, pressique dolore.</l>
+						<l>Tertia cum lucem roseis Aurora capillis</l>
+						<l>Attulit, et croceo uenit Pallantias ortu</l>
+						<l>Culta caput flauum, crinesque per ardua colla:</l>
+						<l>Pandimus antennas, malumque ereximus altum.</l>
+						<l>Quique uocant<app><rdg wit='#P'>vocat</rdg></app> naues, tenduntur carbasa uentis.</l>
+						<l>Iamque sedemus, aquis decurrit classis, et aura</l>
+						<l>Iam flabat, uentusque gubernatorque regebant:</l>
+						<l>Hei mihi, tum patriae tetigissem littora terrae</l>
+						<l>Incolumis, si non aquilo fluctusque feroces,</l>
+						<l>Aequoreaeque undae, Maleae sub curua sequacis</l>
+						<l>Saxa retorsissens, tristique errore Cithera.</l>
+						<l>Lucibus inde nouem uariis freta concita uentis</l>
+						<l>Ipse lego, cursu piscosa per aequora uectus.<ptr rend='unmarked' target='#mrg09.14'/><add xml:id='mrg09.14' type='ecce' place='margin'>Vlysses ad Lotophagos.</add></l>
+						<l>Lotophagûm decima tetigi sub luce carina</l>
+						<l>Prosper humum, uirides qui carpunt frondibus escas</l>
+						<l>Florigeris alacres, terramque intramus ab undis.</l>
+						<l>Mox haurimus aquas gelidas praedulcis arenae,</l>
+						<l>Corpora curamus lauta conuiuia coena,</l>
+						<l>Curuas aggressi ad naues, fusique per herbam</l>
+						<l>Implemur ueteris bacchi pinguisque ferinae.</l>
+						<l>Postquam exemptas fames epulis potuque Lyaeo,</l>
+						<l>Exploraturos mitto, quos sorte receptos</l>
+						<l>Elegi: comes his quoque praeco tertius ibat,</l>
+						<l>Quem dederam socium: qua sim regione locorum,</l>
+						<l>Quiue homines essent terrae sub finibus illis,</l>
+						<l>An frumenta metant. digressi longa per arua</l>
+						<l>Lotophagûm populis se immiscent undique laeti.</l>
+						<l>Hos non fatifero conspectos ense trucidant,</l>
+						<l>Nec funus meditantur: at his dant mellea loti<ptr rend='unmarked' target='#mrg09.15'/><add xml:id='mrg09.15' type='ecce' place='margin'>Loti esus.</add></l>
+						<l>Dulcis poma cibos, et praebent arbore fructus.</l>
+						<l>Quicunque ex illa tum uescitur arbore dulci</l>
+						<l>Fruge, sibi<app><rdg wit='#P'>Fruge sibi</rdg></app> subito priscarum obliuia rerum</l>
+						<l>Captus edit, nec iam curat mihi nuncia ferre,</l>
+						<l>Nec rediisse domum, aut patrios repetisse penates</l>
+						<l>Optat. at his lotis uesci praedulcibus aruo,</l>
+						<l>Lotophagosque inter semper remanere, piique</l>
+						<l>Hic obliuisci<app><rdg wit='#P'>obliuisti</rdg></app> reditus, patriaeque remotae.</l>
+						<l>Hinc igitur socios uix ipse ad littora duxi,</l>
+						<l>Inque rates egi ui tota margine flentes,</l>
+						<l>Supposuique iugo, uinclisque arcere c<choice><orig>oe</orig><reg>oë</reg></choice>gi.</l>
+						<l>Nec mora, tum reliquos subito conscendere iussi</l>
+						<l>Aligeras naues socios, transtrisque sedere,</l>
+						<l>Ne quisquam loti gustaret ab arbore fructus</l>
+						<l>Decerptos uetuis, reditusque<app><rdg wit='#P'>uetuis reditusque</rdg></app> negaret in arua,</l>
+						<l>Neritiasque domos, patriasque requirere terras.</l>
+						<l>Oblitusue uelit, Libycis hic uiuere lotis.</l>
+						<l>Ergo sedent, feriuntque citis freta spumea remis,</l>
+						<l>Concutiuntque undas, et uerrunt aequora cana.</l>
+						<l>Prouehimus pelago confecti corda dolore,</l>
+						<l>Caerula sub tonsis spumabat gurgite Doris.</l>
+						<l>Vlterius uecti Cyclopum allabimur oris.</l>
+						<l>Vidimus hic altos Aetna surgente Gigantes,<ptr rend='unmarked' target='#mrg09.16'/><add xml:id='mrg09.16' type='ecce' place='margin'>Cyclopum regio, et mores.</add></l>
+						<l>Immanes sine lege uiros, sine more superbos.</l>
+						<l>Confidunt soli diis immortalibus illi.</l>
+						<l>Non mandant factis agrestia semina sulcis,</l>
+						<l>Non illis ualido glebae uertuntur aratro:</l>
+						<l>Nec figunt manibus plantas, ramosque uirentes.</l>
+						<l>Sponte seges crescens, inaratis nascitur aruis,</l>
+						<l>Nex sata, fert pinguis per se tamen omnia tellus.</l>
+						<l>Triticeae hic messes, hic flauent ordea spicis,</l>
+						<l>Hic tumidae pendent foliatis uitibus uuae,</l>
+						<l>Hic uineta ferunt fructus, hic uinea laetum</l>
+						<l>Grandibus ex uuis, generoso et palmite bacchum,</l>
+						<l>Imbribus aucta Iouis uariis, pluuiisque caducis.</l>
+						<l>Hic multis lacubus spumant quoque dulcia musta.</l>
+						<l>His nec iura fori, nec leges scriptaque<app><rdg wit='#P'>leges, scriptaque</rdg></app> patrum:</l>
+						<l>Nulla statuta colunt urbis, nec sceptra uerentur.</l>
+						<l>Ast habitant densas umbrosa cacumina syluas,</l>
+						<l>Excelsosque iugis montes, atrisque cauernis.</l>
+						<l>Quisque sibi dicit ius, et sine lege feroces</l>
+						<l>Instantesque simul, nullo et discrimine nymphas</l>
+						<l>Vxoresque tenent quisquis securus amorum.</l>
+						<l>Haec facilis cultu, nemorosaque <app><rdg wit='#P'>cultu nemorosaque</rdg></app> frondibus altis,</l>
+						<l>Curuatoque simul praetenditur insula portu,</l>
+						<l>Cyclopum sedes, et inhospita terra Gigantum.</l>
+						<l>Vtque propinqua minus, sic non est orbe remota.</l>
+						<l>Syluestres capreae nascuntur rupibus altis<app><rdg wit='#P'>altis,</rdg></app></l>
+						<l>Innumerae quas nulla hominum uia trita c<choice><orig>oe</orig><reg>oë</reg></choice>rcet,</l>
+						<l>Nec prohibent calles syluis, nec odora canum uis.</l>
+						<l>Nec uenatores quaerunt uestigia saxis,</l>
+						<l>Venanturue iugis, quis densis plurima syluis</l>
+						<l>Saepe pericla adeunt, montisque cacumina celsi</l>
+						<l>Sextantur. non illa greges, non tentat aratrum.</l>
+						<l>Non unquam seritur, nec aratur uomere duro:</l>
+						<l>Sed uidua est semper placidis cultoribus illa.</l>
+						<l>Attamen et capreas nutrit par pascua syluis,<ptr rend='unmarked' target='#mrg09.17'/><add xml:id='mrg09.17' type='ecce' place='margin'>Capreae in Sicilia plurimae.</add></l>
+						<l>Quarum uoce sonant nemorum spineta urentum.</l>
+						<l>Nullae sunt rostra puppes Cyclopibus acres,<app><rdg wit='#P'>acres,</rdg></app></l>
+						<l>Nec minio tinctae naues, nec finibus illis</l>
+						<l>Extant artifices, qui firmo robore texant</l>
+						<l>Iuncturas ratium, tabulasque in puppibus altis.</l>
+						<l>Quîs urbes hominum, quîs quaerant moenia celsa,</l>
+						<l>Singulaque exquirant, mercesque per aequora portent,</l>
+						<l>Qualia multa mari nautae rimantur in alto,</l>
+						<l>Transmittuntque cauis uento freta concita cymbis:</l>
+						<l>Nautica quîs ducant liquido commercia ponto,</l>
+						<l>Mutuo seque adeant. At non haec cura Gigantum,<app><rdg wit='#P'>Gigantum:</rdg></app></l>
+						<l>Vt teneant urbes, et terrae culta uirentis</l>
+						<l>Arua, locosque uiis, habitataque moenia tectis.</l>
+						<l>Nec mala terra tamen. campis fert omnia sponte,</l>
+						<l>Et matura quidem: syluestres tempore fructus<ptr rend='unmarked' target='#mrg09.18'/><add xml:id='mrg09.18' type='ecce' place='margin'>Siciliae fertilitas.</add></l>
+						<l>Quique suo crescunt: quin et prope littora Ponti</l>
+						<l>Caerulei, et iuxta ripas sunt mollia prata:</l>
+						<l>Hic arua irrigua, hic et aquoso rura liquore.</l>
+						<l>Hic quoque uitiferi campi, palmesque perennis,</l>
+						<l>Vineaque aeternum florens, uitisque<app><rdg wit='#P'>florens vitisque</rdg></app> benigna</l>
+						<l>Terra iugis, facilisque nouis ut aretur aratris:</l>
+						<l>Et seges enascens grauida flauescit arista,</l>
+						<l>Se pingui spicis deflectunt semina fundo.</l>
+						<l>Est facilis portus, fluctu secretus ab omni.</l>
+						<l>Cumque procelloso tunduntur littora ab aestu,</l>
+						<l>Non opus appulsas uinclis affigere classes,</l>
+						<l>Aut uirida naues religare rudentibus aruo.</l>
+						<l>Nulla procella iubet posuisse cubilia portu,</l>
+						<l>Hic per se tuto deductae littore puppes,</l>
+						<l>Ad tempus remanent. donec se nautica turba</l>
+						<l>Excitat, inque altum cursu iubet ire carinas,</l>
+						<l>Aspirantque leues flatus, et carbasa tendit</l>
+						<l>Aura: sed ad portus caput exit lucidus humor,</l>
+						<l>Fonsque specu subter gelidis hic murmurat undis,</l>
+						<l>Perspicuoque loquax decurrit rupe liquore.</l>
+						<l>Nascuntur circa procerae frondibus alni.</l>
+						<l>Huc nos appulimus classem. sic fata ferebant,</l>
+						<l>Ducebatque deus nigrae caligine noctis.</l>
+						<l>Namque sub obscuris tenebris fuit illa per aequor.</l>
+						<l>Non hic cernere erat quicquam. namque <choice><orig>ae</orig><reg>aë</reg></choice>re caeco</l>
+						<l>Condensae nebulae stabant, tenebrisque profundis</l>
+						<l>Affusis ratibus. nulla hic quoque cornua Phoebes</l>
+						<l>De summo radiis spargebant lumina coelo,</l>
+						<l>Nubibus inque atris tristis praeclusa latebat.</l>
+						<l>Insula nulla quidem nobis hic cernitur undis,</l>
+						<l>Nec prius hic puppes pellentes aequore fluctus</l>
+						<l>Longos ad terram, sequitur quos orbita ponto,</l>
+						<l>Vidimus aequoreo steterint quam littore naues.</l>
+						<l>Vela legunt socii deductis puppibus ora.</l>
+						<l>Vadimus in littus pelagi, et telluris arenis</l>
+						<l>Sternimur, atque graues potu requiescimus herba,</l>
+						<l>Auroraeque sacram lucem expectamus Eoae.</l>
+						<l>Vt uero micuit roseo Pallantias ortu</l>
+						<l>Matutina polo, croceasque nitore per altum</l>
+						<l>Extulit illa manus, tendens moderamen equorum,</l>
+						<l>Miramur terram, et circum uestigia late</l>
+						<l>Torquemus dubii. ast agrestia numina nymphae,</l>
+						<l>Dura Iouis soboles, glomerantur Oreades altae,</l>
+						<l>Montanas capras per deuia saxa repellunt,</l>
+						<l>Quae solae degunt praeruptis rupe cauernis.</l>
+						<l>Exciuere iugis nympha per saxea rura,</l>
+						<l>Vt socii struerent ortae conuiuia coenae,</l>
+						<l>Extructosque focos oneraret ut acta rapina.</l>
+						<l>Puppibus incuruos arcus celeresque sagittas,</l>
+						<l>Et iacula, et nitido caprarum spicula ferro</l>
+						<l>Extulimus, subito aggressi, praedasque sequuti</l>
+						<l>Dirigimus ternas acies, iaculisque leuique<ptr rend='unmarked' target='#mrg09.19'/><add xml:id='mrg09.19' type='ecce' place='margin'>Venatio Vlyssis in Sicilia.</add></l>
+						<l>Ex arcu in capreas cursura ad saxa sagitta,</l>
+						<l>Praecipites agimus montosa rupe caprarum</l>
+						<l>Vsque greges densos. deus et fortuna sequacem</l>
+						<l>Dulcis uenatum praedae dedit ipsa rapinis,</l>
+						<l>Optataque nemus syluis indagine cinxit.</l>
+						<l>Cumque duodenae sequerentur in aequore naues,</l>
+						<l>Sorte nouem cuiuis capreae cessere carinae.</l>
+						<l>Nostra decem nauis capreas est sola sequuta.</l>
+						<l>Sternimur ad littus, dapibusque epulamur opimis,</l>
+						<l>Baccho replemur ueteri, pinguique ferina,</l>
+						<l>Viscereque innumero fundentes dulcia uina.</l>
+						<l>Tota dies abiit, donec se Phoebus in undas</l>
+						<l>Occiduas mersit, currusque subegit Ibero.</l>
+						<l>Nec dum uasa mero fuerant siccata rubenti:</l>
+						<l>At satis extabat. namque ingens copia bacchi</l>
+						<l>Hausta fuit nobis, atque amphora crebra repleta</l>
+						<l>Atque onerata mero. cum diruta moenia Graii</l>
+						<l>Ismaron ingressi, Ciconum uastauimus urbem,</l>
+						<l>Mox et uicinae Cyclopum allabimur orae,</l>
+						<l>Alter ut illuxit rutilanti lampade Titan.</l>
+						<l>Vidimus hic antro celsum consurgere fumum,</l>
+						<l>Balatusque ouium et caprarum uenit ad aures.<app><rdg wit='#P'>aures:</rdg></app></l>
+						<l>Vt Phoebus subiit, tenebrisque crepuscula sera</l>
+						<l>Successere, solo laxamus membra sopore</l>
+						<l>Carpentes somnos curuo sub littore ponti.</l>
+						<l>Luteaque interea croceis Aurora capillis</l>
+						<l>Fulsit, ego sociis cunctis sic uoce loquutus:</l>
+						<l><milestone unit='speaker' n='Vlysses'/>Vos alii precor, o blandissima turba gementes<ptr rend='unmarked' target='#mrg09.20'/><add xml:id='mrg09.20' type='ecce' place='margin'>Vlysses sociis.</add></l>
+						<l>Hoc remanete loco tuti, prope littoris undas</l>
+						<l>Custodire rates iussi. nam puppe uirisque</l>
+						<l>Progrediar paucis, qui nam regione locorum</l>
+						<l>Has teneant syluis oras, hominesue feraene,</l>
+						<l>Exploraturus soluam de littore nauim,</l>
+						<l>An grassentur agris, et agrestes undique praedas</l>
+						<l>Iniustique ferant, an et hospita tecta frequentent,</l>
+						<l>Hospitiique colant leges et numina diuûm.</l>
+						<l>Sic fatus, puppi conscendi primus in aequor,</l>
+						<l>Ac socios hortor subito considere transtris,</l>
+						<l>Soluere tum nauem, terraque abrumpere funem.</l>
+						<l>Illi parebant celeres, transtrisque locantur,</l>
+						<l>Caerulaque excutiunt uerrentes aequora remis.</l>
+						<l>Vt loca contigimus ponto uicina Cyclopum,</l>
+						<l>Hic specus adiunctum iuxta aequora uidimus alta,<ptr rend='unmarked' target='#mrg09.21'/><add xml:id='mrg09.21' type='ecce' place='margin'>Antrum Polyphemi.</add></l>
+						<l>Excelsum lauris antro facientibus umbram:</l>
+						<l>Lanigerae stabulantur oues, capraeque per herbam,</l>
+						<l>Et pecora innumera hic requiescunt gramine denso.</l>
+						<l>Hic aula extructa est coelo sublimis aperto,</l>
+						<l>Et saxis terra defossis horrida squalet,</l>
+						<l>Ac longae pinus circum, quercusque comantes,</l>
+						<l>Excelsaeque patent, et spargunt frondibus umbras.</l>
+						<l>Monstrum horrendum, ingens, clauso pernoctat in antro<ptr rend='unmarked' target='#mrg09.22'/><add xml:id='mrg09.22' type='ecce' place='margin'>Polyphemi descriptio.</add></l>
+						<l>Vir saeuus membris, qui tangit uertice nubes:</l>
+						<l>Lanigeras pascebat oues, atque auia sola</l>
+						<l>Quaerit, iners pecorum custos, immanior omne</l>
+						<l>Ius spernit, legesue simul, scelerumque repertor</l>
+						<l>Non alios inter tacitis inglorius agris,</l>
+						<l>Secretusque habitat, nemorumque per inuia lustra,</l>
+						<l>Ingens atque artus, uisu mirabile monstrum.</l>
+						<l>Prodigiosa uiri celsis miracula syluis.</l>
+						<l>Non ulli facie similis, qui uescitur agri</l>
+						<l>Fructibus, et uultu saeuo mortalibus impar.</l>
+						<l>Vertice montosis aequare cacumina lucis,</l>
+						<l>Excelsosque iugis montes, cum solus in alto</l>
+						<l>Apparet nemorum saltu, et deserta peragrat</l>
+						<l>Seiunctus, dicas. duodenos marte feroces</l>
+						<l>Insigni socios discernens agmine toto,</l>
+						<l>Vt nauim seruent aliis ad littora mando<app><rdg wit='#P'>nando</rdg></app></l>
+						<l>Et puppi maneant, puppisque per arma residant.</l>
+						<l>Progredior lectis pariter comitatus ad arma,</l>
+						<l>Bis senis sociis, caprinumque adfero uino</l>
+						<l>Vtrem nigranti, nostri solatia cursus,</l>
+						<l>Praedulcis laticis: quem quondam munera uates</l>
+						<l>Ipse Maron dederat laetus, Phoebique sacerdos,<ptr rend='unmarked' target='#mrg09.23'/><add xml:id='mrg09.23' type='ecce' place='margin'>Maron uates.<app><rdg wit='#P'>vatex.</rdg></app><pb/>Maroneum uinum.</add></l>
+						<l>Qui colit Ismarias sedes, urbemque uetustam,</l>
+						<l>Euanth<choice><orig>eî</orig><reg>eï</reg></choice> proles: quem nos, ut uenimus illuc,</l>
+						<l>Amplexi, pariter ueneramur coniuge chara,</l>
+						<l>Proleque suscepta. solus nemorosa colebat</l>
+						<l>Templa dei, et syluas habitabat Apollinis altas,</l>
+						<l>Candida, praebuerat hospes mihi dona sacerdos,</l>
+						<l>Facta auri pondus uarii septena talenta, et</l>
+						<l>Argento solido magnum cratera Lyaei.</l>
+						<l>Bis senos dedit ille cados, bacchoque refertos</l>
+						<l>Praedulci, atque mero, quod sacrum uincere nectar,</l>
+						<l>Dicas. pene fuit potus uelut ille deorum.</l>
+						<l>Non hoc ancillae norant, non fida ministri</l>
+						<l>Turba merum: latuit cellis. sed coniuge sola,</l>
+						<l>Quaeque merum seruat, nympha uix conscius una</l>
+						<l>Condidit ipse sibi: quod suaui melle fluebat,</l>
+						<l>Sed rubeo liquidum cernas spumare liquore.</l>
+						<l>Illud cum biberet, gelido de flumine lymphae</l>
+						<l>Ipse quater quinas ad singula pocula bacchi</l>
+						<l>Mensuras implens, fundebat<app><rdg wit='#P'>implens fundebat</rdg></app> mellea uina.</l>
+						<l>Hinc cratere merum suaues mittebat odores:</l>
+						<l>Halans ambrosiam diuorum nectaris auram:</l>
+						<l>Vt queat hoc nullus bacchi abstinuisse liquore.</l>
+						<l>Tali ego magnum utrem caprae prius impleo uino,</l>
+						<l>Atque cibos pera sumptos, escaque ferebam:</l>
+						<l>Ardescitque animus, gestitque cupidine motus,<app><rdg wit='#P'>motus</rdg></app></l>
+						<l>Corpore procero Cyclopa uidere potentem,</l>
+						<l>Qui immensas atrox spirabat robore uires,</l>
+						<l>Qui leges temnit, uiolat qui iura, fidemque,</l>
+						<l>Iustitiamque negat, iustumque abrumpit agrestis.</l>
+						<l>Inde gradum ad saeuum celeri peruenimus antrum.<ptr rend='unmarked' target='#mrg09.24'/><add xml:id='mrg09.24' type='ecce' place='margin'>Vlysses cum 12. sociis antrum Cyclopis ingressus.</add></l>
+						<l>At non speluncis Cyclopem inuenimus atris:</l>
+						<l>Balantes ducebat oues per pascua laeta,</l>
+						<l>Et peragrabat agros gregibus. Spelaea subimus,</l>
+						<l>Singula mirantes: nam pressi copia lactis,</l>
+						<l>Plenaque caseolis crebris fiscella per antrum,</l>
+						<l>Atque graues massa calathi de uimine texti:</l>
+						<l>Agnorumque gregi mandras, hoedisque paratas</l>
+						<l>Artis haras mirae. iunxitque<app><rdg wit='#P'>mirae iunxitque</rdg></app> caprilia ualuis,</l>
+						<l>Singula muniuit Cyclops, stabula alta seorsum</l>
+						<l>Distinguens, hic maiores, natuque priores,</l>
+						<l>Hic mediae aetatis, agnosque hoedosque salaces.</l>
+						<l>Nuper at in lucem genitos bene cratibus illic</l>
+						<l>Arcebat, lactis mulctralia plena fluebant.</l>
+						<l>Hoedorumque greges uidi, et spumantia mulctra.</l>
+						<l>Hic quoque sub prelo<app><rdg wit='#P'>praelo</rdg></app> fluitantia uasa liquore.</l>
+						<l>Hic uidi situlasque, scyphosque, scaphasque capaces,</l>
+						<l>In quas expressi mulgebat ab ubere lactis</l>
+						<l>Humores niueos. sociique urgere precantes,</l>
+						<l>Vt pressi massas lactis raperemus ouantes,</l>
+						<l>Hoedorumque gregem, tractosque ab ouilibus agnos</l>
+						<l>Ad celeres naues subito ferremus, et aequor</l>
+						<l>Sulcantes salsum, fugeremus gurgitis unda.</l>
+						<l>Hei misero, auerti sociorum uota, precesque:</l>
+						<l>Nec parere illis uolui. mea commoda tristi</l>
+						<l>Neglexi fato, ut saeuum Cyclopa uiderem,</l>
+						<l>Vtque mihi lactis praeberet munera pastor,</l>
+						<l>Quanquam crudelis sociisque mihique futurus.</l>
+						<l>Hic ignes igitur flammasque incendimus antro,</l>
+						<l>Et pressi massas lactis raptauimus ipsis</l>
+						<l>Fiscellis calamo textis, et uimine molli,</l>
+						<l>Duramusque foco uescentes lacte caprino:</l>
+						<l>Dum redit a pastu notum Polyphemus in antrum,</l>
+						<l>Pondera magna ferens, arentes arbore syluas,</l>
+						<l>Et grauidos ligni fasces, incendia coenae</l>
+						<l>Larga paraturus caueis, extraque sonantem</l>
+						<l>Ipse specum iecit, nemoroso fasce leuatus.<ptr rend='unmarked' target='#mrg09.25'/><add xml:id='mrg09.25' type='ecce' place='margin'>Polyphemi in antrum reditus.</add></l>
+						<l>Clamorem horrendum tollit, trepidosque tumultus:</l>
+						<l>Horror membra quatit metuentum, et dira trementum.</l>
+						<l>In tenebras fugimus celeres, antrique recessus,</l>
+						<l>Vltima saxosae penetralia prendimus aulae,</l>
+						<l>Vitamusque procul monstrosi membra gigantis.</l>
+						<l>Tunc et oues pingues claudit, caprasque salaces</l>
+						<l>Impulsas intra latae spelaea cauernae.</l>
+						<l>Mox stabulis cunctas mulget: sed detinet extra</l>
+						<l>Terrificas caulas agnosque, hircosque petulcos,</l>
+						<l>Lanigerosque mares. tum tollit in aera postes.</l>
+						<l>Trudit et inde gemens immanem ad limina ualuam,</l>
+						<l>Saxum ingens, grauido quod pondere subleuat alte,</l>
+						<l>Quale bis undeni currus crepitante sub axe</l>
+						<l>Vix ab humo ueherent bis bina mole, rotarum:</l>
+						<l>Vsque adeo admouit celsam pro cardine rupem.</l>
+						<l>Dehinc residens, et oues blandas, caprasque cientes</l>
+						<l>Balatum mulget, pressabat et ubera palmis</l>
+						<l>ordine tracta suo: foetus post mulctra capellae</l>
+						<l>Quaeque suos repetunt, calathisque e uimine textis</l>
+						<l>Dimidium niuei fundit per uimina lactis</l>
+						<l>Concretae seruans ad plena coagula massae,</l>
+						<l>Per quae rara sero stillat uia facta liquores.</l>
+						<l>Altera pas illi uasis retinetur amoenis,</l>
+						<l>Quam bibiturus erat reparans conuiuia coenae.</l>
+						<l>Tunc flammam incendit. cunctis sic rite peractis,</l>
+						<l>Nos adeo primum tenebroso aspexit in antro,</l>
+						<l>Sub saxo trepidos, uerbis sic quaerit amaris:</l>
+						<l><milestone unit='speaker' n='Polyphemus'/>Vnde peregrinis sulcatis nauibus aequor,<ptr rend='unmarked' target='#mrg09.26'/><add xml:id='mrg09.26' type='ecce' place='margin'>Polyphemus aduenas Ithacos alloquitur</add></l>
+						<l>Perque uias liquidas, et caerula concita uentis?</l>
+						<l>Qui uos estis? ait. cur huc uos, hospita turba,</l>
+						<l>Puppibus aduecti? num merces aequore fertis,</l>
+						<l>Per uada salsa maris iactati fluctibus atris,</l>
+						<l>Traiecisse iuuat propter commercia pontum?</l>
+						<l>An peraratis aquas pelago, frustraque meantes</l>
+						<l>Erratis, ueluti praedones gurgite cano,</l>
+						<l>Pirataeque rates armis super aequore celso</l>
+						<l>Lentatis, posita tristi in discrimine uita</l>
+						<l>Per uarios casus, turba exitiosa per undas,</l>
+						<l>His qui cana legunt externi marmora classe,</l>
+						<l>Ac miserorum hominum merces inhiatis acerbi?</l>
+						<l>Sic ait. at nobis gelida formidine pectus</l>
+						<l>Frangitur, hic clamorque et corpus terruit ingens,</l>
+						<l>Terrificosque sonos, monstrumque tremiscimus atrox.</l>
+						<l>Impleuit clamore locum. uix pauca furenti</l>
+						<l>Subiicio, et raris turbatus uocibus hisco:</l>
+						<l><milestone unit='speaker' n='Vlysses'/>Pellimur a Troia magnis erroribus acti<ptr rend='unmarked' target='#mrg09.27'/><add xml:id='mrg09.27' type='ecce' place='margin'>Vlysses Cyclopi.</add></l>
+						<l>Griugenae infausti, quos fudit Achaica tellus.</l>
+						<l>Huc nos Auster aquis egit, saeuaeque procellae</l>
+						<l>Ventorum, et uasti rapuere per aequora fluctus,</l>
+						<l>Dum cupimus patrios uelis repetisse penates.</l>
+						<l>Isse uias alias, aliudque iter aequore celso</l>
+						<l>Compulit infelix casus. Sic Iuppiter altus</l>
+						<l>Nos alio miseros uoluit dare lintea uentis,</l>
+						<l>Atridae regis populos, Agamemnonis alti,</l>
+						<l>Cuius in immensum contendit gloria coelum,</l>
+						<l>Qui tantae excidit mauortia moenia Troiae,</l>
+						<l>Qui tot deleuit populos sub Marte feroci.</l>
+						<l>Ad tua nunc fugimus genua, oramusque profecti</l>
+						<l>Littus ad hoc uestrum: miseris succurre<app><rdg wit='#P'>sucurre</rdg></app>, leuisque</l>
+						<l>Hospitiique pius fer dona precantibus ipse:</l>
+						<l>Siue aliud munus quod te modo cunque decebit,</l>
+						<l>Hospitibusque datur: neu despice uota precesque.</l>
+						<l>Sed reuerere deos, precor o pater optime Cyclops.</l>
+						<l>Turba sumus supplex, miserere benignior hospes</l>
+						<l>Hic, Iouis exemplo, qui supplicibusque bonisque</l>
+						<l>Auxilium hospitibus praebet, uindexque tuetur</l>
+						<l>Hospitii fautorque, ultorque, comesque piorum,</l>
+						<l>Iuppiter accedit peregrinos saepe sequendo.</l>
+						<l>Haec ego cum dixi supplex, exarsit in iras,</l>
+						<l>Truxque minas affert, et uerba atrocia fundit:</l>
+						<l><milestone unit='speaker' n='Polyphemus'/>Haud sapis o hospes, quicunque aueneris unda<ptr rend='unmarked' target='#mrg09.28'/><add xml:id='mrg09.28' type='ecce' place='margin'>Polyphemus Vlyssi.</add></l>
+						<l>Huc procul ad littus, longinquis uectus ab oris,</l>
+						<l>Qui curare deos, aut numina celsa uereri,</l>
+						<l>Seu uitare iubes, profugus qui littora calcas.</l>
+						<l>Crede Iouem nulli metuunt Cyclopes in antris.</l>
+						<l>Non tonitru curant, non aegide fulmina quassa,<ptr rend='unmarked' target='#mrg09.29'/><add xml:id='mrg09.29' type='ecce' place='margin'>Cyclopes deorum contemptores.</add></l>
+						<l>Foelicesue deos. maiorque potentia nostra est.</l>
+						<l>Possumus et dextra, uolumus si, uincere diuos.</l>
+						<l>Non odium, non ira Iouis, non fulgura terrent,</l>
+						<l>Vt tibi cum sociis parcam. si denique mente</l>
+						<l>Non mihi concepi, pasces mea uiscera praeda.</l>
+						<l>Dic mihi, qua regione rates religaueris altas</l>
+						<l>Concitus huc undis, an sint prope, siue rudentes</l>
+						<l>Extremo teneant fessas in littore naues.</l>
+						<l>At non me latuit, foecundum pectus habentem.</l>
+						<l>Callidus ergo illi ficto sic corde loquebar:</l>
+						<l><milestone unit='speaker' n='Vlysses'/>Ipse mihi fregit nauem Neptunus in undis,<ptr rend='unmarked' target='#mrg09.30'/><add xml:id='mrg09.30' type='ecce' place='margin'>Vlysses Polyphemo.</add></l>
+						<l>Concutiens terram, scopulisque affixit acutis,</l>
+						<l>Collisasque rates saxo prope littora uestrae</l>
+						<l>Disiecit terrae, qua rupes ardua tendit.</l>
+						<l>Namque procellosus detorsit ab aequore uentus,</l>
+						<l>His solus sociis fugii uix ipse ferocem</l>
+						<l>Perniciem undarum ponto, pelagique ruinas.</l>
+						<l>Ille nihil, rabiem truculentior ore fatigans,</l>
+						<l>Insurgensque simul rapuit duo corpora nostra,</l>
+						<l>Corpora prensa uirûm, scopuloque illisa cruento<ptr rend='unmarked' target='#mrg09.31'/><add xml:id='mrg09.31' type='ecce' place='margin'>Cyclops duos Vlyssis socios deuorat.</add></l>
+						<l>Tundit humi, ueluti catulos, et ab ubere raptos</l>
+						<l>Matris ouis foetus, cerebrumque cruore fluebat,</l>
+						<l>Guttatimque solum rubefecit sanguine sparso,</l>
+						<l>Humectabat humum tabo, cerebrique liquore,</l>
+						<l>Truncatimque uirum per partes corpora caesa</l>
+						<l>Apponens coenam crudelior arte parabat:</l>
+						<l>Ceu leo montanus, rabies quem uertice rupis</l>
+						<l>Exacuit, praedam uorat incitus ore cruentam</l>
+						<l>Sic quoque direptos rabidam coniecit in aluum.</l>
+						<l>Non carnes ullas, tepidis non ossa medullis,</l>
+						<l>Ilia nulla solo liquit, uorat omnia dirus.</l>
+						<l>Horror habet mentes, intentant omnia mortem.</l>
+						<l>Tendimus heu flentes trepidas ad sidera palmas,</l>
+						<l>Vota Ioui facimus, crudelia facta tuentes.</l>
+						<l>Vt uero humano repleuit uiscere uentrem,</l>
+						<l>Atque hominum carnes uastam congessit in aluum,<app><rdg wit='#P'>aluum</rdg></app></l>
+						<l>Insuper epotat tetro mulctralia lacte,</l>
+						<l>Ac ueteri pecorum concreta coagula succo.</l>
+						<l>Mox grauior stabulis inter pecora ipse recessit,</l>
+						<l>Et tepido stratus iacuit resupinus in antro.</l>
+						<l>Saepe quidem libuit ferro, dum sterteret ille</l>
+						<l>Destruxisse iecur, uulnusque<app><rdg wit='#P'>iecur vulnusque</rdg></app> infligere corde<app><rdg wit='#P'>cordi</rdg></app>.</l>
+						<l>Sic mihi saepe quidem lateris, quo munior, ensem</l>
+						<l>Stringere suadebant fortissima pectora marte,</l>
+						<l>In pectusque illi ruere hic per uulnera mille,</l>
+						<l>Qua iecur aduersa dirimunt praecordia saepe:</l>
+						<l>Ast alio casu mutat sententia pectus.</l>
+						<l>Hic iacuissemus moesta tum funera morte,</l>
+						<l>Inque ferum exitium cessissent fata Gigantis.</l>
+						<l>Haud equidem nixi praegrandem uoluere rupem</l>
+						<l>Postibus excelsis poteramus uiribus ullis,</l>
+						<l>Qua prius ipse fores rigidae muniuerat aulae.</l>
+						<l>Hic igitur tristes, donec se Aurora quadrigis</l>
+						<l>Protulit exortis, tetro durauimus antro.</l>
+						<l>Vt matutinis dispersit lutea bigis</l>
+						<l>Lumina per terras crocei Pallantias ortus,</l>
+						<l>Tunc igni accenso pecora ordine mulget. at illa</l>
+						<l>Vbere pressato, replent balatibus aulam,</l>
+						<l>Ac repetunt foetus. postquam sibi rite peregit</l>
+						<l>Pastor opus pecudum, rursus tum bina meorum</l>
+						<l>Corpora discerpsit, dapibusque infanda parauit<ptr rend='unmarked' target='#mrg09.32'/><add xml:id='mrg09.32' type='ecce' place='margin'>Rursus duos e sociis deuorat.</add></l>
+						<l>Fercula, et obscuris epulatur dirus in antris.</l>
+						<l>Tunc pecora e specubus in florida pascua misit,</l>
+						<l>Postibus ablato nullo conamine saxo.</l>
+						<l>Quod tamen admouit rursus, sed cardine postes</l>
+						<l>Horrendum strident: quanquam sine uiribus ullis</l>
+						<l>Ingenti sonitu, et magno stridore sonantem</l>
+						<l>Imposuit rupem: ueluti<app><rdg wit='#P'>rupem veluti</rdg></app> uenator in altis</l>
+						<l>Montibus, ad pharetram coniungit tegmen habendum.</l>
+						<l>Ad iuga dura pecus, montisque cacumina uertit</l>
+						<l>Montiuagus Cyclops humano sanguine pastus.</l>
+						<l>Moestus ego interea, curuo desertus in antro</l>
+						<l>Dira animo uoluens, Polyphemum ulciscier altum</l>
+						<l>Ipse specu clauso meditor. uictricia Pallas</l>
+						<l>O daret arma mihi, et factis decus adderet unum.</l>
+						<l>Talia dum uario, melior sententia uisa est.</l>
+						<l>Forte erat ad mandras praegrandi robore claua</l>
+						<l>Ingens ac uiridis, caesisque oleagina nodis,</l>
+						<l>Integer emisso frondebat germine fustis,</l>
+						<l>Quem procul Aetnaeis Cyclops praeciderat aruis,</l>
+						<l>Vt secum ferret siccatum lumine flammae,</l>
+						<l>Seruaratque, ipsis paulatim aresceret antris.</l>
+						<l>Hunc nos aspicimus, quantum patet arbor in altum</l>
+						<l>Caeruleae nauis, quae portat ab aequore merces,</l>
+						<l>Et freta magna secat ponti, fluctusque profundos,</l>
+						<l>Quam uiceni agitant spumoso gurgite remi.</l>
+						<l>Densa adeo fuerat, proceraque stipite claua.</l>
+						<l>Vix ulnae spacium, aut cubita aere quaterna recidi</l>
+						<l>Syluosae immanis Cyclopis ab arbore fustem,</l>
+						<l>Hunc acuant iubeo sociis, properentque secando.</l>
+						<l>Tela parata illi faciebant laeuia cultris.</l>
+						<l>Ipse sudis atrox acuebam extrema praeustae.</l>
+						<l>Namque aciem flamma fustis crepitante praeussi,</l>
+						<l>Prudenterque fimo caulae bene callidus alto</l>
+						<l>Occului, et leuiter uolui laetamine denso.</l>
+						<l>Nam iacuit magno fimus hic aggestus aceruo.</l>
+						<l>Sorte uiros legi, quorum spectata periclis</l>
+						<l>Extiterat uirtus, qui mecum trudere fustem</l>
+						<l>Auderent oculo, palumque affigere fronti,</l>
+						<l>Dum dulci Cyclops declinet lumina somno.</l>
+						<l>Quattuor exurgunt, quos sors eduxerat una,</l>
+						<l>Quosque ego sponte uiros tali discrimine solos</l>
+						<l>Sumpsissem mecum, si quae sors dura uocasset.</l>
+						<l>Quintus ego accedo socios, pars una laborum.</l>
+						<l>Serus oues campis agitabat uellere densas,</l>
+						<l>Hesperus ut micuit saxoso uertice montis,</l>
+						<l>Cum redit a pastu uilloso cum grege Cyclops,</l>
+						<l>Pinniferae subit antra domus, caprasque gregalesque</l>
+						<l>Egit oues pingues intra spelaea recurua.</l>
+						<l>Ante fores antri pecoris pars nulla remansit,</l>
+						<l>Seu prudens uidit, seu quis deus illa uolebat,</l>
+						<l>Aut sua fata illum damno sic forte trahebant.</l>
+						<l>Voluit, et inde fremens montosam ad limina rupem</l>
+						<l>In sublime leuans surgit, crepitantibus auris.</l>
+						<l>Vt consueuit, oues mulget, caprasque salaces,</l>
+						<l>Balatuque crebras? expressaque lactea palmis</l><!-- was soll das Fragezeichen hier? -->
+						<l>Vbera, passim implent dulci mulctralia succo,</l>
+						<l>Mox clamore caprae repetebant uberis hoedos</l>
+						<l>Exhausti. ut pecoris curas exegit in antro,</l>
+						<l>Tum duo corripuit proh dirae corpora coenae,</l>
+						<l>Crudelisque epulas reparat sibi sero nefandas:</l>
+						<l>Hic ego progressus Cyclopa affabar, et illi</l>
+						<l>Mox pateram Ismario nigrantem porrigo baccho,<ptr rend='unmarked' target='#mrg09.33'/><add xml:id='mrg09.33' type='ecce' place='margin'>Vlysses Polyphemo uinum Maroneum offert.</add></l>
+						<l>Quam teneo manibus, circum pallente corymbis</l>
+						<l>Exculptis hedera nitidam. <milestone unit='speaker' n='Vlysses'/>Cape maxime Cyclops,</l>
+						<l>Hocque merum pota demerso uiscere in aluum,</l>
+						<l>Carnibus humanis epulans ferus ore cruento,</l>
+						<l>Vt cernas quae uina ratis per caerula uecta</l>
+						<l>Nostra tibi condat, quin en libamina fundam,</l>
+						<l>Vtque deo tibi sacra feram, si mitior omnes</l>
+						<l>Siueris ad patrios miseratus abire penates.</l>
+						<l>Insanis equidem, dum non tolerabilis ulli</l>
+						<l>Ora cruenta geris, dum corpora fundis in aluum.</l>
+						<l>Quis porro infoelix posthac tua littora tangat?</l>
+						<l>Crede mihi, nullae uenient ad limina gentes,</l>
+						<l>Dum caesorum hominum crudelis uiscera mandis,</l>
+						<l>Et crudele nefas peragis. Sic fatus: at ille</l>
+						<l>Spumantem rapuit pateram, mox aridus hausit,</l>
+						<l>Epotatque merum, demulcens nectare pectus.</l>
+						<l>Iamque grauis dulci potu petit ille Lyaeum:</l>
+						<l>Vota precesque iterans, da suauia pocula Bacchi,<ptr rend='unmarked' target='#mrg09.34'/><add xml:id='mrg09.34' type='ecce' place='margin'>Polyphemus Vlyssi.</add></l>
+						<l>Quodque tibi nomen edissere uera roganti,</l>
+						<l>Officio praestem qua parte mereris, ut hospes</l>
+						<l>Hospite dona feras antri oblectamine nostri.</l>
+						<l>Fertilis hic quanquam floret Cyclopibus ora,</l>
+						<l>Expressumque merum generosi palmitis uua,</l>
+						<l>Imbriferisque Iouis guttis, pluuiaque madenti</l>
+						<l>Nascitur exauctum per culta uirentia campis:</l>
+						<l>Suauior ambrosia tamen hic et nectare Iacchus,</l>
+						<l>Praedulci potus deductus origine diuûm.</l>
+						<l>Sic ait. ast illi flammantem praebeo bacchum:</l>
+						<l>Terque dedi, fateor, terque impiger hausit in antro</l>
+						<l>Feruentem pateram, et se pleno proluit ore.</l>
+						<l>Vsque adeo fatis dementia ceperat illum.</l>
+						<l>Vt Cyclopis iners circa praecordia uinum</l>
+						<l>Irruit, et fallax pectus deuicit acerbum,</l>
+						<l>Alloquor his uerbis Cyclopem mollibus usus:</l>
+						<l><milestone unit='speaker' n='Vlysses'/>Me quoniam ipse rogas Cyclops quo nomine dicar</l>
+						<l>En tibi uera loquar, pandam memorabile nomen.</l>
+						<l>Tu quoque dona tamen profer nunc hospitis hospes,</l>
+						<l>Et promissa modo tandem mihi munera praebe,</l>
+						<l>Quae monumenta mei pius hospitis hospes habebo.<ptr rend='unmarked' target='#mrg09.35'/><add xml:id='mrg09.35' type='ecce' place='margin'>Vlyisses se Vtim, hoc es, Neminem uocari ait.</add></l>
+						<l>Sum pius Vtis ego, sic dicor uoce Pelasga:</l>
+						<l>Hoc mihi, si nescis, nomen<app><rdg wit='#P'>nomem</rdg></app> posuere parentes:</l>
+						<l>Sic me cognati, materque paterque uocabant.</l>
+						<l>Sic ego. sic est me resequutus uoce loquutum,</l>
+						<l>Truxque animo fatur&#183; <milestone unit='speaker' n='Polyphemus'/>Postremus iniueris aluum,<ptr rend='unmarked' target='#mrg09.36'/><add xml:id='mrg09.36' type='ecce' place='margin'>Cyclopis munus.</add></l>
+						<l>Vtin ego extremum crudeli fauce uorabo,</l>
+						<l>Post socios Vtin, post funera rapta suorum</l>
+						<l>Postremo absorptum, socios laniabo priores</l>
+						<l>Puppibus aduectos. haec sum monumenta daturus:</l>
+						<l>Talia dona tui referes hinc hospitis hospes.</l>
+						<l>Sic ait, et baccho domitus, resupinus in antro</l>
+						<l>Se extendens, corpus longum librauit arena.</l>
+						<l>Ceruicem immanem posuit, iacuitque tremendus.</l>
+						<l>Cunctorum domitor fessos sopor irrigat artus,<ptr rend='unmarked' target='#mrg09.37'/><add xml:id='mrg09.37' type='confer' place='margin'>Virgilius hunc totum locum fere ad uerbum transtulit lib. 3. Aen.</add></l>
+						<l>Commixtumque cibis eructat gutture bacchum,</l>
+						<l>Humanaeque ruunt carnes et frusta<app><rdg wit='#B'>frustra</rdg></app> cruenta</l>
+						<l>Ore uorata, imo uoluuntur gurgite uentris,</l>
+						<l>Visceraque ipse grauis uino reuomebat atroci.</l>
+						<l>Tumque sudem flammae iuxta ipsa incendia uolui,</l>
+						<l>Et cinerem indensum demergo, ignesque reduco</l>
+						<l>Donec flagranti feruens canderet ab igni.</l>
+						<l>Intrepide ut surgant, cunctos hortabar amicos,</l>
+						<l>Ne mihi quis timidus forsan iam dicta retractet.</l>
+						<l>Vtque sudes ignis crepitanti oleagina flamma</l>
+						<l>Accendi uisa est, uiridis licet illa, cremari</l>
+						<l>Ignita incepit, grauiterque excanduit<app><rdg wit='#P'>excaudiuit</rdg></app> igni,</l>
+						<l>Ocyus e flamma rapui cum stipite fumum.</l>
+						<l>Stabant, fortitique uices una undique circum</l>
+						<l>Funduntur socii: fortissima pectora fecit.</l>
+						<l>Audacesque deus uires in facta ministrat.</l>
+						<l>Namque uiri raptum fixere in lumina fustem</l>
+						<l>Prima acie, qua sese oculus sub fronte supremus</l>
+						<l>Arcebat. quin ipse  super me tollo renixus</l>
+						<l>Voluendo, ut melius uallus penetraret acutus,</l>
+						<l>Ceu si quando faber terebrat naualia ligna<ptr rend='unmarked' target='#mrg09.38'/><add xml:id='mrg09.38' type='ecce' place='margin'>Comparatio.</add></l>
+						<l>Infra alii aggressi torquent utrinque lacertis,</l>
+						<l>Atque rotant loro terebram: uolat illa rotata.</l>
+						<l>Sic ignitum oculi fustem conuertimu orbe.</l>
+						<l>Inde calens sanguis frontis fluit undique toruae,<ptr rend='unmarked' target='#mrg09.39'/><add xml:id='mrg09.39' type='ecce' place='margin'>Oculum Cyclopis effodiunt dormientis<app><rdg wit='#B'>dormentis</rdg></app>.</add></l>
+						<l>Palpebrasque uapor iam cunctas undique flagrans,</l>
+						<l>Et cilia exurens pupilla ardente cremauit,</l>
+						<l>Radicesque igni raucae crepitante sonabant,</l>
+						<l>Excandens igni gelidis ceu stridet in undis,</l>
+						<l>Seu ligo splendescens flamma, siue igne securis,</l>
+						<l>Quam faber immersit, resonatque lacuna uapore:<app><rdg wit='#P'>vapore.</rdg></app></l>
+						<l>Sic ferri uis est, oleae sic fuste crepabat</l>
+						<l>Feruescens oculus magno stridore Gigantis.</l>
+						<l>Horrendum exclamat, resonent ut saxa repulsa:</l>
+						<l>Nos retro fugimus, specubusque recessimus altis,</l>
+						<l>Saxea nigrantes petimusque per antra recessus.</l>
+						<l>Eruit ille fremens multo cum sanguine contum,</l>
+						<l>Ac crasso sparsum proiecit in antra cruore,</l>
+						<l>Aegrior auulsa manibus cum carne cruenta</l>
+						<l>Stirpe. ferus uocat horrendo clamore Cyclopas.<ptr rend='unmarked' target='#mrg09.40'/><add xml:id='mrg09.40' type='ecce' place='margin'>Polyphemus Cyclopas aduocat.</add></l>
+						<l>Qui specubus circum uentosa cacumina passim,</l>
+						<l>Et nemorum syluas habitabant montibus altis,</l>
+						<l>Clamore exciti concurrunt undique cliuis,</l>
+						<l>hinc illinc crebri uasta cum mole Gigantes,</l>
+						<l>Circunstantque specum, quem sylua pinus obumbrat.</l>
+						<l><milestone unit='speaker' n='Cyclopes'/> Quid Polypheme tonas? quis te perturbat in antro?</l>
+						<l>Quidue intempesta tollis sub nocte tumultus?</l>
+						<l>Ac nos insomnes reddis, tollisque soporem</l>
+						<l>Vociferans adeo? an pecudes tibi traxit ad aequor,</l>
+						<l>Et praedatur oues, uiolento an funere praedo?</l>
+						<l>Aut quis fraude atrox media te mactat in aula?</l>
+						<l>Ipse suo rursus toruus Polyphemus ab antro:</l>
+						<l>Me necat Vtis, ait, non ui, sed fraude maligna.</l>
+						<l>Ast illi breuiter rupmunt sic pectore uocem:</l>
+						<l>Quod si te Nemo<app><rdg wit='#P'>nemo</rdg></app> uiolat, uix numinis iram,</l>
+						<l>Atque Iouis magni morbum uitaueris acrem&#183;<app><rdg wit='#P'>acrem.</rdg></app></l>
+						<l>Aethero Iouis haec labes tibi uenit olympo:</l>
+						<l>Fatorum aerumnas nulli euasisse licebit.</l>
+						<l>Concipe uota patri Neptune, et numen adora,</l>
+						<l>Qui regit aequoreas undas, et Nerea uertit.</l>
+						<l>Ergo abeunt illi. ridebant pectore dulci,</l>
+						<l>Ridentisque mihi pertentant gaudia corda,</l>
+						<l>Consilio atque astu et deceptum nomine ficto.</l>
+						<l>Cyclops terribiles uoluit sub pectore motus,</l>
+						<l>Et gemitus ducens fert altum corde dolorem.</l>
+						<l>Demouet a foribus celsum conamine saxum</l>
+						<l>Innixus, passisque resedit limine palmis.</l>
+						<l>Hicque suam firmat crudeli corpore molem,</l>
+						<l>In uariasque uices expandit brachia dextris:</l>
+						<l>Nempe foras si quem comprenderet ille meantem</l>
+						<l>Inter oues, mixtum et pecora inter inertia gressu.<app><rdg wit='#P'>gressu&#183;</rdg></app></l>
+						<l>Sic Ithacum Cyclops dementem pectora retur.</l>
+						<l>Multa ego consulto uarians, quaeque optima quaero,<ptr rend='unmarked' target='#mrg09.41'/><add xml:id='mrg09.41' type='ecce' place='margin'>Vlyssis mira astutia et promptitudo in periculis.</add></l>
+						<l>Quo fugiam sociis lethumque atque aspera fata,</l>
+						<l>Meque meosque simul crudeli funere demam,</l>
+						<l>Consiliisque dolos uarios, fraudesque salute</l>
+						<l>Proque anima uerso. namque hic nos clade manebat</l>
+						<l>Pernicies. ingens potior sententia uisa est:</l>
+						<l>Lanigerique mares fuerant Cyclopis in antro,</l>
+						<l>Sed bene nutriti pastuque herbaque uirenti</l>
+						<l>Ingentes, nitidi, et uilloso uellere densi,</l>
+						<l>Purpureisque graues uelantes corpora lanis,</l>
+						<l>Ac uiola pingunt alacres et murice uellus.</l>
+						<l>Hos ego flexilibus iungo de uimine nodis,<ptr rend='unmarked' target='#mrg09.42'/><add xml:id='mrg09.42' type='ecce' place='margin'>Socii sub uentre ouium ligantur.</add></l>
+						<l>Quique aries medius socium sub uentre ferebat,</l>
+						<l>Quique latus membris iunctis claudebat utrinque,</l>
+						<l>Corpus uterque gerit: sic terni corpora trina</l>
+						<l>Gestabant, tergo restis contecta latebat.</l>
+						<l>Inter oues aries fuerat pulcherrimus unus,</l>
+						<l>Corpore longe alios superans restabat in antro.</l>
+						<l>Hunc tacite arripio, uentrique accommodor, arcte</l>
+						<l>Lanigeroque utero stringor: palpante Cyclope,</l>
+						<l>Sed per terga manus latuerunt uellere denso.</l>
+						<l>Sic contortus ego iacui sub pectore fortis,</l>
+						<l>Cum gemituque graui roseos duramus ad ortus.</l>
+						<l>Vt matutinis ueniens Aurora quadrigis</l>
+						<l>Extendit roseos digitos, croceosque colores,</l>
+						<l>Tum pecorumque mares ex antro in pascua larga</l>
+						<l>Mittit, oues intus stabulum balatibus implent.</l>
+						<l>Nec dum mulctrali Cyclops emulxerat illas,</l>
+						<l>Vbera plena sibi liquido prae lacte strepebant.</l>
+						<l>Namque intus diris contectus pectora curis</l>
+						<l>Lanigeras pecudes palmis pertentat euntes,</l>
+						<l>Terga premens digitis pecoris per uellera densa<app><rdg wit='#B'>densa.</rdg></app></l>
+						<l>Demens, qui nunquam uilloso tergore uinctos</l>
+						<l>Nouerit: heu miserum, dum nos sub pectore denso</l>
+						<l>Lanaris taciti tegimur gregis antra per alta.</l>
+						<l>Iamque mares ouium penetrabant pondere limen:</l>
+						<l>Sed mihi uillosus aries postremus in arua</l>
+						<l>Cornibus exibat curuis, et uellere multo</l>
+						<l>Atque onere arctatus, sic mira prouidus arte</l>
+						<l>Decepi uictor, multum sub corde uolutans</l>
+						<l>Efferor. hinc aries grauidus procedit: at illum</l>
+						<l>Iam tenet attrectans dirus Polyphemus, et inquit:</l>
+						<l><milestone unit='speaker' n='Polyphemus'/>O mihi chare aries, postremus de grege gressus<ptr rend='unmarked' target='#mrg09.43'/><add xml:id='mrg09.43' type='ecce' place='margin'>Polyphemus arieti, sub cuius uentre Vlysses gestabatur.</add></l>
+						<l>Ipse specu tendis, quae causa indigna retardat?</l>
+						<l>Non equidem a tergo prius ipse relictus abibas,</l>
+						<l>Sed longe egrediens antro prior isse solebas.</l>
+						<l>Tu procul hinc erras trans herbida pascua primus,</l>
+						<l>Tuque prior longe teneras depasceris herbas,</l>
+						<l>Et uirides carpis flores per longa uireta,</l>
+						<l>Primus et ad fontes, et primus fluminis undas</l>
+						<l>Decursusque petis riui, primusque reuerti</l>
+						<l>Expetis ad caulas, cum claudit uesper olympum</l>
+						<l>Serus, ades primus. quae causa odiosa c<choice><orig>oe</orig><reg>oë</reg></choice>git,</l><!-- Bei #B mit ë -->
+						<l>Vt mihi postremus iam tendas tristior antro.</l>
+						<l>Infoelixne<app><rdg wit='#P'>Infoelix ne</rdg></app> tui defles heu lumina regis,</l>
+						<l>Et luges domini crudelia uulnera frontis?</l>
+						<l>Tu desiderio nostri quoque tangeris ipse,</l>
+						<l>Heu terebrati oculi condentis stipite flammae.</l>
+						<l>Heu me priuauit sceleratus lumine Graius</l>
+						<l>Cum sociis saeuis, dulci me uicit Iaccho,</l>
+						<l>Indomitumque mero domuit mihi pectus acerbus</l>
+						<l>Excaecans Vtis. sed non et fata suprema,</l>
+						<l>Interitumque uafer nostros uitabit in antro,</l>
+						<l>Sentiet ultrices in lurida funera dextras.</l>
+						<l>Si tamen hoc sentis mecum, et si luctibus instas.</l>
+						<l>Quam uellem o aries, utinam uocalior esses,</l>
+						<l>Vtque loqui posses, atque edere gutture uocem,</l>
+						<l>Quo fugit ille meas uires, atrumque furorem.</l>
+						<l>O utinam huc illuc cerebrum sparsisset ab ictus</l>
+						<l>Occisus nostro, saniesque illisa cruenta</l>
+						<l>Manaret terra, et pectus recrearet amarum,</l>
+						<l>Interituque suo curas mihi demeret istas,</l>
+						<l>Quas mihi fecit iners Vtis. sic dixit, et antro</l>
+						<l>Misit in arua marem, moestusque remisit iturum.</l>
+						<l>Progredimurque parum caulaque antroque: resoluor,</l>
+						<l>Et dirimo socios, pecudesque ad littora multas,</l>
+						<l>Lanigeros, pinguesque greges per rura trahentes,</l>
+						<l>E pastuque retro raptos, qua nauis ad aequor<ptr rend='unmarked' target='#mrg09.44'/><add xml:id='mrg09.44' type='ecce' place='margin'>Vlysses cum paucis superstitibus sociis euadit</add></l>
+						<l>Stabat, ubi grati sociis adiungimur una.</l>
+						<l>Hic gemitus flentes ducunt, moestisque querelis</l>
+						<l>Sollicitant alios, qui mecum fata superba</l>
+						<l>Euasere antro, mortemque atque ora Gigantum.</l>
+						<l>Ast ego ploratus fletumque arcere iubebam,</l>
+						<l>Ipse supercilio signans auferre querelas,</l>
+						<l>Lanigeras pecudes et pulchro uellere naui</l>
+						<l>Tot praedas inferre, et falsas aequoris undas</l>
+						<l>Sulcare. ast illi conscendunt undwique puppim,</l>
+						<l>Et feriunt ductis certatim marmora remis.</l>
+						<l>Vt spacio euasi tanto, ut clamantis in aequor</l>
+						<l>Vox aures feriat, sonitusque impulsus in auras</l>
+						<l>Non procul, ut saltem uoces haurire loquentis</l>
+						<l>Hic queat, incessi uerbis accensus amaris</l>
+						<l>Cyclopem, et fudi tumidae conuicia linguae:</l>
+						<l><milestone unit='speaker' n='Vlysses'/>Infoelix Cyclops, uentrisque immane barathrum,<ptr rend='unmarked' target='#mrg09.45'/><add xml:id='mrg09.45' type='ecce' place='margin'>Vlysses liberatus Cyclopi insultat.</add></l>
+						<l>Cur audes atrox tetro lacerare sub antro</l>
+						<l>Hospitis imbellis socios, et supplicis ora</l>
+						<l>Auertisse specu? quo se uiolentia mentis</l>
+						<l>Et rabies uertit? lanias super aequora uectos,</l>
+						<l>Foedas hospitium scelerato sanguine. uerum</l>
+						<l>Aequum erat, infaustum premerent te facta nefanda,</l>
+						<l>Obrueretque scelus merito crudelis in antro,</l>
+						<l>Dum saeua mactas uenientes clade per aequor,</l>
+						<l>Dum spernis fastu peregrinos perfide Cyclops,</l>
+						<l>Nec lacerare times. ergo te Iuppiter altus,</l>
+						<l>Coelicolaeque alii poenas cum sanguine poscunt</l>
+						<l>Humanae caedis. sic fabar ab aequore cano.</l>
+						<l>His magis ille animis saeuas prorumpit in iras,</l>
+						<l>Saeuit, et impatiens effracta cacumina montis</l>
+						<l>Eripuit, molemque grauem proiecit in aequor,</l>
+						<l>Quae cadit ante ratem sub fluctus aequoris alti,</l>
+						<l>Summaque temonis madefecerat unda remissa.<ptr rend='unmarked' target='#mrg09.46'/><add xml:id='mrg09.46' type='ecce' place='margin'>Cyclops rupem in pelagus iacit.</add></l>
+						<l>Vix tetigit rupes ictu sub gurgite mersa,</l>
+						<l>Restagnantque sinus labente sub aequora saxo.</l>
+						<l>Retro mare undabat totum, marmorque recurrens,</l>
+						<l>Liuida uoluebat uastos ad littora fluctus,</l>
+						<l>Exundansque liquor ponto super ipsa fluebat</l>
+						<l>Littora, et intrabat uiolentior humor arenas</l>
+						<l>Irruiturus humum, pelago furit aestus arenis.</l>
+						<l>Tunc ego correpto manantes gurgite conto</l>
+						<l>Detorsi fluctus naui, sociosque uicissim</l>
+						<l>Adhortor, ponto ualidis incumbere remis.</l>
+						<l>Caesariem excutiens toto capite, innuo sortis,</l>
+						<l>Aetnaeam celeri fugiamus gurgite pestem.</l>
+						<l>Certatim socii feriunt mare, et aequora uerrunt,</l>
+						<l>Bis tantum pelagi spumosa puppe secantes.</l>
+						<l>Tunc ego uociferans Cyclopa<app><rdg wit='#P'>Gyclopa</rdg></app> affabar ab alto:</l>
+						<l>Vt taceam, socii currunt, atque undique fusi</l>
+						<l>Ne studio retinent, certantque auertere blandis</l>
+						<l>Vocibus: Infoelix, quid agrestem crimine pestum,</l>
+						<l>Immanemque uirum rursus de naue lacessis?</l>
+						<l>Qui ueluti iaculum proieci in aequora rupem,</l>
+						<l>Detorsitque ratem terrae, ne gurgite uasto</l>
+						<l>Submergat nauim, cunctos pallescere cernis.</l>
+						<l>Si te iam liquidis clamantem audiuerit undis,</l>
+						<l>Verbaque iactantem, collidet marmore duro</l>
+						<l>In pelagus misso, et submersas obruet alto</l>
+						<l>Disiicietque rates: tantum ualet ille per aequor</l>
+						<l>Immanes rupes, iaculando fragmina montis.<app><rdg wit='#P'>montis</rdg></app></l>
+						<l>At non his terrent mihi fortia pectora dictis.</l>
+						<l>Cyclopemque animo rursus reclamo minaci:</l>
+						<l><milestone unit='speaker' n='Vlysses'/>Si quis mortalis rogitet te perfide Cyclops,<ptr rend='unmarked' target='#mrg09.47'/><add xml:id='mrg09.47' type='ecce' place='margin'>Vlysses Cyclopi.</add></l>
+						<l>Quis te excaecauit, quis nam tibi dirus ademit</l>
+						<l>Fronte decus clarum, et terebrauit lumina saeuus?</l>
+						<l>Ipse L<choice><orig>ae</orig><reg>aë</reg></choice>rtiades caecum me fecit Vlysses,</l>
+						<l>Dicito, qui Phrygias populauit moenia sedes,</l>
+						<l>Qui saxosam Ithacen tenet, et qui Neriton altum</l>
+						<l>Incolit, et pelago Cephalenia tecta frequentat.</l>
+						<l>Sic ego uociferor. tum Cyclops pectore ab imo</l>
+						<l>Ingemit, et tales uoces mihi spargit in auras:</l>
+						<l><milestone unit='speaker' n='Polyphemus'/>Heu iam nacta fidem patuere oracula prisca,<ptr rend='unmarked' target='#mrg09.48'/><add xml:id='mrg09.48' type='ecce' place='margin'>Cyclopi edita iam olim oracula.</add></l>
+						<l>Nunc antiqua adsunt, nunc nunc responsa relata.</l>
+						<l>Iam repeto capiti portendere debita nostro.</l>
+						<l>Haec me nunc tangunt, quae qondam dixerat ille</l>
+						<l>Hic ingens uates, famaque insignis in aethra,</l>
+						<l>Auguriisque fidem nactus. responsa Gigantum</l>
+						<l>Ille dabat turbae, seniumque Cyclopibus egit</l>
+						<l>Telemus Eurymedes, cecinitque haec omnia uera,<ptr rend='unmarked' target='#mrg09.49'/><add xml:id='mrg09.49' type='ecce' place='margin'>Telemus Cyclopum uates.</add></l>
+						<l>Hei mihi uera nimis, lapsoque futura sub aeuo.</l>
+						<l>Heu me amissurum sub torua lumina fronte,</l>
+						<l>Rapta manu saeua Troia redeuntis Vlyssis.</l>
+						<l>Dum miser expecto uenturum heroa per aequor,</l>
+						<l>Viribus insignem, et praestanti corpere et armis,</l>
+						<l>Orbor, ego infoelix euictus inertis ab ictu,</l>
+						<l>Exiguoque miser pereo excaecatus Vlysse,</l>
+						<l>Cui sunt imbelles uires, effractaque membra.</l>
+						<l>Nec uirtute tamen domuit, sed cepit Iaccho.</l>
+						<l>Huc ades, ut capias quod dem tibi munus Vlysses</l>
+						<l>Hospitis. ipse patrem, tibi det per caerula uentos,</l>
+						<l>Foelicesque mari cursus reditumque per undas</l>
+						<l>Neptunum poscam? qui Nerea stagna tridente,</l>
+						<l>Et qui quassat humum pater est Neptunus in undis</l>
+						<l>Rex pelagi, hoc dicor celebris genitore creatus,</l>
+						<l>Qui te deducet reducem super aequora solus.</l>
+						<l>Si uolet est illi (si nescis) sola potestas.</l>
+						<l>Nec iam mortalis poterit te, siue deorum</l>
+						<l>Ad patrios quisquam ratibus misisse penates,</l>
+						<l>Praeter Neptunum, qui torquet caerula sceptro.</l>
+						<l>O utinam, clamo, potuissem effundere dextra</l>
+						<l>Istam animam, et uitam tristes Acherontis ad undas,</l>
+						<l>Pallentesque Erebi sedes Plutonia regna.</l>
+						<l>Ast oculum effossum poterit non ipse tridenti</l>
+						<l>Rex pelagi, Cyclops, tibi restaurasse feroci,</l>
+						<l>Hic qui quassat humum media Neptunus in unda.</l>
+						<l>Sic ego. tum deinceps passas ad lucida palmas</l>
+						<l>Sidera tendebat, supplexque ibi numen adorat</l>
+						<l>Neptuni regis pelagi: Pater optime regum,<ptr rend='unmarked' target='#mrg09.50'/><add xml:id='mrg09.50' type='ecce' place='margin'>Cyclops Neptuno</add></l>
+						<l>O quassator aquae, et terrestris motor arenae,</l>
+						<l>Caeruleasque comas, rex o pulcherrime ponti,</l>
+						<l>O Neptune pater. tua si uerissima proles</l>
+						<l>Dicor, et infoelix peperit me nympha Thoosa:</l>
+						<l>Si pater es, audi: bene si quoque glorior illo,</l>
+						<l>Da precor ut nunquam patrios repetisse penates<ptr rend='unmarked' target='#mrg09.51'/><add xml:id='mrg09.51' type='ecce' place='margin'>Imprecatur Vlyssi Polyphemus.</add></l>
+						<l>Ille L<choice><orig>ae</orig><reg>aë</reg></choice>rtiades scelerumque repertor Vlysses</l>
+						<l>Possit Dulichii atque Ithacae regnator arenae.</l>
+						<l>Si tamen ipsa sinant fata, et sors atra deorum</l>
+						<l>Posse uidere domos, et iuncto sanguine notos,</l>
+						<l>Ac tetigisse solum patriae natalis arenae,</l>
+						<l>Vt sero redeat saltem, sed naufragus erret,</l>
+						<l>Et lacer amissis sociis, fractaque carina,</l>
+						<l>Submersisque suis peregrino littore rebus,</l>
+						<l>Sero suam tandem ueniat, sed solus in<app><rdg wit='#B'>solus, in</rdg></app> arcem</l>
+						<l>Inueniatque illic, mediaque miserrima sede.</l>
+						<l>Audiit orantem celsa Neptunus arena,</l>
+						<l>Hic tum maiorem furioso pectore rupem</l>
+						<l>In mare proiecit, molemque rotauit in auras,</l>
+						<l>Per spacium immensum et producto iugera cursu.</l>
+						<l>Decidit ante ratem sacum, et madefecit amara</l>
+						<l>Summa gubernacli lympha. tunc excitus aestus</l>
+						<l>Exundat pelago labenti<app><rdg wit='#P'>labentis</rdg></app> rupe per altum.</l>
+						<l>Impulit unda ratem, curuaeque ad littora terrae</l>
+						<l>Detulit impactam. tum nos super aequora uecti<app><rdg wit='#B'>uecti,</rdg></app></l>
+						<l>Contigimus terram, sociosque in littore stantes,</l>
+						<l>Hic ubi erant reliquae subductae gurgite puppes,</l>
+						<l>Et socii tristes luctu nos usque manebant.</l>
+						<l>Certatim in siccam nauis defertur arenam,</l>
+						<l>Egressi optatae gremio<app><rdg wit='#P'>grmio</rdg></app> telluris ad undas</l>
+						<l>Sternimur, et pecudes Cyclopis puppe receptas</l>
+						<l>Lanigeras altas, socios pertimur in omnes,</l>
+						<l>Ne quis sorte sua fraudatus, tristis oberret.</l>
+						<l>Portioque aequa datur iussu diuisaque praeda.</l>
+						<l>Soli aries mihi sponte datur, ceu munus amoris</l>
+						<l>Excellens sociis, quorum spectata per aequor</l>
+						<l>Iam fuerat uirtus, quem macto in littore curuo</l>
+						<l>Sacra Ioui summo, qui densat in <choice><orig>ae</orig><reg>aë</reg></choice>re nubes,</l>
+						<l>Qui regit imperio super aethere cunta, ferebam,</l>
+						<l>Thuricremas femora hic et crura cremantur ad aras.</l>
+						<l>Ast illum auersum non ulla hic uictima placat,</l>
+						<l>Non aras curat: uersat crudelia menta,</l>
+						<l>Vt naues pelage mergat, sociosque carinis</l>
+						<l>Heu dulces socios, comitesque per omnia fata.</l>
+						<l>Proiecti terra, passimque in littore sicco</l>
+						<l>Corpora curamus, dapibusque epulamur ouantes.</l>
+						<l>Discubuere thoris proceces, et corpora tosta<ptr rend='unmarked' target='#mrg09.52'/><add xml:id='mrg09.52' type='ecce' place='margin'>Epulum Vlyssis raptis ouibus Polyphemi.</add></l>
+						<l>Carne replent multa, dulcique implentur Iaccho.</l>
+						<l>Donec in Hesperias fuerat sol aureus undas</l>
+						<l>Mersurus currus, aliis rediturus ab undis.</l>
+						<l>Vt subiit Titan, ut sera crepuscula noctem</l>
+						<l>Attulerant, tacito sopiti littore ponti</l>
+						<l>Artus laxamus somno. dum lutea bigas</l>
+						<l>Aurora extulerat, radiisque retexerat orbem.</l>
+						<l>Tum uero exhortor socios conscendere naues,</l>
+						<l>Iamque rubescebat stellis Pallantias actis.</l>
+						<l>Cum iubeo eductum socios de littore funem</l>
+						<l>Diripere, excussosque simul laxare rudentes.<ptr rend='unmarked' target='#mrg09.53'/><add xml:id='mrg09.53' type='ecce' place='margin'>Nauigat Vlysses ex insula Cyclopum<app><rdg wit='#P'>Cycloump</rdg></app></add></l>
+						<l>Illi parentes ascendunt undique puppes,</l>
+						<l>Considuntque suis transtris, mox ordine cana</l>
+						<l>Aequora tum feriunt remis, et caerula uerrunt.</l>
+						<l>Prouehimur pelago confecti pectora curis</l>
+						<l>Ob socios raptos, et tristia fata uirorum.</l>
+						<l>Vela tamen laeti facimus, quod inhospita tecta</l>
+						<l>Et mortem Aetnaeo crudelem euasimus antro.</l>
+						</div>
 					<div n='10' type='book'>
 						<!--Gesänge und Argumenta x24-->
 					</div>
